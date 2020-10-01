@@ -1,10 +1,4 @@
-.notificationBarContainer {
-  background-color: #e6f1e6;
-  color: #03034e;
-  font-weight: 700;
-  font-size: 12px;
-  text-decoration: underline;
-}
+
 
 .searchBarContainer :global(.vtex-styleguide-9-x-input) {
   max-width: 208px;
@@ -114,4 +108,9 @@
   color: #3f3f40;
   font-weight: bold;
   font-size: 30px;
+}
+.autoCompleteOuterContainer{
+
+  background: #4F32FE;
+
 }

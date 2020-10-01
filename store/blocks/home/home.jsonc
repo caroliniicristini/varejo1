@@ -1,6 +1,7 @@
 {
   "store.home": {
     "blocks": [
+      "flex-layout.row#search-mobile",
       "list-context.image-list#demo",
       "__fold__.experimentalLazyAssets",
       "flex-layout.row#deals",
@@ -23,12 +24,8 @@
       "height": 720,
       "images": [
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
-        },
-        {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+          "image": "assets/img1.png",
+          "mobileImage": "assets/img1.png"
         }
       ]
     }
@@ -102,4 +99,5 @@
       "blockClass": "link"
     }
   }
+
 }
