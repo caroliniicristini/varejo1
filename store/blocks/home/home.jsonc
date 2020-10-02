@@ -3,26 +3,37 @@
     "blocks": [
       "flex-layout.row#search-mobile",
       "list-context.image-list#demo",
-      "__fold__.experimentalLazyAssets",
       "flex-layout.row#deals",
-      "rich-text#shelf-title",
+      "rich-text#-title",
+      "list-context.image-list#demo1",
       "flex-layout.row#shelf",
       "info-card#home",
       "rich-text#question",
       "rich-text#link",
-      "newsletter"
+      "newsletter",
+      "__fold__.experimentalLazyAssets"
     ]
   },
-
   "shelf#home": {
-    "blocks": ["product-summary.shelf"]
+    "blocks": [
+      "product-summary.shelf"
+    ]
   },
-
   "list-context.image-list#demo": {
-    "children": ["slider-layout#demo-images"],
+    "children": [
+      "slider-layout#demo-images"
+    ],
     "props": {
       "height": 720,
       "images": [
+        {
+          "image": "assets/img1.png",
+          "mobileImage": "assets/img1.png"
+        },
+        {
+          "image": "assets/img1.png",
+          "mobileImage": "assets/img1.png"
+        },
         {
           "image": "assets/img1.png",
           "mobileImage": "assets/img1.png"
@@ -43,18 +54,93 @@
     }
   },
 
+
+
+
+
+
+  "list-context.image-list#demo1": {
+    "children": [
+      "slider-layout#demo-images1"
+    ],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "image": "assets/note.png",
+          "mobileImage": "assets/note.png"
+        },
+        {
+          "image": "assets/tablet.png",
+          "mobileImage": "assets/tablet.png"
+        },
+        {
+          "image": "assets/celulares.png",
+          "mobileImage": "assets/celulares.png"
+        },
+        {
+          "image": "assets/tvs.png",
+          "mobileImage": "assets/tvs.png"
+        },
+        {
+          "image": "assets/eletros.png",
+          "mobileImage": "assets/eletros.png"
+        },
+        {
+          "image": "assets/decor.png",
+          "mobileImage": "assets/decor.png"
+        },
+        {
+          "image": "assets/audio.png",
+          "mobileImage": "assets/audio.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images1": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+
+
+
+
+
+
+
+  "rich-text#-title": {
+    "props": {
+      "text": "## Categorias em destaque",
+      "blockClass": "Title"
+    }
+  },
+  
   "rich-text#shelf-title": {
     "props": {
-      "text": "## Summer",
+      "text": "## teste",
       "blockClass": "shelfTitle"
     }
   },
   "flex-layout.row#shelf": {
-    "children": ["list-context.product-list#demo1"]
+    "children": [
+      "list-context.product-list#demo1"
+    ]
   },
   "list-context.product-list#demo1": {
-    "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#demo-products"],
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#demo-products"
+    ],
     "props": {
       "orderBy": "OrderByTopSaleDESC"
     }
@@ -71,7 +157,6 @@
       "blockClass": "shelf"
     }
   },
-
   "info-card#home": {
     "props": {
       "id": "info-card-home",
@@ -85,19 +170,16 @@
       "textAlignment": "center"
     }
   },
-
   "rich-text#question": {
     "props": {
       "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
       "blockClass": "question"
     }
   },
-
   "rich-text#link": {
     "props": {
       "text": "\n**Reach us at**\nwww.vtex.com.br",
       "blockClass": "link"
     }
   }
-
-}
+  }

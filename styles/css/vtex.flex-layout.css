@@ -41,12 +41,13 @@
   font-size: 14px;
 }
 .flexRow--deals {
-  background-color: #a7afbd;
+  background-color:#4F32FE;
   padding: 14px 0px;
 }
 
 .flexRow--deals .stretchChildrenWidth {
   align-items: center;
+
 }
 
 .flexRow--deals .flexCol {
@@ -95,4 +96,12 @@
 
 .flexRow--addToCartRow {
   padding-bottom: 1rem;
+}
+.flexCol--text{
+  background: #4F32FE;
+  width: 414px;
+ 
+}
+.flexRow--search :global(.vtex-input-prefix__group){
+  border: 0px;
 }
