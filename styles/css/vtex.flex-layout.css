@@ -28,7 +28,7 @@
 .flexRowContent--main-header-mobile {
   align-items: center;
   padding: 0.625rem 0.5rem;
-  background-color: #f0f0f0;
+  background-color: #fff;
 }
 
 .flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
@@ -43,6 +43,7 @@
 .flexRow--deals {
   background-color:#4F32FE;
   padding: 14px 0px;
+
 }
 
 .flexRow--deals .stretchChildrenWidth {
@@ -52,6 +53,10 @@
 
 .flexRow--deals .flexCol {
   align-items: center;
+  display: contents;
+  margin: 17px;
+  width: 24px;
+  height: 23px;;
 }
 
 .flexCol--filterCol {
@@ -104,4 +109,7 @@
 }
 .flexRow--search :global(.vtex-input-prefix__group){
   border: 0px;
+}
+.flexRow--search{
+  width: 100%;
 }

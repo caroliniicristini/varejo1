@@ -1,7 +1,7 @@
 .container--deals {
   color: #ffffff;
-  text-align: center;
-  justify-content: center;
+
+  
 }
 
 .container--shelfTitle {
@@ -16,6 +16,7 @@
 
 .container--deals .paragraph {
   margin: 0;
+  top:2px;
 }
 
 .container--link {
@@ -71,30 +72,50 @@
     max-width: 85%;
   }
 
-  .container--Title {
-    color: black;
-    font-size: 40px;
-    margin: 0 auto;
-    max-width: 60%;
-
-  }
-
+ 
   .container--title .paragraph {
     line-height: 1.3em;
   }
 }
-.headingLevel2--Title{
+.container--Title {
+  color: black;
+  font-size: 40px;
+  margin: 0 auto;
+  max-width: 60%;
+  justify-content: center;
+  margin-top: 53px;
+
+}
+
+.container--shelfTitle{
+  color: black;
+  font-size: 40px;
+  margin: 0 auto;
+  max-width: 60%;
+  justify-content: center;
+  margin-top: 0px;
+}
+.headingLevel2--Title {
     color: #000000 ;
     font-size: 23px;
-    
+}
+.headingLevel2--shelfTitle{
+  color: #000000 ;
+
 }
 .paragraph--deals{
   font-size:15px;
-  
+
 }
 .italic--deals{
   font-size: 20px;
   font-style: normal;
   margin-right: 20px;
-  
+}
+
+.strong--deals{
+  font-size: 16px;
+}
+.strong--shelfTitle{
+  font-size: 24px;
 }

@@ -40,3 +40,6 @@
 .image {
   border-radius: 0.25rem;
 }
+.element :global(.vtex-product-summary-1-x-productBrand){
+  display: none;
+}

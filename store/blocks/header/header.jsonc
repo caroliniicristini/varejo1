@@ -125,7 +125,8 @@
     ],
     "props": {
       "blockClass": "search",
-      "label": "Buscar"
+      "placeholder": "Buscar",
+      "maxWidht": "100%"
     }
   },
   "drawer": {
@@ -151,4 +152,5 @@
       "width": "70"
     }
   }
+
 }

@@ -6,6 +6,7 @@
       "flex-layout.row#deals",
       "rich-text#-title",
       "list-context.image-list#demo1",
+      "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "info-card#home",
       "rich-text#question",
@@ -61,7 +62,7 @@
 
   "list-context.image-list#demo1": {
     "children": [
-      "slider-layout#demo-images1"
+      "slider-layout#demo-images2"
     ],
     "props": {
       "height": 720,
@@ -97,7 +98,7 @@
       ]
     }
   },
-  "slider-layout#demo-images1": {
+  "slider-layout#demo-images2": {
     "props": {
       "itemsPerPage": {
         "desktop": 1,
@@ -111,11 +112,6 @@
   },
 
 
-
-
-
-
-
   "rich-text#-title": {
     "props": {
       "text": "## Categorias em destaque",
@@ -125,7 +121,7 @@
   
   "rich-text#shelf-title": {
     "props": {
-      "text": "## teste",
+      "text": "**Mais vendidos**",
       "blockClass": "shelfTitle"
     }
   },
@@ -150,7 +146,7 @@
       "itemsPerPage": {
         "desktop": 5,
         "tablet": 3,
-        "phone": 1
+        "phone": 2
       },
       "infinite": true,
       "fullWidth": false,
