@@ -4,14 +4,17 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#category-eletronicos",
+      "menu-item#category-celulares",
+      "menu-item#casabanho",
+      "menu-item#decoracao",
+      "menu-item#beleza",
+      "menu-item#tvaudio"
+
     ]
   },
-  "menu-item#category-apparel": {
+  "menu-item#category-eletronicos": {
     "props": {
-      "id": "menu-item-category-apparel",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -19,35 +22,50 @@
         "type": "internal",
         "href": "/apparel---accessories/",
         "noFollow": false,
-        "tagTitle": "Apparel & Accessories",
-        "text": "Apparel & Accessories"
+        "text": "Eletrônicos"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#category-apparel"
+      "vtex.menu@2.x:submenu#category-eletronicos"
     ]
   },
-  "vtex.menu@2.x:submenu#category-apparel": {
-    "props": {
-      "width": "auto"
-    },
-    "children": [
-      "vtex.menu@2.x:menu#category-apparel"
-    ]
-  },
-  "vtex.menu@2.x:menu#category-apparel": {
+  "vtex.menu@2.x:menu#category-eletronicos": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#category-apparel-clothing",
-      "menu-item#category-apparel-accessories",
-      "menu-item#category-apparel-eyeglasses"
+      "menu-item#category-notebooks",
+      "menu-item#category-note2em1",
+      "menu-item#category-noteGmers",
+      "menu-item#category-deskGamer",
+      "menu-item#category-allinOne",
+      "menu-item#category-apple",
+      "menu-item#category-smart",
+      "menu-item#category-mult",
+      "menu-item#category-monitores",
+      "menu-item#category-hds",
+      "menu-item#category-acessorios",
+      "menu-item#category-impressoras",
+      "menu-item#category-comp",
+      "menu-item#category-cartuchos",
+      "menu-item#category-equipamentos",
+      "menu-item#category-acessorios2",
+      "menu-item#category-projetores",
+      "menu-item#category-teclado",
+      "menu-item#category-mouse",
+      "menu-item#category-aceinfo"
     ]
   },
-  "menu-item#category-apparel-clothing": {
+  "vtex.menu@2.x:submenu#category-eletronicos": {
     "props": {
-      "id": "menu-item-category-apparel-clothing",
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-eletronicos"
+    ]
+  },
+  "menu-item#category-notebooks": {
+    "props": {
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -55,59 +73,274 @@
         "type": "internal",
         "href": "/apparel---accessories/clothing/",
         "noFollow": false,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
+        "text": "Notebooks"
       }
     }
   },
-  "menu-item#category-apparel-accessories": {
+  "menu-item#category-note2em1": {
     "props": {
-      "id": "menu-item-category-apparel-accessories",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/accessories/",
+        "href": "/apparel---accessories/clothing/",
         "noFollow": false,
-        "tagTitle": "Accessories",
-        "text": "Accessories"
+        "text": "Notebooks 2 em 1"
       }
     }
   },
-  "menu-item#category-apparel-eyeglasses": {
+  "menu-item#category-noteGmers": {
     "props": {
-      "id": "menu-item-category-apparel-eyeglasses",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/eyeglasses/",
+        "href": "/apparel---accessories/clothing/",
         "noFollow": false,
-        "tagTitle": "Eyeglasses",
-        "text": "Eyeglasses"
+        "text": "Computadores(Desks)"
       }
     }
   },
-  "menu-item#category-home": {
+  "menu-item#category-deskGamer": {
     "props": {
-      "id": "menu-item-category-home",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "text": "Desk Gamer"
+      }
+    }
+  },
+  "menu-item#category-allinOne": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "text": "All in one"
+      }
+    }
+  },
+  "menu-item#category-apple": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "text": "Apple"
+      }
+    }
+  },
+  "menu-item#category-smart": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "text": "Smart Home"
+      }
+    }
+  },
+  "menu-item#category-mult": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "text": "Multifuncionais"
+      }
+    }
+  },
+  "menu-item#category-monitores": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "text": "Monitores LED/LCD"
+      }
+    }
+  },
+  "menu-item#category-hds": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "text": "HDS"
+      }
+    }
+  },
+  "menu-item#category-acessorios": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "text": "Acessórios e Periféricos"
+      }
+    }
+  },
+  "menu-item#category-impressoras": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "text": "Impressoras"
+      }
+    }
+  },
+  "menu-item#category-comp": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "text": "Componentes e Peças"
+      }
+    }
+  },
+  "menu-item#category-cartuchos": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "text": "Cartuchos"
+      }
+    }
+  },
+  "menu-item#category-equipamentos": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "text": "Equipamentos"
+      }
+    }
+  },
+  "menu-item#category-acessorios2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "text": "Acessórios para Notebooks"
+      }
+    }
+  },
+  "menu-item#category-projetores": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "text": "Projetores"
+      }
+    }
+  },
+  "menu-item#category-teclado": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "text": "Teclado"
+      }
+    }
+  },
+  "menu-item#category-mouse": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "text": "Mouse"
+      }
+    }
+  },
+  "menu-item#category-aceinfo": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "text": "Acessórios de Informática Usados"
+      }
+    }
+  },
+
+  "menu-item#category-celulares": {
+    "props": {
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
         "href": "/home---decor/",
-        "noFollow": false,
-        "tagTitle": "Home & Decor",
-        "text": "Home & Decor"
+        "noFollow": false,  
+        "text": "Celulares"
       }
     }
   },
-  "menu-item#more": {
+  "menu-item#informatica": {
     "props": {
-      "id": "menu-item-custom-sale",
+
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -115,70 +348,69 @@
         "type": "internal",
         "href": "#",
         "noFollow": true,
-        "tagTitle": "More",
-        "text": "More"
-      }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#more"
-    ]
-  },
-  "vtex.menu@2.x:submenu#more": {
-    "props": {
-      "width": "100%"
-    },
-    "children": [
-      "flex-layout.row#menu-more"
-    ]
-  },
-  "flex-layout.row#menu-more": {
-    "children": [
-      "flex-layout.col#menu-more-1"
-    ]
-  },
-  "flex-layout.col#menu-more-1": {
-    "children": [
-      "vtex.menu@2.x:menu#more"
-    ]
-  },
 
-  "vtex.menu@2.x:menu#more": {
-    "props": {
-      "orientation": "vertical"
+        "text": "Informática"
+      }
+    }
     },
-    "children": [
-      "menu-item#about-us",
-      "menu-item#faq"
-    ]
-  },
-  "menu-item#about-us": {
-    "props": {
-      "id": "menu-item-about-us",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/about-us",
-        "noFollow": true,
-        "tagTitle": "About us",
-        "text": "About us"
+    "menu-item#casabanho": {
+      "props": {
+  
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": true,
+  
+          "text": "Casa & Banho"
+        }
       }
-    }
-  },
-  "menu-item#faq": {
-    "props": {
-      "id": "menu-item-faq",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/faq",
-        "noFollow": true,
-        "tagTitle": "FAQ",
-        "text": "FAQ"
-      }
-    }
+      },
+      "menu-item#decoracao": {
+        "props": {
+    
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": true,
+    
+            "text": "Decoração"
+          }
+        }
+        },
+        "menu-item#beleza": {
+          "props": {
+      
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": true,
+      
+              "text": "Beleza & perfumaria"
+            }
+          }
+          },
+          "menu-item#tvaudio": {
+            "props": {
+        
+              "type": "custom",
+              "iconId": null,
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": true,
+        
+                "text": "Tv & áudio"
+              }
+            }
+            }
   }
-}

@@ -8,9 +8,15 @@
       "list-context.image-list#demo1",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
-      "info-card#home",
-      "rich-text#question",
-      "rich-text#link",
+      "flex-layout.row#imgmob",
+      "image#mobdrones",
+      "image#desconto",
+      "rich-text#text",
+      "rich-text#shelf-ultop",
+      "flex-layout.row#shelf",
+      "rich-text#shelf-titleshelf3",
+      "flex-layout.row#shelf",
+      
       "newsletter",
       "__fold__.experimentalLazyAssets"
     ]
@@ -28,15 +34,15 @@
       "height": 720,
       "images": [
         {
-          "image": "assets/img1.png",
+          "image": "assets/bannerPrincipal.png",
           "mobileImage": "assets/img1.png"
         },
         {
-          "image": "assets/img1.png",
+          "image": "assets/bannerPrincipal.png",
           "mobileImage": "assets/img1.png"
         },
         {
-          "image": "assets/img1.png",
+          "image": "assets/bannerPrincipal.png",
           "mobileImage": "assets/img1.png"
         }
       ]
@@ -54,12 +60,6 @@
       "blockClass": "carousel"
     }
   },
-
-
-
-
-
-
   "list-context.image-list#demo1": {
     "children": [
       "slider-layout#demo-images2"
@@ -110,19 +110,28 @@
       "blockClass": "carousel"
     }
   },
-
-
   "rich-text#-title": {
     "props": {
       "text": "## Categorias em destaque",
       "blockClass": "Title"
     }
   },
-  
   "rich-text#shelf-title": {
     "props": {
       "text": "**Mais vendidos**",
       "blockClass": "shelfTitle"
+    }
+  },
+  "rich-text#shelf-ultop": {
+    "props": {
+      "text": "**Última oportunidade**",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "rich-text#shelf-titleshelf3": {
+    "props": {
+      "text": "**Você também vai gostar**",
+      "blockClass": "shelfTitle2"
     }
   },
   "flex-layout.row#shelf": {
@@ -153,29 +162,83 @@
       "blockClass": "shelf"
     }
   },
-  "info-card#home": {
+
+  "flex-layout.row#imgmob": {
+    "children": [
+      "image#mob1",
+      "image#mob2",
+      "image#mob3",
+      "image#mob4",
+      "image#mob5",
+      "image#mob6"
+    ],
     "props": {
-      "id": "info-card-home",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
-      "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-home",
-      "textAlignment": "center"
+      "blockClass": "imgs"
     }
   },
-  "rich-text#question": {
+  "image#mob1": {
     "props": {
-      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
-      "blockClass": "question"
+      "src": "assets/miBand5.png",
+      "blockClass": "sep1",
+      "maxWidth": 177,
+      "height": 231
     }
   },
-  "rich-text#link": {
+  "image#mob2": {
     "props": {
-      "text": "\n**Reach us at**\nwww.vtex.com.br",
-      "blockClass": "link"
+      "src": "assets/pcGamer.png",
+      "blockClass": "sep1",
+      "maxWidth": 177,
+      "height": 231
+    }
+  },
+  "image#mob3": {
+    "props": {
+      "src": "assets/eBooks.png",
+      "blockClass": "sep1",
+      "maxWidth": 177,
+      "height": 231
+    }
+  },
+  "image#mob4": {
+    "props": {
+      "src": "assets/produtosApple.png",
+      "blockClass": "sep1",
+      "maxWidth": 177,
+      "height": 231
+    }
+  },
+  "image#mob5": {
+    "props": {
+      "src": "assets/tvLed.png",
+      "blockClass": "sep1",
+      "maxWidth": 177,
+      "height": 231
+    }
+  },
+  "image#mob6": {
+    "props": {
+      "src": "assets/decoracao.png",
+      "blockClass": "sep1",
+      "maxWidth": 177,
+      "height": 231
+    }
+  },
+  "image#mobdrones": {
+    "props": {
+      "src": "assets/drones.png"
+    }
+  },
+  "image#desconto": {
+    "props": {
+      "src": "assets/100ReaisDesconto.png"
+    }
+  },
+  "rich-text#text":{
+    "props":{
+      "blockClass": "conteudo",
+      "text":"**Aqui você encontra o melhor de tudo.**\n Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five."
     }
   }
-  }
+
+}

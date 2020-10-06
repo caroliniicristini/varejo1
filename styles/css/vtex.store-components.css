@@ -95,12 +95,11 @@
 
 .imageElement--paper-plane{
   margin: 14px;
-  
- 
 }
 .searchBarContainer {
   background: #4F32FE;
   border:0px;
+  max-width: 100%;
 }
 .container{
   padding: 0px;
@@ -113,4 +112,7 @@
   letter-spacing: 0;
   vertical-align: middle;
   opacity: 1;
+}
+.imageElement--sep1{
+  padding: 10px;
 }

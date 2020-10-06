@@ -113,3 +113,9 @@
 .flexRow--search{
   width: 100%;
 }
+.flexRowContent--imgs{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  
+}
