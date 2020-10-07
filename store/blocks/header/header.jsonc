@@ -13,10 +13,25 @@
   },
   "header-layout.desktop": {
     "children": [
+      "flex-layout.row#desktop",
       "flex-layout.row#1-desktop",
       "flex-layout.row#3-desktop",
       "sticky-layout#4-desktop"
     ]
+  },
+  "flex-layout.row#desktop": {
+    "children": [
+      "notification.bar#home"
+    ],
+    "props": {
+      "fullWidth": "true",
+      "blockClass": "topo"
+    }
+  },
+  "notification.bar#home": {
+    "props": {
+      "content": "produtos com até 60% de desconto + frete grátis + 12x sem juros"
+    }
   },
   "flex-layout.row#1-desktop": {
     "children": [
@@ -64,7 +79,6 @@
       "flex-layout.col#logo-desktop",
       "flex-layout.col#category-menu",
       "flex-layout.col#spacer",
-     
       "locale-switcher",
       "login",
       "minicart.v2"
@@ -155,4 +169,4 @@
       "width": "70"
     }
   }
-  }
+}

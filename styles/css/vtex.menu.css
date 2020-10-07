@@ -1,0 +1,19 @@
+.styledLinkContent--footer1{
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    background: #F6F5F8;
+    height: 55px;
+    margin-left: 34px;
+}
+.styledLinkContent--footer{
+    width: 81px;
+    text-align: left;
+    font: normal normal normal 14px/50px Nunito Sans;
+    color: #847B91;
+    margin-left: 44px;
+
+}
+.accordionIcon :global(.vtex-menu8-x-menuItem){
+    border-bottom: 10px;
+}

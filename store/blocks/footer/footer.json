@@ -5,16 +5,15 @@
   "footer-layout.desktop": {
     "children": [
       "flex-layout.row#footer-1-desktop",
-      "flex-layout.row#footer-2-desktop",
       "flex-layout.row#footer-3-desktop"
     ]
   },
   "flex-layout.row#footer-1-desktop": {
     "children": [
-      "vtex.menu@2.x:menu#Products",
-      "vtex.menu@2.x:menu#footer-clothing",
-      "vtex.menu@2.x:menu#footer-decoration",
-      "vtex.menu@2.x:menu#footer-bags",
+
+      "vtex.menu@2.x:menu#footer-sobre",
+      "vtex.menu@2.x:menu#footer-atendimento-mobile",
+      "vtex.menu@2.x:menu#footer-ajuda-mobile",
       "footer-spacer",
       "social-networks"
     ],
@@ -37,10 +36,6 @@
           "url": "https://www.instagram.com/vtextruecloud/"
         },
         {
-          "name": "Twitter",
-          "url": "https://twitter.com/vtexonline"
-        },
-        {
           "name": "Youtube",
           "url": "https://www.youtube.com/user/VTEXTV"
         }
@@ -48,17 +43,8 @@
     }
   },
 
-  "flex-layout.row#footer-2-desktop": {
-    "children": ["accepted-payment-methods"],
-    "props": {
-      "blockClass": "payment-methods"
-    }
-  },
-  "accepted-payment-methods": {
-    "props": {
-      "paymentMethods": ["MasterCard", "Visa", "Diners Club"]
-    }
-  },
+ 
+  
 
   "flex-layout.row#footer-3-desktop": {
     "children": ["rich-text#footer"],
@@ -90,8 +76,7 @@
   "flex-layout.col#footer-1-mobile": {
     "children": [
       "accepted-payment-methods",
-      "social-networks",
-      "rich-text#footer-mobile"
+      "social-networks"
     ],
     "props": {
       "blockClass": "payment-methods",
@@ -106,11 +91,5 @@
       "paddingBottom": 4
     },
     "children": ["vtex.menu@2.x:menu#footer-mobile"]
-  },
-  "rich-text#footer-mobile": {
-    "props": {
-      "text": "All stock and product photos are from photos.icons8.com",
-      "blockClass": "footer"
-    }
   }
 }

@@ -16,10 +16,17 @@
       "flex-layout.row#shelf",
       "rich-text#shelf-titleshelf3",
       "flex-layout.row#shelf",
-      
       "newsletter",
       "__fold__.experimentalLazyAssets"
     ]
+  },
+  "newsletter": {
+    "props": {
+      "blockClass": "newsletter",
+      "label": "Acompanhe nossas novidades. \n Cadastre-se em nossas newsletter.",
+      "submmit": "Cadastrar",
+      "placeholder": "Digite seu e-mail"
+    }
   },
   "shelf#home": {
     "blocks": [
@@ -162,7 +169,6 @@
       "blockClass": "shelf"
     }
   },
-
   "flex-layout.row#imgmob": {
     "children": [
       "image#mob1",
@@ -180,48 +186,42 @@
     "props": {
       "src": "assets/miBand5.png",
       "blockClass": "sep1",
-      "maxWidth": 177,
-      "height": 231
+      "maxWidth": "177"
     }
   },
   "image#mob2": {
     "props": {
       "src": "assets/pcGamer.png",
       "blockClass": "sep1",
-      "maxWidth": 177,
-      "height": 231
+      "maxWidth": "177"
     }
   },
   "image#mob3": {
     "props": {
       "src": "assets/eBooks.png",
       "blockClass": "sep1",
-      "maxWidth": 177,
-      "height": 231
+      "maxWidth": 177
     }
   },
   "image#mob4": {
     "props": {
       "src": "assets/produtosApple.png",
       "blockClass": "sep1",
-      "maxWidth": 177,
-      "height": 231
+      "maxWidth": 177
     }
   },
   "image#mob5": {
     "props": {
       "src": "assets/tvLed.png",
       "blockClass": "sep1",
-      "maxWidth": 177,
-      "height": 231
+      "maxWidth": 177
     }
   },
   "image#mob6": {
     "props": {
       "src": "assets/decoracao.png",
       "blockClass": "sep1",
-      "maxWidth": 177,
-      "height": 231
+      "maxWidth": 177
     }
   },
   "image#mobdrones": {
@@ -234,11 +234,10 @@
       "src": "assets/100ReaisDesconto.png"
     }
   },
-  "rich-text#text":{
-    "props":{
+  "rich-text#text": {
+    "props": {
       "blockClass": "conteudo",
-      "text":"**Aqui você encontra o melhor de tudo.**\n Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five."
+      "text": "**Aqui você encontra o melhor de tudo.**\n Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five."
     }
   }
-
 }

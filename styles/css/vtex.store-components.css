@@ -6,7 +6,7 @@
 
 
 .newsletter {
-  background-color: #03054e;
+
   max-width: 1528px;
   margin: 0 auto;
 }
@@ -15,7 +15,8 @@
 }
 .label {
   color: #fff;
-  font-size: 26px;
+  font-size: 15px;
+  font-weight: normal;
 }
 .inputGroup {
   padding-bottom: 4px;
@@ -115,4 +116,27 @@
 }
 .imageElement--sep1{
   padding: 10px;
+}
+.notificationBarInner{
+  background: black;
+  height: 41px;
+}
+.container--newsletter{
+  background: #4F32FE;
+  height: 271;
+  width: 420px;
+}
+.label--newsletter::before{
+  content: "Quer ficar por dentro de tudo? \A \A";
+  font-size: 20px;
+  font-family: "Nunito Sans";
+  font-weight: 700;
+  white-space: pre-wrap;
+ 
+  
+}
+.label--newsletter::after{
+  font-size: 15px;
+  font-family: "Nunito Sans";
+  text-align: center;
 }
