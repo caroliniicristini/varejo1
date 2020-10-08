@@ -1,19 +1,22 @@
 .styledLinkContent--footer1{
     font-weight: bold;
-    font-size: 15px;
+    font-size: 16px;
     color: black;
     background: #F6F5F8;
     height: 55px;
-    margin-left: 34px;
+    margin: 0 -23px;padding-top: 20px;
+    padding-left: 67px;
+   
+    
 }
 .styledLinkContent--footer{
-    width: 81px;
+    
     text-align: left;
     font: normal normal normal 14px/50px Nunito Sans;
     color: #847B91;
-    margin-left: 44px;
-
+    padding-left: 84px;
+    border-bottom: 0px solid #0E006026;
 }
-.accordionIcon :global(.vtex-menu8-x-menuItem){
-    border-bottom: 10px;
+.accordionIcon{
+    display: none;
 }

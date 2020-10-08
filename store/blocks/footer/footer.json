@@ -62,7 +62,8 @@
   "footer-layout.mobile": {
     "children": [
       "flex-layout.row#1-footer-mobile",
-      "flex-layout.row#2-footer-mobile"
+      "flex-layout.row#2-footer-mobile",
+      "flex-layout.row#3-footer-mobile"
     ]
   },
   "flex-layout.row#2-footer-mobile": {
@@ -91,5 +92,57 @@
       "paddingBottom": 4
     },
     "children": ["vtex.menu@2.x:menu#footer-mobile"]
+  },
+  "flex-layout.row#3-footer-mobile":{
+    "children":[
+    "image#footer1",
+    "image#footer2",
+    "image#footer3",
+    "image#footer4",
+    "image#footer5",
+    "image#footer6"
+    
+    ],
+    "props":{
+      "blockClass": "imgsfooter"
+
+    }
+  },
+  "image#footer1": {
+    "props": {
+      "src": "assets/visa.png",
+      "blockClass": "footer"
+    }
+  },
+  "image#footer2": {
+    "props": {
+      "src": "assets/master.png",
+      "blockClass": "footer"
+    }
+  },
+  "image#footer3": {
+    "props": {
+      "src": "assets/visa.png",
+      "blockClass": "footer"
+    }
+  },
+  "image#footer4": {
+    "props": {
+      "src": "assets/amex.png",
+      "blockClass": "footer"
+    }
+  },
+  "image#footer5": {
+    "props": {
+      "src": "assets/elo.png",
+      "blockClass": "footer"
+    }
+  },
+  "image#footer6": {
+    "props": {
+      "src": "assets/boleto.png",
+      "blockClass": "footer"
+    }
   }
+
 }

@@ -4,6 +4,7 @@
       "flex-layout.row#search-mobile",
       "list-context.image-list#demo",
       "flex-layout.row#deals",
+     
       "rich-text#-title",
       "list-context.image-list#demo1",
       "rich-text#shelf-title",
@@ -186,42 +187,48 @@
     "props": {
       "src": "assets/miBand5.png",
       "blockClass": "sep1",
-      "maxWidth": "177"
+      "maxWidth": 177,
+      "height": 232
     }
   },
   "image#mob2": {
     "props": {
       "src": "assets/pcGamer.png",
       "blockClass": "sep1",
-      "maxWidth": "177"
+      "maxWidth": 177,
+      "height": 232
     }
   },
   "image#mob3": {
     "props": {
       "src": "assets/eBooks.png",
       "blockClass": "sep1",
-      "maxWidth": 177
+      "maxWidth": 177,
+      "height": 232
     }
   },
   "image#mob4": {
     "props": {
       "src": "assets/produtosApple.png",
       "blockClass": "sep1",
-      "maxWidth": 177
+      "maxWidth": 177,
+      "height": 232
     }
   },
   "image#mob5": {
     "props": {
       "src": "assets/tvLed.png",
       "blockClass": "sep1",
-      "maxWidth": 177
+      "maxWidth": 177,
+      "height": 232
     }
   },
   "image#mob6": {
     "props": {
       "src": "assets/decoracao.png",
       "blockClass": "sep1",
-      "maxWidth": 177
+      "maxWidth": 177,
+      "height": 232
     }
   },
   "image#mobdrones": {

@@ -8,6 +8,7 @@
       "blockClass": "deals"
     }
   },
+ 
 
   "flex-layout.col#deals1": {
     "children": [
@@ -18,6 +19,7 @@
       "blockClass": "text"
     }
   },
+ 
   "image#deal1": {
     "props": {
       "src": "assets/paper-plane.svg",

@@ -43,6 +43,7 @@
 
 .buttonContainer {
   padding-top: 0px;
+  margin-top:50px;
 }
 
 .imageElement--storePrint {
@@ -127,7 +128,7 @@
   width: 420px;
 }
 .label--newsletter::before{
-  content: "Quer ficar por dentro de tudo? \A \A";
+  content: "Quer ficar por dentro de tudo?\A\A";
   font-size: 20px;
   font-family: "Nunito Sans";
   font-weight: 700;
@@ -139,4 +140,16 @@
   font-size: 15px;
   font-family: "Nunito Sans";
   text-align: center;
+}
+.inputGroup :global(.vtex-store-components7-x-buttonContainer){
+  background-color: transparent;
+  border: none;
+  margin-right: 150px;
+  margin-top: 50px;
+}
+.flexRow--imgsfooter{
+  display: grid;
+  grid-template-columns: 0.35fr 0.35fr 0.35fr;
+  grid-template-rows: 0.15fr;
+  width: 70% !important;
 }
