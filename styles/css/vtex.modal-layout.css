@@ -48,7 +48,7 @@
   border-top-style: solid;
   border-top-width: 1px;
   border-top-color: transparent;
-  box-shadow: -4px 0px 27px -12px transparent;
+  box-shadow: -4px 0px 27px  transparent;
 }
 
 .actionsContentWrapper {
@@ -73,7 +73,7 @@
 
 .actionsContainer--quickview:not(.actionsContainerEndOfContent--quickview) {
   border-top-color: rgb(238, 238, 238);
-  box-shadow: -4px 0px 27px -12px rgba(0,0,0,0.64);
+  box-shadow: -4px 0px 27px rgba(0,0,0,0.64);
 }
 
 .actionsContainer--quickview:not(.actionsContainerEndOfContent--quickview) .actionsContentWrapper {

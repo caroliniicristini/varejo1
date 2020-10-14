@@ -24,8 +24,8 @@
   "newsletter": {
     "props": {
       "blockClass": "newsletter",
-      "label": "Acompanhe nossas novidades. \n Cadastre-se em nossas newsletter.",
-      "submmit": "Cadastrar",
+      "label": "Acompanhe nossas novidades.Cadastre-se em nossas newsletter.",
+      "submit": "Cadastrar",
       "placeholder": "Digite seu e-mail"
     }
   },
@@ -188,7 +188,7 @@
       "src": "assets/miBand5.png",
       "blockClass": "sep1",
       "maxWidth": 177,
-      "height": 232
+      "width": "100%"
     }
   },
   "image#mob2": {
@@ -196,7 +196,7 @@
       "src": "assets/pcGamer.png",
       "blockClass": "sep1",
       "maxWidth": 177,
-      "height": 232
+      "width": "100%"
     }
   },
   "image#mob3": {
@@ -204,7 +204,7 @@
       "src": "assets/eBooks.png",
       "blockClass": "sep1",
       "maxWidth": 177,
-      "height": 232
+      "width": "100%"
     }
   },
   "image#mob4": {
@@ -212,7 +212,7 @@
       "src": "assets/produtosApple.png",
       "blockClass": "sep1",
       "maxWidth": 177,
-      "height": 232
+      "width": "100%"
     }
   },
   "image#mob5": {
@@ -220,7 +220,7 @@
       "src": "assets/tvLed.png",
       "blockClass": "sep1",
       "maxWidth": 177,
-      "height": 232
+      "width": "100%"
     }
   },
   "image#mob6": {
@@ -228,7 +228,7 @@
       "src": "assets/decoracao.png",
       "blockClass": "sep1",
       "maxWidth": 177,
-      "height": 232
+      "width": "100%"
     }
   },
   "image#mobdrones": {

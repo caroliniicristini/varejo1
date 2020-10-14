@@ -64,9 +64,10 @@
 
 @media only screen and (min-width: 640px) {
   .container--question .strong {
-    font-size: 40px;
+    font-size: 15px;
     line-height: 3rem;
   }
+  
 
   .container--about {
     max-width: 85%;
@@ -146,4 +147,12 @@
   margin: 0 auto;
   justify-content: center;
   margin-top: 0px;
+}
+.container--textfooter{
+  justify-content: center;
+  color: var(--unnamed-color-847b91);
+  font: normal normal bold 10px/14px Nunito Sans;
+  color: #847B91;
+  background: #F6F5F8;
+  padding-top: 17px;
 }

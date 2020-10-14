@@ -1,6 +1,9 @@
 {
   "footer": {
-    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
   },
   "footer-layout.desktop": {
     "children": [
@@ -10,7 +13,6 @@
   },
   "flex-layout.row#footer-1-desktop": {
     "children": [
-
       "vtex.menu@2.x:menu#footer-sobre",
       "vtex.menu@2.x:menu#footer-atendimento-mobile",
       "vtex.menu@2.x:menu#footer-ajuda-mobile",
@@ -23,7 +25,6 @@
       "paddingBottom": 3
     }
   },
-
   "social-networks": {
     "props": {
       "socialNetworks": [
@@ -42,12 +43,10 @@
       ]
     }
   },
-
- 
-  
-
   "flex-layout.row#footer-3-desktop": {
-    "children": ["rich-text#footer"],
+    "children": [
+      "rich-text#footer"
+    ],
     "props": {
       "blockClass": "credits"
     }
@@ -58,16 +57,20 @@
       "blockClass": "footer"
     }
   },
-
   "footer-layout.mobile": {
     "children": [
       "flex-layout.row#1-footer-mobile",
       "flex-layout.row#2-footer-mobile",
-      "flex-layout.row#3-footer-mobile"
+      "flex-layout.row#3-footer-mobile",
+      "flex-layout.row#4-footer-mobile",
+      "rich-text#textfooter",
+      "flex-layout.row#5-footer-mobile"
     ]
   },
   "flex-layout.row#2-footer-mobile": {
-    "children": ["flex-layout.col#footer-1-mobile"],
+    "children": [
+      "flex-layout.col#footer-1-mobile"
+    ],
     "props": {
       "blockClass": "payment-methods",
       "paddingTop": 4,
@@ -91,21 +94,35 @@
       "paddingTop": 4,
       "paddingBottom": 4
     },
-    "children": ["vtex.menu@2.x:menu#footer-mobile"]
+    "children": [
+      "vtex.menu@2.x:menu#footer-mobile"
+    ]
   },
-  "flex-layout.row#3-footer-mobile":{
-    "children":[
-    "image#footer1",
-    "image#footer2",
-    "image#footer3",
-    "image#footer4",
-    "image#footer5",
-    "image#footer6"
-    
+  "flex-layout.row#3-footer-mobile": {
+    "children": [
+      "image#footer1",
+      "image#footer2",
+      "image#footer3",
+      "image#footer4",
+      "image#footer5",
+      "image#footer6"
     ],
-    "props":{
-      "blockClass": "imgsfooter"
-
+    "props": {
+      "width" : "50%",
+      "blockClass": "imgsfooter",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.row#4-footer-mobile": {
+    "children": [
+      "image#footer7",
+      "image#footer8",
+      "image#footer9"
+    ],
+    "props": {
+      "width" : "50%",
+      "blockClass": "imgsfooter1",
+      "preserveLayoutOnMobile": true
     }
   },
   "image#footer1": {
@@ -122,7 +139,7 @@
   },
   "image#footer3": {
     "props": {
-      "src": "assets/visa.png",
+      "src": "assets/diners.png",
       "blockClass": "footer"
     }
   },
@@ -143,6 +160,52 @@
       "src": "assets/boleto.png",
       "blockClass": "footer"
     }
+  },
+  "image#footer7": {
+    "props": {
+      "src": "assets/letsencrypt.png",
+      "blockClass": "lets"
+    }
+  },
+  "image#footer8": {
+    "props": {
+      "src": "assets/ebit.png",
+      "blockClass": "ebit"
+    }
+  },
+  "image#footer9": {
+    "props": {
+      "src": "assets/pci.png",
+      "blockClass": "cert"
+    }
+  },
+  "flex-layout.row#5-footer-mobile": {
+    "children": [
+      "image#footer10",
+      "image#footer11"
+    ],
+    "props":{
+      "width" : "50%",
+    "blockClass": "imgsfooter",
+    "preserveLayoutOnMobile": true
+    }
+  },
+  "image#footer10": {
+    "props": {
+      "src": "assets/avanti1.png",
+      "blockClass": "avanti"
+    }
+  },
+  "image#footer11": {
+    "props": {
+      "src": "assets/vtex.png",
+      "blockClass": "vtex"
+    }
+  },
+  "rich-text#textfooter":{
+    "props":{
+      "blockClass": "textfooter",
+      "text": "AVANTI S.A © 2020. TODOS OS DIREITOS RESERVADOS. "
+    }
   }
-
 }

@@ -9,8 +9,8 @@
       "menu-item#casabanho",
       "menu-item#decoracao",
       "menu-item#beleza",
-      "menu-item#tvaudio"
-
+      "menu-item#tvaudio",
+      "menu-item#todos"
     ]
   },
   "menu-item#category-eletronicos": {
@@ -324,7 +324,6 @@
       }
     }
   },
-
   "menu-item#category-celulares": {
     "props": {
       "type": "custom",
@@ -333,14 +332,13 @@
       "itemProps": {
         "type": "internal",
         "href": "/home---decor/",
-        "noFollow": false,  
+        "noFollow": false,
         "text": "Celulares"
       }
     }
   },
   "menu-item#informatica": {
     "props": {
-
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -348,69 +346,74 @@
         "type": "internal",
         "href": "#",
         "noFollow": true,
-
         "text": "Informática"
       }
     }
-    },
-    "menu-item#casabanho": {
-      "props": {
-  
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "#",
-          "noFollow": true,
-  
-          "text": "Casa & Banho"
-        }
+  },
+  "menu-item#casabanho": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "text": "Casa & Banho"
       }
-      },
-      "menu-item#decoracao": {
-        "props": {
-    
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "#",
-            "noFollow": true,
-    
-            "text": "Decoração"
-          }
-        }
-        },
-        "menu-item#beleza": {
-          "props": {
-      
-            "type": "custom",
-            "iconId": null,
-            "highlight": false,
-            "itemProps": {
-              "type": "internal",
-              "href": "#",
-              "noFollow": true,
-      
-              "text": "Beleza & perfumaria"
-            }
-          }
-          },
-          "menu-item#tvaudio": {
-            "props": {
-        
-              "type": "custom",
-              "iconId": null,
-              "highlight": false,
-              "itemProps": {
-                "type": "internal",
-                "href": "#",
-                "noFollow": true,
-        
-                "text": "Tv & áudio"
-              }
-            }
-            }
+    }
+  },
+  "menu-item#decoracao": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "text": "Decoração"
+      }
+    }
+  },
+  "menu-item#beleza": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "text": "Beleza & perfumaria"
+      }
+    }
+  },
+  "menu-item#tvaudio": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "text": "Tv & áudio"
+      }
+    }
+  },
+  "menu-item#todos": {
+    "props": {
+      "blockClass": "todosd",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "text": "Todos os departamentos"
+      }
+    }
   }
+}

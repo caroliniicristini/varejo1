@@ -20,6 +20,7 @@
     }
   },
  
+ 
   "image#deal1": {
     "props": {
       "src": "assets/paper-plane.svg",
@@ -29,7 +30,7 @@
   },
   "rich-text#deal1": {
     "props": {
-      "text": "Frete grátis \n Acima de R$ 199",
+      "text": "**Frete grátis** \n Acima de R$ 199",
       "blockClass": "deals"
     }
   }

@@ -7,7 +7,8 @@
 
 .newsletter {
 
-  max-width: 1528px;
+  max-width: 100%;
+
   margin: 0 auto;
 }
 .newsletter .container {
@@ -57,7 +58,7 @@
 
 @media only screen and (min-width: 640px) {
   .newsletter .container {
-    padding: 140px;
+    padding: 0px;
   }
 
   .label {
@@ -130,7 +131,7 @@
 .label--newsletter::before{
   content: "Quer ficar por dentro de tudo?\A\A";
   font-size: 20px;
-  font-family: "Nunito Sans";
+  font-family: 'Nunito Sans';
   font-weight: 700;
   white-space: pre-wrap;
  
@@ -147,9 +148,55 @@
   margin-right: 150px;
   margin-top: 50px;
 }
-.flexRow--imgsfooter{
+.flexRowContent--imgsfooter{
   display: grid;
   grid-template-columns: 0.35fr 0.35fr 0.35fr;
   grid-template-rows: 0.15fr;
-  width: 70% !important;
+  
 }
+
+
+/* Newsletter */
+
+.newsletter :global(.vtex-store-components-3-x-inputGroup) {
+  display: block !important;  
+
+}
+.newsletter :global(.vtex-button__label){
+  font-weight: bold;
+  font-family: 'Nunito Sans';
+  font-size: 14px; 
+}
+
+.imageElement--footer {
+  width: 64px;
+  height: 43px;
+  margin: 3px;
+}
+.imageElement :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  background: #F6F5F8;
+}
+
+.imageElement--lets{
+  width: 121px;
+  height: 41px;
+}
+.imageElement--ebit{
+  
+  width: 59px;
+  height: 50px;
+  }
+
+.imageElement--cert{
+  width: 89px;
+  height: 50px;
+}
+.imageElement--avanti{
+  width: 97px;
+  height: 37px;
+}
+.imageElement--vtex{
+  width: 83px;
+    height: 32px;
+}
+

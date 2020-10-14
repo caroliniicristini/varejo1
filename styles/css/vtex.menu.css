@@ -4,19 +4,29 @@
     color: black;
     background: #F6F5F8;
     height: 55px;
-    margin: 0 -23px;padding-top: 20px;
-    padding-left: 67px;
-   
-    
+    max-width: 100%;
+    padding-top: 20px;
+}
+.styledLinkContent :global(.vtex-menu-2-x-styledLinkContent--footer1){
+    padding-left: 80px;
+}
+.styledLinkContainer--footer1 {
+    margin:0;
+    padding: 0px;
 }
 .styledLinkContent--footer{
     
     text-align: left;
     font: normal normal normal 14px/50px Nunito Sans;
     color: #847B91;
-    padding-left: 84px;
-    border-bottom: 0px solid #0E006026;
+    padding-left: 68px;
 }
 .accordionIcon{
-    display: none;
+    color:black;    
+}
+.styledLinkContainer :global(.vtex-flex-layout-0-x-flexRowContent){
+    padding: 0px;
+}
+.styledLinkContainer :global(.vtex-store-components-3-x-container){
+    padding: 0px;
 }
