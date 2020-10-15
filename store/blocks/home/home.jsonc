@@ -1,10 +1,35 @@
 {
   "store.home": {
-    "blocks": [
+    "children": [
+      "responsive-layout.mobile",
+      "responsive-layout.desktop"
+    ]
+  },
+  "responsive-layout.desktop": {
+    "children": [
+      "list-context.image-list#demo",
+      "flex-layout.row#deals",
+      "rich-text#-title",
+      "list-context.image-list#demo1",
+      "rich-text#shelf-title",
+      "flex-layout.row#shelf",
+      "flex-layout.row#imgmob",
+      "image#mobdrones",
+      "image#desconto",
+      "rich-text#text",
+      "rich-text#shelf-ultop",
+      "flex-layout.row#shelf",
+      "rich-text#shelf-titleshelf3",
+      "flex-layout.row#shelf",
+      "newsletter",
+      "__fold__.experimentalLazyAssets"
+    ]
+  },
+  "responsive-layout.mobile": {
+    "children": [
       "flex-layout.row#search-mobile",
       "list-context.image-list#demo",
       "flex-layout.row#deals",
-     
       "rich-text#-title",
       "list-context.image-list#demo1",
       "rich-text#shelf-title",
@@ -97,6 +122,10 @@
         },
         {
           "image": "assets/decor.png",
+          "mobileImage": "assets/beleza.png"
+        },
+        {
+          "image": "assets/decor.png",
           "mobileImage": "assets/decor.png"
         },
         {
@@ -109,7 +138,7 @@
   "slider-layout#demo-images2": {
     "props": {
       "itemsPerPage": {
-        "desktop": 1,
+        "desktop": 8,
         "tablet": 1,
         "phone": 2
       },
@@ -161,7 +190,7 @@
   "slider-layout#demo-products": {
     "props": {
       "itemsPerPage": {
-        "desktop": 5,
+        "desktop": 4,
         "tablet": 3,
         "phone": 2
       },
@@ -233,11 +262,14 @@
   },
   "image#mobdrones": {
     "props": {
+    "blockClass": "drones",
       "src": "assets/drones.png"
+      
     }
   },
   "image#desconto": {
     "props": {
+      "blockClass": "descontos",
       "src": "assets/100ReaisDesconto.png"
     }
   },

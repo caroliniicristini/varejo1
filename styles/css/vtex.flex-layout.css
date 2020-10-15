@@ -135,8 +135,14 @@
 .flexColChild--payment-methods{
   padding:0px;
 }
-.flexRowContent{
+.flexRowContent--items{
   color: black;
   font-weight: bold;
-
+}
+@media (max-width: 640px) 
+{
+  .vtex-flex-layout-0-x-flexRowContent--imgs
+   {
+    display: flex;
+   }
 }

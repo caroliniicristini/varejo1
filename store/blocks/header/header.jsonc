@@ -35,7 +35,8 @@
   },
   "flex-layout.row#1-desktop": {
     "children": [
-      "telemarketing"
+      "flex-layout.col#spacer",
+      "logo#desktop"
     ],
     "props": {
       "fullWidth": true
@@ -52,6 +53,31 @@
     "children": [
       "flex-layout.col#spacer"
     ]
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "logo#desktop"
+    ]
+  },
+  "flex-layout.col#category-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-menu"
+      
+    ]
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/logo.png",
+      "width": "180"
+    }
   },
   "flex-layout.col#spacer": {
     "props": {
@@ -76,38 +102,13 @@
       "fullWidth": true
     },
     "children": [
-      "flex-layout.col#logo-desktop",
-      "flex-layout.col#category-menu",
       "flex-layout.col#spacer",
-      "locale-switcher",
-      "login",
-      "minicart.v2"
+      "drawer",
+      "flex-layout.col#category-menu",
+      "flex-layout.col#spacer"
     ]
   },
-  "flex-layout.col#logo-desktop": {
-    "props": {
-      "verticalAlign": "middle"
-    },
-    "children": [
-      "logo#desktop"
-    ]
-  },
-  "flex-layout.col#category-menu": {
-    "props": {
-      "verticalAlign": "middle"
-    },
-    "children": [
-      "vtex.menu@2.x:menu#category-menu"
-    ]
-  },
-  "logo#desktop": {
-    "props": {
-      "title": "Logo",
-      "href": "/",
-      "url": "assets/logo.png",
-      "width": "180"
-    }
-  },
+ 
   "header-layout.mobile": {
     "children": [
       "sticky-layout#1-mobile"
@@ -143,6 +144,16 @@
       "maxWidht": "100%"
     }
   },
+  "flex-layout.row#search-desk": {
+    "children": [
+      "search-bar"
+    ],
+    "props": {
+      "blockClass": "search",
+      "placeholder": "Buscar",
+      "maxWidht": "100%"
+    }
+  },
   "drawer": {
     "children": [
       "menu#drawer"
@@ -155,13 +166,23 @@
       "menu-item#casabanho",
       "menu-item#decoracao",
       "menu-item#beleza",
-      "menu-item#tvaudio"
+      "menu-item#tvaudio",
+      "menu-item#category-todos"
     ],
     "props": {
+      
       "orientation": "vertical"
     }
   },
   "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/logo.png",
+      "width": "110"
+    }
+  },
+  "logo#desk": {
     "props": {
       "title": "Logo",
       "href": "/",

@@ -1,3 +1,6 @@
 .expandIcon {
   color: #727273;
 }
+.menuIcon :global(.vtex-store-drawer-0-x-closeIconContainer){
+  color: #6A5ACD;
+}

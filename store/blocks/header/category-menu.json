@@ -4,17 +4,20 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
+      "menu-item#category-todos",
       "menu-item#category-eletronicos",
       "menu-item#category-celulares",
+      "menu-item#informatica",
       "menu-item#casabanho",
       "menu-item#decoracao",
       "menu-item#beleza",
       "menu-item#tvaudio",
-      "menu-item#todos"
+      "menu-item#category-saldao"
     ]
   },
   "menu-item#category-eletronicos": {
     "props": {
+      "blockClass": "itemsmenu1",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -34,26 +37,7 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#category-notebooks",
-      "menu-item#category-note2em1",
-      "menu-item#category-noteGmers",
-      "menu-item#category-deskGamer",
-      "menu-item#category-allinOne",
-      "menu-item#category-apple",
-      "menu-item#category-smart",
-      "menu-item#category-mult",
-      "menu-item#category-monitores",
-      "menu-item#category-hds",
-      "menu-item#category-acessorios",
-      "menu-item#category-impressoras",
-      "menu-item#category-comp",
-      "menu-item#category-cartuchos",
-      "menu-item#category-equipamentos",
-      "menu-item#category-acessorios2",
-      "menu-item#category-projetores",
-      "menu-item#category-teclado",
-      "menu-item#category-mouse",
-      "menu-item#category-aceinfo"
+      "flex-layout.row#desk"
     ]
   },
   "vtex.menu@2.x:submenu#category-eletronicos": {
@@ -64,14 +48,66 @@
       "vtex.menu@2.x:menu#category-eletronicos"
     ]
   },
+  "flex-layout.row#desk": {
+    "children": [
+      "flex-layout.col#desk1",
+      "flex-layout.col#desk2",
+      "flex-layout.col#desk3"
+    ],
+    "props": {
+      "blockClass": "cols"
+    }
+  },
+  "flex-layout.col#desk1": {
+    "children": [
+      "menu-item#category-notebooks",
+      "menu-item#category-note2em1",
+      "menu-item#category-noteGmers",
+      "menu-item#category-deskGamer",
+      "menu-item#category-allinOne",
+      "menu-item#category-apple"
+    ],
+    "props": {
+      "blockClass": "items"
+    }
+  },
+  "flex-layout.col#desk2": {
+    "children": [
+      "menu-item#category-smart",
+      "menu-item#category-mult",
+      "menu-item#category-monitores",
+      "menu-item#category-hds",
+      "menu-item#category-acessorios",
+      "menu-item#category-impressoras",
+      "menu-item#category-comp"
+    ],
+    "props": {
+      "blockClass": "items"
+    }
+  },
+  "flex-layout.col#desk3": {
+    "children": [
+      "menu-item#category-cartuchos",
+      "menu-item#category-equipamentos",
+      "menu-item#category-acessorios2",
+      "menu-item#category-projetores",
+      "menu-item#category-teclado",
+      "menu-item#category-mouse",
+      "menu-item#category-aceinfo"
+    ],
+    "props": {
+      "blockClass": "items"
+    }
+  },
   "menu-item#category-notebooks": {
     "props": {
+      "blockClass": "items2",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/clothing/",
+        "href": "/eletronicos/",
         "noFollow": false,
         "text": "Notebooks"
       }
@@ -79,6 +115,7 @@
   },
   "menu-item#category-note2em1": {
     "props": {
+      "blockClass": "items2",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -92,6 +129,7 @@
   },
   "menu-item#category-noteGmers": {
     "props": {
+      "blockClass": "items2",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -105,6 +143,7 @@
   },
   "menu-item#category-deskGamer": {
     "props": {
+      "blockClass": "items2",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -118,6 +157,7 @@
   },
   "menu-item#category-allinOne": {
     "props": {
+      "blockClass": "items2",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -131,6 +171,7 @@
   },
   "menu-item#category-apple": {
     "props": {
+      "blockClass": "items2",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -144,6 +185,7 @@
   },
   "menu-item#category-smart": {
     "props": {
+      "blockClass": "items2",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -157,6 +199,7 @@
   },
   "menu-item#category-mult": {
     "props": {
+      "blockClass": "items2",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -170,6 +213,7 @@
   },
   "menu-item#category-monitores": {
     "props": {
+      "blockClass": "items2",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -183,6 +227,7 @@
   },
   "menu-item#category-hds": {
     "props": {
+      "blockClass": "items2",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -196,6 +241,7 @@
   },
   "menu-item#category-acessorios": {
     "props": {
+      "blockClass": "items2",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -209,6 +255,7 @@
   },
   "menu-item#category-impressoras": {
     "props": {
+      "blockClass": "items2",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -222,6 +269,7 @@
   },
   "menu-item#category-comp": {
     "props": {
+      "blockClass": "items2",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -235,6 +283,7 @@
   },
   "menu-item#category-cartuchos": {
     "props": {
+      "blockClass": "items2",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -248,6 +297,7 @@
   },
   "menu-item#category-equipamentos": {
     "props": {
+      "blockClass": "items2",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -261,6 +311,7 @@
   },
   "menu-item#category-acessorios2": {
     "props": {
+      "blockClass": "items2",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -274,6 +325,7 @@
   },
   "menu-item#category-projetores": {
     "props": {
+      "blockClass": "items2",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -287,6 +339,7 @@
   },
   "menu-item#category-teclado": {
     "props": {
+      "blockClass": "items2",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -300,6 +353,7 @@
   },
   "menu-item#category-mouse": {
     "props": {
+      "blockClass": "items2",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -313,6 +367,7 @@
   },
   "menu-item#category-aceinfo": {
     "props": {
+      "blockClass": "items2",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -326,12 +381,13 @@
   },
   "menu-item#category-celulares": {
     "props": {
+      "blockClass": "itemsmenu1",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/home---decor/",
+        "href": "/celulares/",
         "noFollow": false,
         "text": "Celulares"
       }
@@ -339,6 +395,7 @@
   },
   "menu-item#informatica": {
     "props": {
+      "blockClass": "itemsmenu1",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -352,6 +409,7 @@
   },
   "menu-item#casabanho": {
     "props": {
+      "blockClass": "itemsmenu1",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -365,6 +423,7 @@
   },
   "menu-item#decoracao": {
     "props": {
+      "blockClass": "itemsmenu1",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -378,6 +437,7 @@
   },
   "menu-item#beleza": {
     "props": {
+      "blockClass": "itemsmenu1",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -391,6 +451,7 @@
   },
   "menu-item#tvaudio": {
     "props": {
+      "blockClass": "itemsmenu1",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -402,9 +463,68 @@
       }
     }
   },
-  "menu-item#todos": {
+  "menu-item#category-todos": {
     "props": {
-      "blockClass": "todosd",
+      "blockClass": "itemsmenu1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/",
+        "noFollow": false,
+        "text": "Todos os departamentos"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-todos"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-todos": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#desk2"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-todos": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-todos"
+    ]
+  },
+  "flex-layout.row#desk2": {
+    "children": [
+      "flex-layout.col#desk4",
+      "flex-layout.col#desk5",
+      "flex-layout.col#desk6"
+    ],
+    "props": {
+      "blockClass": "cols1"
+    }
+  },
+  "flex-layout.col#desk4": {
+    "children": [
+      "menu-item#category-eletroecasa",
+      "menu-item#category-games",
+      "menu-item#category-cel",
+      "menu-item#category-tA",
+      "menu-item#category-info",
+      "menu-item#category-moda",
+      "menu-item#category-esporte",
+      "menu-item#category-moveis",
+      "menu-item#category-beleza"
+    ],
+    "props": {
+      "blockClass": "items1"
+    }
+  },
+  "menu-item#category-eletroecasa": {
+    "props": {
+      "blockClass": "items2",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -412,7 +532,374 @@
         "type": "internal",
         "href": "#",
         "noFollow": true,
-        "text": "Todos os departamentos"
+        "text": "Eletrodomésticos e Casa"
+      }
+    }
+  },
+  "menu-item#category-games": {
+    "props": {
+      "blockClass": "items2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "text": "Games e PC Gamer"
+      }
+    }
+  },
+  "menu-item#category-cel": {
+    "props": {
+      "blockClass": "items2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "text": "Celulares"
+      }
+    }
+  },
+  "menu-item#category-tA": {
+    "props": {
+      "blockClass": "items2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "text": "Tv. Áudio e Home Theater"
+      }
+    }
+  },
+  "menu-item#category-info": {
+    "props": {
+      "blockClass": "items2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "text": "Informática"
+      }
+    }
+  },
+  "menu-item#category-moda": {
+    "props": {
+      "blockClass": "items2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "text": "Esporte e Suplementos"
+      }
+    }
+  },
+  "menu-item#category-esporte": {
+    "props": {
+      "blockClass": "items2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "text": "Moda"
+      }
+    }
+  },
+  "menu-item#category-moveis": {
+    "props": {
+      "blockClass": "items2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "text": "Móveis e Decoração"
+      }
+    }
+  },
+  "menu-item#category-beleza": {
+    "props": {
+      "blockClass": "items2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "text": "Beleza e Perfumaria"
+      }
+    }
+  },
+  "flex-layout.col#desk5": {
+    "children": [
+      "menu-item#category-adega",
+      "menu-item#category-cerveja",
+      "menu-item#category-cooktop",
+      "menu-item#category-fogao",
+      "menu-item#category-geladeira",
+      "menu-item#category-lavaeseca",
+      "menu-item#category-maquina",
+      "menu-item#category-micro"
+    ],
+    "props": {
+      "blockClass": "items"
+    }
+  },
+  "menu-item#category-adega": {
+    "props": {
+      "blockClass": "items2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "text": "Tv & áudio"
+      }
+    }
+  },
+  "menu-item#category-cerveja": {
+    "props": {
+      "blockClass": "items2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "text": "Cervejeira"
+      }
+    }
+  },
+  "menu-item#category-cooktop": {
+    "props": {
+      "blockClass": "items2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "text": "Cooktop"
+      }
+    }
+  },
+  "menu-item#category-fogao": {
+    "props": {
+      "blockClass": "items2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "text": "Fogão"
+      }
+    }
+  },
+  "menu-item#category-geladeira": {
+    "props": {
+      "blockClass": "items2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "text": "Geladeira/Refrigerador"
+      }
+    }
+  },
+  "menu-item#category-lavaeseca": {
+    "props": {
+      "blockClass": "items2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "text": "Lava e Seca"
+      }
+    }
+  },
+  "menu-item#category-maquina": {
+    "props": {
+      "blockClass": "items2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "text": "Máquina de Lavar"
+      }
+    }
+  },
+  "menu-item#category-micro": {
+    "props": {
+      "blockClass": "items2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "text": "Micro-ondas"
+      }
+    }
+  },
+  "flex-layout.col#desk6": {
+    "children": [
+      "menu-item#category-aspirador",
+      "menu-item#category-batedeira",
+      "menu-item#category-cafeteira",
+      "menu-item#category-fritadeira",
+      "menu-item#category-liquidificador",
+      "menu-item#category-mixer",
+      "menu-item#category-puri"
+     
+
+    ],
+    "props": {
+      "blockClass": "items"
+    }
+  },
+  "menu-item#category-aspirador": {
+    "props": {
+      "blockClass": "items2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "text": "Aspirador de pó"
+      }
+    }
+  },
+  "menu-item#category-batedeira": {
+    "props": {
+      "blockClass": "items2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "text": "Batedeira"
+      }
+    }
+  },
+  "menu-item#category-cafeteira": {
+    "props": {
+      "blockClass": "items2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "text": "Cafeteira Expressa"
+      }
+    }
+  },
+  "menu-item#category-fritadeira": {
+    "props": {
+      "blockClass": "items2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "text": "Fritadeira Elétrica"
+      }
+    }
+  },
+  "menu-item#category-liquidificador": {
+    "props": {
+      "blockClass": "items2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "text": "Liquidificador"
+      }
+    }
+  },
+  "menu-item#category-mixer": {
+    "props": {
+      "blockClass": "items2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "text": "Mixer"
+      }
+    }
+  },
+  "menu-item#category-puri": {
+    "props": {
+      "blockClass": "items2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "text": "Purificador de Água"
+      }
+    }
+  },
+  "menu-item#category-saldao": {
+    "props": {
+      "blockClass": "saldao",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/celulares/",
+        "noFollow": false,
+        "text": "Saldão"
       }
     }
   }

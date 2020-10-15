@@ -1,26 +1,24 @@
 {
   "flex-layout.row#deals": {
     "children": [
-      "flex-layout.col#deals1"
-   
+      "flex-layout.col#deals1",
+      "flex-layout.col#deals3",
+      "flex-layout.col#deals5",
+      "flex-layout.col#deals6"
     ],
     "props": {
       "blockClass": "deals"
     }
   },
- 
-
   "flex-layout.col#deals1": {
     "children": [
       "image#deal1",
       "rich-text#deal1"
     ],
-    "props":{
+    "props": {
       "blockClass": "text"
     }
   },
- 
- 
   "image#deal1": {
     "props": {
       "src": "assets/paper-plane.svg",
@@ -31,6 +29,94 @@
   "rich-text#deal1": {
     "props": {
       "text": "**Frete grátis** \n Acima de R$ 199",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals4": {
+    "children": [
+      "image#deals4",
+      "rich-text#deals4"
+    ],
+    "props": {
+      "blockClass": "text"
+    }
+  },
+  "image#deals4": {
+    "props": {
+      "src": "assets/return.svg",
+      "maxHeight": "24px",
+      "blockClass": "paper-plane"
+    }
+  },
+  "rich-text#deals4": {
+    "props": {
+      "text": "**Troca grátis** \n Na 1ª troca ",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals5": {
+    "children": [
+      "image#deal5",
+      "rich-text#deal5"
+    ],
+    "props": {
+      "blockClass": "text"
+    }
+  },
+  "image#deal5": {
+    "props": {
+      "src": "assets/sale.svg",
+      "maxHeight": "24px",
+      "blockClass": "paper-plane"
+    }
+  },
+  "rich-text#deal5": {
+    "props": {
+      "text": "**Descontos progressivos** \n Compre mais de um item",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals3": {
+    "children": [
+      "image#deal3",
+      "rich-text#deal3"
+    ],
+    "props": {
+      "blockClass": "text"
+    }
+  },
+  "image#deal3": {
+    "props": {
+      "src": "assets/return.svg",
+      "maxHeight": "24px",
+      "blockClass": "paper-plane"
+    }
+  },
+  "rich-text#deal3": {
+    "props": {
+      "text": "**Até 12x sem juros** \n Com parcela acima de R$ 10",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals6": {
+    "children": [
+      "image#deal6",
+      "rich-text#deal6"
+    ],
+    "props": {
+      "blockClass": "text"
+    }
+  },
+  "image#deal6": {
+    "props": {
+      "src": "assets/credit-card.svg",
+      "maxHeight": "24px",
+      "blockClass": "paper-plane"
+    }
+  },
+  "rich-text#deal6": {
+    "props": {
+      "text": "**Até 12x sem juros** \n Com parcela mínima de R$ 10",
       "blockClass": "deals"
     }
   }

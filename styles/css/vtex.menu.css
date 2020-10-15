@@ -30,3 +30,51 @@
 .styledLinkContainer :global(.vtex-store-components-3-x-container){
     padding: 0px;
 }
+.styledLinkContent--todosd{
+
+color: var(--unnamed-color-4f32fe);
+font-weight: bold;
+font: normal normal bold 16px/50px Nunito Sans;
+letter-spacing: 0px;
+
+}
+.styledLinkContent--items2{
+    
+    top: 210px;
+left: 0px;
+width: 212px;
+height: 23px;
+color: var(--unnamed-color-000000);
+text-align: left;
+
+letter-spacing: 0px;
+color: #000000;
+padding-top: 15px;
+
+}
+
+.menuItem :global(.vtex-menu-2-x-styledLinkContainer--itemsmenu){
+    padding:0px;
+}
+
+.styledLinkContent--itemsmenu1{
+    font-weight: bold;
+    color: black;
+    
+
+}
+.styledLinkContent--saldao{
+    top: 114px;
+    left: 1543px;
+    width: 48px;
+    height: 20px;
+    color: var(--unnamed-color-4f32fe);
+    text-align: left;
+    font: normal normal 800 15px/12px Nunito Sans;
+    letter-spacing: 0px;
+    color: #4F32FE;
+    opacity: 1;
+}
+.styledLinkContent--saldao::before{
+    content:url(assets/saleRoxo.svg)
+}
