@@ -207,4 +207,11 @@
   font-size: 23px;
 }
 
-
+@media (max-width: 640px) 
+{
+  .headingLevel2--Title {
+    color: #000000 ;
+    font-size: 23px;
+    
+  }
+}
