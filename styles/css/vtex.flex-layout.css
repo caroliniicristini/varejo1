@@ -112,10 +112,7 @@
 .flexRow--search{
   width: 100%;
 }
-.flexRowContent--imgs{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
+
 .flexRowContent--imgsfooter{
   background: #F6F5F8;
   justify-content: center;
@@ -139,10 +136,20 @@
   color: black;
   font-weight: bold;
 }
+.vtex-flex-layout-0-x-flexRowContent--imgs{
+
+  display: flex;   
+ }
 @media (max-width: 640px) 
 {
-  .vtex-flex-layout-0-x-flexRowContent--imgs
-   {
-    display: flex;
-   }
+.flexRowContent--imgs{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
+}
+.caretIcon--shelf{
+  display: none;
+}
+
+
+

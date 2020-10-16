@@ -32,28 +32,7 @@
       "blockClass": "deals"
     }
   },
-  "flex-layout.col#deals4": {
-    "children": [
-      "image#deals4",
-      "rich-text#deals4"
-    ],
-    "props": {
-      "blockClass": "text"
-    }
-  },
-  "image#deals4": {
-    "props": {
-      "src": "assets/return.svg",
-      "maxHeight": "24px",
-      "blockClass": "paper-plane"
-    }
-  },
-  "rich-text#deals4": {
-    "props": {
-      "text": "**Troca grátis** \n Na 1ª troca ",
-      "blockClass": "deals"
-    }
-  },
+
   "flex-layout.col#deals5": {
     "children": [
       "image#deal5",
@@ -65,7 +44,7 @@
   },
   "image#deal5": {
     "props": {
-      "src": "assets/sale.svg",
+      "src": "assets/salebranco.svg",
       "maxHeight": "24px",
       "blockClass": "paper-plane"
     }
@@ -94,7 +73,7 @@
   },
   "rich-text#deal3": {
     "props": {
-      "text": "**Até 12x sem juros** \n Com parcela acima de R$ 10",
+      "text": "**Troca grátis** \n Na primeira troca",
       "blockClass": "deals"
     }
   },

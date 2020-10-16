@@ -123,13 +123,36 @@
   color: black;
   display: flex;
   justify-content: center;
+  padding-top: 35px;
+ 
+}
+@media (max-width: 640px) 
+{
+  .strong--conteudo{
+    font-size: 19px;
+    color: black;
+    display: flex;
+    justify-content: center;
+  }
 }
 .paragraph--conteudo{
 
-  color: var(--unnamed-color-000000);
+  color: #000000;
+  font: 14px/25px 'Nunito Sans';
+  margin: 0px -160px;
+  max-width: 740px;
   text-align: center;
-  font:  'Nunito Sans';
 
+}
+@media (max-width: 640px) 
+{
+  .paragraph--conteudo{
+    color: #000000;
+    font: 14px/25px 'Nunito Sans';
+    text-align: center;
+    font:  'Nunito Sans';
+    margin: 0px;
+}
 }
 .wrapper--conteudo{
   display: flex;

@@ -38,19 +38,10 @@ font: normal normal bold 16px/50px Nunito Sans;
 letter-spacing: 0px;
 
 }
-.styledLinkContent--items2{
-    
-    top: 210px;
-left: 0px;
-width: 212px;
-height: 23px;
-color: var(--unnamed-color-000000);
-text-align: left;
-
-letter-spacing: 0px;
-color: #000000;
-padding-top: 15px;
-
+.styledLinkContent--items2:hover{
+    color: #4F32FE;
+    width: 250px;
+    height: 30px;
 }
 
 .menuItem :global(.vtex-menu-2-x-styledLinkContainer--itemsmenu){
@@ -64,17 +55,17 @@ padding-top: 15px;
 
 }
 .styledLinkContent--saldao{
-    top: 114px;
-    left: 1543px;
+   
     width: 48px;
     height: 20px;
     color: var(--unnamed-color-4f32fe);
     text-align: left;
     font: normal normal 800 15px/12px Nunito Sans;
-    letter-spacing: 0px;
-    color: #4F32FE;
-    opacity: 1;
+    color: #4F32FE;  
 }
 .styledLinkContent--saldao::before{
-    content:url(assets/saleRoxo.svg)
+    content:url(assets/saleRoxo.svg);
+    margin-top: -5px;
+    padding-right: 7px;
+    margin-top: -4px;
 }

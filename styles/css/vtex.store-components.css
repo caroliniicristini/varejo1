@@ -21,7 +21,7 @@
 }
 .inputGroup {
   padding-bottom: 4px;
-  display: flex;
+  display: block;
   color: #fff;
 }
 .inputGroup :global(.vtex-styleguide-9-x-hideDecorators),
@@ -124,10 +124,20 @@
   background: black;
   height: 41px;
 }
-.container--newsletter{
-  background: #4F32FE;
-  height: 271;
-  width: 420px;
+.newsletter--newsletter{
+ padding: 0px;
+ width: 100%;
+ background: #4F32FE;
+ height: 271;
+ 
+}
+@media (max-width: 640px) 
+{
+  .container--newsletter{
+    background: #4F32FE;
+    height: 271;
+    width: 420px;
+}
 }
 .label--newsletter::before{
   content: "Quer ficar por dentro de tudo?\A\A";
@@ -156,13 +166,8 @@
   
 }
 
-
 /* Newsletter */
 
-.newsletter :global(.vtex-store-components-3-x-inputGroup) {
-  display: block !important;  
-
-}
 .newsletter :global(.vtex-button__label){
   font-weight: bold;
   font-family: 'Nunito Sans';
@@ -200,4 +205,18 @@
   width: 83px;
     height: 32px;
 }
+.imageElement--drones{
+  padding-left: 230px;
+    padding-right: 10px;
+    width: 619px;
+}
+.imageElement--descontos{
+  width: 619px;
+}
 
+@media (max-width: 640px) 
+{
+  .imageElement--drones{
+ padding: 0px;
+}
+}

@@ -35,13 +35,18 @@
   },
   "flex-layout.row#1-desktop": {
     "children": [
-      "flex-layout.col#spacer",
-      "logo#desktop"
+      
+      "logo#desktop",
+      "minicart.v2"
+
+
     ],
     "props": {
-      "fullWidth": true
+      "fullWidth": true,
+      "blockClass": "logodesk"
     }
   },
+
   "flex-layout.row#3-desktop": {
     "props": {
       "blockClass": "menu-link",
@@ -62,6 +67,14 @@
       "logo#desktop"
     ]
   },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/logo.png",
+      "width": "180"
+    }
+  },
   "flex-layout.col#category-menu": {
     "props": {
       "verticalAlign": "middle"
@@ -71,14 +84,7 @@
       
     ]
   },
-  "logo#desktop": {
-    "props": {
-      "title": "Logo",
-      "href": "/",
-      "url": "assets/logo.png",
-      "width": "180"
-    }
-  },
+  
   "flex-layout.col#spacer": {
     "props": {
       "width": "grow"
@@ -149,7 +155,7 @@
       "search-bar"
     ],
     "props": {
-      "blockClass": "search",
+      "blockClass": "searchdesk",
       "placeholder": "Buscar",
       "maxWidht": "100%"
     }
