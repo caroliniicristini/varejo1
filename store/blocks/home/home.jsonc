@@ -47,7 +47,7 @@
   "newsletter": {
     "props": {
       "blockClass": "newsletter",
-      "label": "Acompanhe nossas novidades.Cadastre-se em nossas newsletter.",
+      "label": "Acompanhe nossas novidades.\n Cadastre-se em nossas newsletter.",
       "submit": "Cadastrar",
       "placeholder": "Digite seu e-mail"
     }

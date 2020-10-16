@@ -1,18 +1,27 @@
-.styledLinkContent--footer1{
+
+.styledLinkContent :global(.vtex-menu-2-x-styledLinkContent--footer1){
+    padding-left: 80px;
+}
+
+.styledLinkContent--footer1 {
     font-weight: bold;
     font-size: 16px;
     color: black;
     background: #F6F5F8;
     height: 55px;
-    max-width: 100%;
     padding-top: 20px;
+    padding-left: 22px;
+    max-width: 420px;
+    width: 100%;
+    margin:0 auto;
+    
 }
-.styledLinkContent :global(.vtex-menu-2-x-styledLinkContent--footer1){
-    padding-left: 80px;
-}
+
 .styledLinkContainer--footer1 {
     margin:0;
     padding: 0px;
+    background: #F6F5F8;
+   
 }
 .styledLinkContent--footer{
     
@@ -51,8 +60,7 @@ letter-spacing: 0px;
 .styledLinkContent--itemsmenu1{
     font-weight: bold;
     color: black;
-    
-
+    height: 29px;
 }
 .styledLinkContent--saldao{
    
@@ -68,4 +76,10 @@ letter-spacing: 0px;
     margin-top: -5px;
     padding-right: 7px;
     margin-top: -4px;
+}
+.container :global(.vtex-store-components-3-x-container){
+    padding-bottom: 0px;
+}
+.styledLinkContent :global(.vtex-store-components-3-x-container){
+    padding-bottom: 0px;
 }

@@ -42,7 +42,7 @@
 
 .buttonContainer {
   padding-top: 0px;
-  margin-top:50px;
+  margin-top:10px;
 }
 
 .imageElement--storePrint {
@@ -58,7 +58,6 @@
   .newsletter .container {
     padding: 0px;
   }
-
   .label {
     font-size: 40px;
   }
@@ -126,17 +125,18 @@
 }
 .newsletter--newsletter{
  padding: 0px;
- width: 100%;
+ max-width: 100%;
+
  background: #4F32FE;
  height: 271;
  
 }
 @media (max-width: 640px) 
 {
-  .container--newsletter{
+  .newsletter--newsletter{
     background: #4F32FE;
     height: 271;
-    width: 420px;
+    width: 371px;
 }
 }
 .label--newsletter::before{
@@ -148,10 +148,9 @@
  
   
 }
-.label--newsletter::after{
-  font-size: 15px;
-  font-family: "Nunito Sans";
-  text-align: center;
+.label--newsletter{
+ 
+  white-space: pre-wrap;
 }
 .inputGroup :global(.vtex-store-components7-x-buttonContainer){
   background-color: transparent;
@@ -170,7 +169,7 @@
 
 .newsletter :global(.vtex-button__label){
   font-weight: bold;
-  font-family: 'Nunito Sans';
+  font: normal normal 900 14px/30px Nunito Sans;
   font-size: 14px; 
 }
 
@@ -219,3 +218,12 @@
  padding: 0px;
 }
 }
+
+.inputGroup :global(.vtex-input-prefix__group){
+  background: #000000 0% 0% no-repeat padding-box;
+  border-radius: 29px;
+  opacity: 0.15;
+  height: 57px;
+}
+
+
