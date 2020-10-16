@@ -168,7 +168,7 @@
 }
 .vtex-flex-layout-0-x-flexRowContent--imgs{
   max-width: 1260px;
-  display: flex;   
+  margin: 0 auto; 
  }
 @media (max-width: 640px) 
 {
@@ -185,7 +185,12 @@
   padding: 0px;
   background: #F6F5F8;
 }
+.flexRow--imgs{
+  max-width: 1260px;
+  margin: 0 auto;
+}
 
-
-
-
+.flexRow--drondes{
+  max-width: 1260px;
+  margin: 0 auto;
+}

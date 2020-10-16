@@ -264,7 +264,10 @@
     "children":[
       "image#mobdrones",
       "image#desconto"
-    ]
+    ],
+    "props":{
+      "blockClass": "drondes"
+    }
   },
   "image#mobdrones": {
     "props": {

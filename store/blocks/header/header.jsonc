@@ -41,8 +41,6 @@
       
       "logo#desktop",
       "minicart.v2"
-
-
     ],
     "props": {
       "fullWidth": true,
@@ -72,6 +70,7 @@
   },
   "logo#desktop": {
     "props": {
+      "blockClass": "logo",
       "title": "Logo",
       "href": "/",
       "url": "assets/logo.png",

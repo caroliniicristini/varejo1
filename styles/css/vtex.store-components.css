@@ -6,7 +6,7 @@
 .newsletter {
 
   max-width: 100%;
-
+  background: #4F32FE;
   margin: 0 auto;
 }
 .newsletter .container {
@@ -123,35 +123,38 @@
   background: black;
   height: 41px;
 }
-.newsletter--newsletter{
- padding: 0px;
- max-width: 100%;
-
- background: #4F32FE;
- height: 271;
- 
-}
 @media (max-width: 640px) 
 {
   .newsletter--newsletter{
     background: #4F32FE;
     height: 271;
     width: 371px;
+    
 }
 }
+
 .label--newsletter::before{
   content: "Quer ficar por dentro de tudo?\A\A";
+  font-size: 30px;
+  font-family: 'Nunito Sans';
+  font-weight: 700;
+}
+@media (max-width: 640px){
+  .label--newsletter::before{
+   
+    content: "Quer ficar por dentro de tudo?\A\A";
   font-size: 20px;
   font-family: 'Nunito Sans';
   font-weight: 700;
-  white-space: pre-wrap;
- 
-  
-}
+  }
+  }
+@media (max-width: 640px){
 .label--newsletter{
  
   white-space: pre-wrap;
 }
+}
+
 .inputGroup :global(.vtex-store-components7-x-buttonContainer){
   background-color: transparent;
   border: none;
