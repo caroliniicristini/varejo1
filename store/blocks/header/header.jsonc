@@ -13,24 +13,27 @@
   },
   "header-layout.desktop": {
     "children": [
-      "flex-layout.row#desktop",
+      "flex-layout.row#2-desktop",
       "flex-layout.row#1-desktop",
       "flex-layout.row#3-desktop",
       "sticky-layout#4-desktop"
     ]
   },
-  "flex-layout.row#desktop": {
+  "flex-layout.row#2-desktop": {
     "children": [
-      "notification.bar#home"
+      "rich-text#notificationBar"
     ],
     "props": {
-      "fullWidth": "true",
-      "blockClass": "topo"
+      "blockClass": "notificationBar",
+      "fullWidth": "true"
     }
   },
-  "notification.bar#home": {
+  "rich-text#notificationBar": {
     "props": {
-      "content": "produtos com até 60% de desconto + frete grátis + 12x sem juros"
+      "text": "**#saldão**  produtos com até *60% de desconto **+** frete grátis **+** 12 sem juros* **>**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "textNotificationBar"
     }
   },
   "flex-layout.row#1-desktop": {

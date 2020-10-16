@@ -2,21 +2,22 @@
   "flex-layout.row#deals": {
     "children": [
       "flex-layout.col#deals1",
+      "flex-layout.col#deals2",
       "flex-layout.col#deals3",
-      "flex-layout.col#deals5",
-      "flex-layout.col#deals6"
+      "flex-layout.col#deals4"
     ],
-    "props": {
-      "blockClass": "deals"
+    "props":{
+      "blockClass": "linhatoda"
     }
   },
+  
   "flex-layout.col#deals1": {
     "children": [
       "image#deal1",
       "rich-text#deal1"
     ],
     "props": {
-      "blockClass": "text"
+      "blockClass": "text1"
     }
   },
   "image#deal1": {
@@ -33,23 +34,23 @@
     }
   },
 
-  "flex-layout.col#deals5": {
+  "flex-layout.col#deals2": {
     "children": [
-      "image#deal5",
-      "rich-text#deal5"
+      "image#deal2",
+      "rich-text#deal2"
     ],
     "props": {
-      "blockClass": "text"
+      "blockClass": "deals"
     }
   },
-  "image#deal5": {
+  "image#deal2": {
     "props": {
       "src": "assets/salebranco.svg",
       "maxHeight": "24px",
       "blockClass": "paper-plane"
     }
   },
-  "rich-text#deal5": {
+  "rich-text#deal2": {
     "props": {
       "text": "**Descontos progressivos** \n Compre mais de um item",
       "blockClass": "deals"
@@ -61,7 +62,7 @@
       "rich-text#deal3"
     ],
     "props": {
-      "blockClass": "text"
+      "blockClass": "deals"
     }
   },
   "image#deal3": {
@@ -77,23 +78,23 @@
       "blockClass": "deals"
     }
   },
-  "flex-layout.col#deals6": {
+  "flex-layout.col#deals4": {
     "children": [
-      "image#deal6",
-      "rich-text#deal6"
+      "image#deal4",
+      "rich-text#deal4"
     ],
     "props": {
-      "blockClass": "text"
+      "blockClass": "deals"
     }
   },
-  "image#deal6": {
+  "image#deal4": {
     "props": {
       "src": "assets/credit-card.svg",
       "maxHeight": "24px",
       "blockClass": "paper-plane"
     }
   },
-  "rich-text#deal6": {
+  "rich-text#deal4": {
     "props": {
       "text": "**Até 12x sem juros** \n Com parcela mínima de R$ 10",
       "blockClass": "deals"
