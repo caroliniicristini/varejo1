@@ -14,8 +14,7 @@
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "flex-layout.row#imgmob",
-      "image#mobdrones",
-      "image#desconto",
+      "flex-layout.row#bannerdesk",
       "rich-text#text",
       "rich-text#shelf-ultop",
       "flex-layout.row#shelf",
@@ -35,8 +34,7 @@
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "flex-layout.row#imgmob",
-      "image#mobdrones",
-      "image#desconto",
+      "flex-layout.row#bannerdesk",
       "rich-text#text",
       "rich-text#shelf-ultop",
       "flex-layout.row#shelf",
@@ -64,6 +62,7 @@
       "slider-layout#demo-images"
     ],
     "props": {
+      "blockClass": "imgprincipal",
       "height": 720,
       "images": [
         {
@@ -98,6 +97,7 @@
       "slider-layout#demo-images2"
     ],
     "props": {
+      "blockClass": "cars1",
       "height": 720,
       "images": [
         {
@@ -144,7 +144,7 @@
       },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
-      "blockClass": "carousel"
+      "blockClass": "carousel2"
     }
   },
   "rich-text#-title": {
@@ -259,6 +259,12 @@
       "maxWidth": 177,
       "width": "100%"
     }
+  },
+  "flex-layout.row#bannerdesk":{
+    "children":[
+      "image#mobdrones",
+      "image#desconto"
+    ]
   },
   "image#mobdrones": {
     "props": {

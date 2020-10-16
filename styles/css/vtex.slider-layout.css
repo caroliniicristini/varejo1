@@ -25,3 +25,23 @@
 .sliderLayoutContainer--shelf{
   margin-bottom: 60px;
 }
+.sliderLayoutContainer {
+  justify-content: center;
+}
+.sliderTrackContainer--carousel2{
+  max-width: 1260px;
+}
+.sliderLayoutContainer--shelf{
+  max-width: 1260px;
+
+}
+  .flexRowContent--imgs {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 22px;
+    height: 301px;
+    width: 1260px;
+    margin-left: 129px;
+
+  }
