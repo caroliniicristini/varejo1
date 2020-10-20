@@ -124,14 +124,19 @@
 }
 
 .flexRowContent--imgsfooter{
-  background: #F6F5F8;
+  background: transparent;
   justify-content: center;
   padding-top: 24px;
   max-width: 415px;
   margin: 0 auto;
   width: 100%;
+  display: block;
 
 
+}
+.flexRowContent :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  width: 33%;
+  display: inline-block;
 }
 @media (max-width: 640px){
 .flexRowContent--imgsfooter1{
@@ -192,5 +197,34 @@
 
 .flexRow--drondes{
   max-width: 1260px;
+  margin: 0 auto;
+}
+.flexCol :global(.vtex-product-quantity-1-x-quantitySelectorContainer){
+
+width: 76px;
+height: 19px;
+color: var(--unnamed-color-000000);
+text-align: center;
+font: normal normal normal 14px/55px Nunito Sans;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.flexRowContent--logodesk{
+  max-width: 1260px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+:global(.vtex-store-components-3-x-sizeDesktop) {
+  padding-left: 0 !important;
+}
+
+.flexRowContent--logodesk :global(.vtex-store-components-3-x-searchBarContainer) {
+  background: transparent;
+}
+.flexRow--titlesfooter{
+  max-width: 1260px;
+  width: 100%;
   margin: 0 auto;
 }

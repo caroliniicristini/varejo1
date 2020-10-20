@@ -24,11 +24,13 @@
    
 }
 .styledLinkContent--footer{
-    
+
     text-align: left;
     font: normal normal normal 14px/50px Nunito Sans;
     color: #847B91;
-    padding-left: 68px;
+}
+.styledLinkContainer--footer{
+    margin-left: 0px;
 }
 .accordionIcon{
     color:black;    
@@ -82,4 +84,8 @@ letter-spacing: 0px;
 }
 .styledLinkContent :global(.vtex-store-components-3-x-container){
     padding-bottom: 0px;
+}
+:global(.vtex-flex-layout-0-x-flexRow--menu-row){
+    max-width: 1260px;
+    margin: 0 auto;
 }

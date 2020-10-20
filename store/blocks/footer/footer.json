@@ -7,6 +7,7 @@
   },
   "footer-layout.desktop": {
     "children": [
+      "vtex.menu@2.x:menu#footer-desk",
       "flex-layout.row#footer-1-desktop",
       "flex-layout.row#footer-3-desktop"
     ]
@@ -16,17 +17,19 @@
       "vtex.menu@2.x:menu#footer-sobre",
       "vtex.menu@2.x:menu#footer-atendimento-mobile",
       "vtex.menu@2.x:menu#footer-ajuda-mobile",
-      "footer-spacer",
+      "flex-layout.row#3-footer-mobile",
       "social-networks"
     ],
     "props": {
       "blockClass": "menu-row",
       "paddingTop": 6,
-      "paddingBottom": 3
+      "paddingBottom": 3,
+      "colSpacing": "auto"
     }
   },
   "social-networks": {
     "props": {
+     
       "socialNetworks": [
         {
           "name": "Facebook",
@@ -67,6 +70,7 @@
       "flex-layout.row#5-footer-mobile"
     ]
   },
+
   "flex-layout.row#2-footer-mobile": {
     "children": [
       "flex-layout.col#footer-1-mobile"
@@ -96,6 +100,15 @@
     },
     "children": [
       "vtex.menu@2.x:menu#footer-mobile"
+    ]
+  },
+  "flex-layout.row#1-footer-desk": {
+    "props": {
+      "paddingTop": 4,
+      "paddingBottom": 4
+    },
+    "children": [
+      "vtex.menu@2.x:menu#footer-desk"
     ]
   },
   "flex-layout.row#3-footer-mobile": {

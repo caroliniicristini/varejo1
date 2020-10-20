@@ -64,6 +64,13 @@
     line-height: 1.3em;
   }
 }
+.container--title {
+  color: black;
+  font-size: 40px;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 53px;
+}
 .container--Title {
   color: black;
   font-size: 40px;

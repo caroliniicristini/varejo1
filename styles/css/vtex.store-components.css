@@ -22,6 +22,18 @@
   display: block;
   color: #fff;
 }
+
+@media (max-width: 640px){
+  .inputGroup {
+    padding-bottom: 4px;
+    color: #fff;
+  }
+}
+
+
+
+
+
 .inputGroup :global(.vtex-styleguide-9-x-hideDecorators),
 .autoCompleteOuterContainer :global(.vtex-input__suffix) {
   background-color: transparent;
@@ -54,12 +66,10 @@
   margin: 1rem 0;
 }
 
-@media only screen and (min-width: 640px) {
-  .newsletter .container {
-    padding: 0px;
-  }
+@media (min-width: 640px) {
+  
   .label {
-    font-size: 40px;
+    font-size: 17px;
   }
 
   
@@ -98,19 +108,36 @@
   color: white;
  
 }
-.searchBarContainer {
-  background: #4F32FE;
+
+.searchBarContainer .input {
+  background: transparent;
   border:0px;
   max-width: 100%;
 }
 
-.searchBarContainer ::placeholder {
-  color: #ffffff;
-  font-family: 'Nunito Sans';
-  font-weight: 700;
-  letter-spacing: 0;
-  vertical-align: middle;
-  opacity: 1;
+@media (max-width: 640px){
+  
+  .searchBarContainer {
+    background: #4F32FE;
+    border:0px;
+    max-width: 100%;
+  }
+
+  .searchBarContainer ::placeholder {
+    color: #ffffff;
+    font-family: 'Nunito Sans';
+    font-weight: 700;
+    letter-spacing: 0;
+    vertical-align: middle;
+    opacity: 1;
+  }
+
+}
+.searchBarContainer :global(.vtex-styleguide-9-x-input){
+  background: transparent;
+  border: 0 !important;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0;
 }
 .container{
   padding: 0px;
@@ -122,6 +149,11 @@
 .notificationBarInner{
   background: black;
   height: 41px;
+}
+.newsletter--newsletter{
+  background: #4F32FE;
+  height: 309px;
+  
 }
 @media (max-width: 640px) 
 {
@@ -135,22 +167,22 @@
 
 .label--newsletter::before{
   content: "Quer ficar por dentro de tudo?\A\A";
-  font-size: 30px;
-  font-family: 'Nunito Sans';
+  font-size: 13px;
+  font: normal normal bold 24px/12px Nunito Sans;
   font-weight: 700;
+  white-space: pre-wrap;
 }
 @media (max-width: 640px){
   .label--newsletter::before{
    
     content: "Quer ficar por dentro de tudo?\A\A";
   font-size: 20px;
-  font-family: 'Nunito Sans';
+  font: normal normal bold 24px/12px Nunito Sans;
   font-weight: 700;
   }
   }
 @media (max-width: 640px){
 .label--newsletter{
- 
   white-space: pre-wrap;
 }
 }
@@ -229,4 +261,53 @@
   height: 57px;
 }
 
+.searchBarContainer :global(.vtex-input-prefix__group) {
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0;
+}
+
+.productDescriptionTitle{
+  text-align: center;
+  font: normal normal bold 24px/35px Nunito Sans;
+  font-size: 21px;
+
+  color: black
+}
+.content{
+    width: 979px;
+    text-align: center;
+    font: normal normal normal 14px/30px Nunito Sans;  
+    color: #000000;
+    margin: 0 auto;
+}
+.productBrand--quickview{
+  width: 76px;
+  height: 19px;
+  text-align: center;
+  font: normal normal normal 14px/55px Nunito Sans;
+  color: #000000;
+  font-size: 23px;
+
+}
+.flexRowContent{
+      height: 41px;
+      font: normal normal 900 20px/55px Nunito Sans;
+}
+.flexRow{
+  padding-top: 57px;
+}
+.productImageTag--main{
+   width: 100%;
+    height: 100%;
+    max-height: 600px;
+    object-fit: contain;
+    background: #F6F5F8;
+    padding: 20px;
+    box-sizing: border-box;
+}
+[data-vtex-block-id="flex-layout.row#product-main"]{
+  max-width: 1260px;
+  margin: 0 auto;
+}
 

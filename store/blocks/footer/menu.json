@@ -1,15 +1,26 @@
 {
+  
   "vtex.menu@2.x:menu#footer-sobre": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
+      
       "menu-item#marca",
       "menu-item#faleConosco",
       "menu-item#lojaf"
     ]
   },
-
+  "vtex.menu@2.x:menu#footer-desk": {
+    "props": {
+      "orientation": "vertical",
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.row#titles"
+    ]
+  },
+  
   "vtex.menu@2.x:menu#footer-mobile": {
     "props": {
       "orientation": "vertical"
@@ -20,7 +31,6 @@
       "menu-item#ajuda-mobile"
     ]
   },
-
   "menu-item#sobre-mobile": {
     "props": {
       "id": "menu-item-category-clothing",
@@ -31,20 +41,19 @@
         "type": "internal",
         "href": "/clothing/d",
         "noFollow": true,
-        "tagTitle": "Clothing",
         "text": "Sobre"
-        
-       
       },
       "blockClass": "footer1"
-      
     },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#sobre"]
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#sobre"
+    ]
   },
   "vtex.menu@2.x:submenu.accordion#sobre": {
-    "children": ["vtex.menu@2.x:menu#sobre-accordion"]
+    "children": [
+      "vtex.menu@2.x:menu#sobre-accordion"
+    ]
   },
-
   "vtex.menu@2.x:menu#sobre-accordion": {
     "props": {
       "orientation": "vertical"
@@ -55,21 +64,22 @@
       "menu-item#lojaf"
     ]
   },
-
   "menu-item#atendimento-mobile": {
     "props": {
       "blockClass": "footer1",
       "itemProps": {
         "text": "Atendimento"
-        
       }
     },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#atendimento"]
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#atendimento"
+    ]
   },
   "vtex.menu@2.x:submenu.accordion#atendimento": {
-    "children": ["vtex.menu@2.x:menu#footer-atendimento-mobile"]
+    "children": [
+      "vtex.menu@2.x:menu#footer-atendimento-mobile"
+    ]
   },
-
   "vtex.menu@2.x:menu#footer-atendimento-mobile": {
     "props": {
       "orientation": "vertical"
@@ -79,23 +89,23 @@
       "menu-item#meusPedidos"
     ]
   },
-
   "menu-item#ajuda-mobile": {
     "props": {
       "blockClass": "footer1",
       "itemProps": {
         "tagTitle": "Sale",
         "text": "Ajuda"
-        
-       
       }
     },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#ajuda"]
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#ajuda"
+    ]
   },
   "vtex.menu@2.x:submenu.accordion#ajuda": {
-    "children": ["vtex.menu@2.x:menu#footer-ajuda-mobile"]
+    "children": [
+      "vtex.menu@2.x:menu#footer-ajuda-mobile"
+    ]
   },
-
   "vtex.menu@2.x:menu#footer-ajuda-mobile": {
     "props": {
       "orientation": "vertical"
@@ -106,7 +116,6 @@
       "menu-item#poltrocas"
     ]
   },
-
   "menu-item#sobre": {
     "props": {
       "id": "menu-item-category-clothing",
@@ -120,12 +129,14 @@
         "noFollow": true,
         "tagTitle": "Clothing",
         "text": "Sobre"
-        
-      
       }
     }
   },
-
+  "rich-text#sobre": {
+    "props": {
+      "text": "sobre"
+    }
+  },
   "menu-item#marca": {
     "props": {
       "id": "menu-item-shorts",
@@ -139,11 +150,9 @@
         "noFollow": false,
         "tagTitle": "Shorts",
         "text": "A marca"
-        
       }
     }
   },
-
   "menu-item#faleConosco": {
     "props": {
       "id": "menu-item-tank-tops",
@@ -157,11 +166,9 @@
         "noFollow": false,
         "tagTitle": "Tank tops",
         "text": "Fale Conosco"
-        
       }
     }
   },
-
   "menu-item#lojaf": {
     "props": {
       "id": "menu-item-shirts",
@@ -175,12 +182,10 @@
         "noFollow": false,
         "tagTitle": "Shirts",
         "text": "Loja Física"
-        
       }
     }
   },
-  "menu-item#minhaConta"
-  : {
+  "menu-item#minhaConta": {
     "props": {
       "id": "menu-item-shirts",
       "type": "custom",
@@ -193,7 +198,6 @@
         "noFollow": false,
         "tagTitle": "Shirts",
         "text": "Minha conta"
-        
       }
     }
   },
@@ -210,7 +214,6 @@
         "noFollow": false,
         "tagTitle": "Shirts",
         "text": "Meus Pedidos"
-        
       }
     }
   },
@@ -227,7 +230,6 @@
         "noFollow": false,
         "tagTitle": "Shirts",
         "text": "Pagamentos"
-        
       }
     }
   },
@@ -244,7 +246,6 @@
         "noFollow": false,
         "tagTitle": "Shirts",
         "text": "Política de privacidade"
-       
       }
     }
   },
@@ -261,8 +262,54 @@
         "noFollow": false,
         "tagTitle": "Shirts",
         "text": "Política de trocas"
-        
       }
     }
+  },
+ 
+  "rich-text#sobre1":{
+    "props":{
+      "text": "Sobre"
+    }
+  },
+  
+
+  "flex-layout.row#titles":{
+    "children":[
+      "rich-text#sobre2",
+      "rich-text#atendimento",
+      "rich-text#ajuda",
+      "rich-text#pagamento",
+      "rich-text#redes"
+      
+    ],
+    "props":{
+      "blockClass": "titlesfooter"
+    }
+  },
+  "rich-text#sobre2":{
+    "props":{
+      "text": "Sobre"
+    }
+  },
+  "rich-text#atendimento":{
+    "props":{
+      "text": "Atendimento"
+    }
+  },
+  "rich-text#ajuda":{
+    "props":{
+      "text": "Ajuda"
+    }
+  },
+  "rich-text#pagamento":{
+    "props":{
+      "text": "Pagamentos"
+    }
+  },
+  "rich-text#redes":{
+  "props":{
+    "text": "Nossas redes"
   }
+}
+
 }
