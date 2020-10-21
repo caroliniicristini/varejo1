@@ -16,6 +16,8 @@
     padding: .6rem;
     text-transform: none;
   }
-  .minicart :global(.vtex-minicart-2-x-drawerStyles){
-      
+  @media (max-width: 640px){
+  .buttonLink{
+      display: none;
   }
+}

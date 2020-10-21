@@ -11,15 +11,6 @@
       "menu-item#lojaf"
     ]
   },
-  "vtex.menu@2.x:menu#footer-desk": {
-    "props": {
-      "orientation": "vertical",
-      "fullWidth": true
-    },
-    "children": [
-      "flex-layout.row#titles"
-    ]
-  },
   
   "vtex.menu@2.x:menu#footer-mobile": {
     "props": {
@@ -116,7 +107,14 @@
       "menu-item#poltrocas"
     ]
   },
+
+
   "menu-item#sobre": {
+    "children": [
+      "menu-item#marca",
+      "menu-item#faleConosco",
+      "menu-item#lojaf"
+    ],
     "props": {
       "id": "menu-item-category-clothing",
       "type": "custom",
@@ -134,7 +132,7 @@
   },
   "rich-text#sobre": {
     "props": {
-      "text": "sobre"
+      "text": "Sobre"
     }
   },
   "menu-item#marca": {
@@ -266,11 +264,7 @@
     }
   },
  
-  "rich-text#sobre1":{
-    "props":{
-      "text": "Sobre"
-    }
-  },
+
   
 
   "flex-layout.row#titles":{

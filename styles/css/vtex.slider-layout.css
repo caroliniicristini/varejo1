@@ -33,6 +33,7 @@
 }
 .sliderLayoutContainer--shelf{
   max-width: 1260px;
+  margin: 0 auto;
 
 }
   .flexRowContent--imgs {
@@ -44,4 +45,7 @@
     width: 1260px;
     margin-left: 129px;
 
+  }
+  .paginationDots--shelf{
+    background: #4F32FE;
   }

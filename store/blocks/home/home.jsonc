@@ -46,6 +46,8 @@
   },
   "newsletter": {
     "props": {
+      "confirmationTitle": "Obrigado!",
+      "confirmationText": "Seu email foi registrado com sucesso.",
       "blockClass": "newsletter",
       "label": "Acompanhe nossas novidades.\n Cadastre-se em nossas newsletter.",
       "submit": "Cadastrar",

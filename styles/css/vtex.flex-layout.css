@@ -124,26 +124,34 @@
 }
 
 .flexRowContent--imgsfooter{
-  background: transparent;
+
   justify-content: center;
   padding-top: 24px;
   max-width: 415px;
   margin: 0 auto;
   width: 100%;
-  display: block;
 
 
 }
-.flexRowContent :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
-  width: 33%;
-  display: inline-block;
+[data-vtex-block-class="imgsfooter"]{
+  background: #F6F5F8;
 }
+@media (max-width: 640px){
+  .flexRowContent--imgsfooter{
+    background: #F6F5F8;
+    justify-content: center;
+    padding-top: 24px;
+    max-width: 415px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  }
 @media (max-width: 640px){
 .flexRowContent--imgsfooter1{
   background: #F6F5F8;
   justify-content: center;
   height: 100px;
-  border-bottom: 1px solid #0E006026;
+
   padding-left: 18px;
   padding-left: 18px;
   max-width: 415px;
@@ -152,14 +160,13 @@
 }
 }
 .flexRowContent--imgsfooter1{
-  background: #F6F5F8;
   justify-content: center;
   height: 100px;
-  border-bottom: 1px solid #0E006026;
   padding-left: 18px;
   max-width: 415px;
   margin: 0 auto;
   width: 100%;
+  padding-top: 18px;
 }
 .flexRowContent--payment-methods{
   padding:0px;
@@ -182,13 +189,19 @@
   grid-template-columns: 1fr 1fr;
 }
 }
-.flexRow--imgsfooter :global(.vtex-store-components-3-x-container){
-  padding: 0px;
-  background: #F6F5F8;
-}
+
+@media (max-width: 640px){
 .flexRow--imgsfooter1 :global(.vtex-store-components-3-x-container){
   padding: 0px;
   background: #F6F5F8;
+}
+}
+
+
+.flexRow :global(.vtex-store-components-3-x-container){
+  max-width: 1260px;
+  margin: 0 auto;
+
 }
 .flexRow--imgs{
   max-width: 1260px;
@@ -227,4 +240,26 @@ opacity: 1;
   max-width: 1260px;
   width: 100%;
   margin: 0 auto;
+}
+.flexCol--colPagamento {
+  display: grid;
+  grid-template-columns: 50px 50px 50px;
+  grid-template-rows: 30px 30px;
+  row-gap: 40px;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+.flexRowContent--imagPagamento .stretchChildrenWidth {
+  width: auto !important;
+}
+@media (max-width: 640px){
+[data-vtex-block-id="flex-layout.row#footer-2-desktop"]{
+  border-bottom: 1px solid #ccc;
+}
+}
+@media (min-width: 640px){
+[data-vtex-block-id="flex-layout.row#4-footer-mobile"]{
+  border-top: 1px solid #ccc;
+}
 }

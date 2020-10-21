@@ -2,13 +2,13 @@
   color: #ffffff;
   justify-content: center;
 }
-.container--shelfTitle {
-  color: #727273;
-  justify-content: center;
-  text-align: center;
-}
+
 .headingLevel2--shelfTitle {
   font-weight: 200;
+  
+}
+.paragraph--shelfTitle{
+  font-size: 24px;
 }
 .container--deals .paragraph {
   margin: 0;
@@ -69,7 +69,7 @@
   font-size: 40px;
   margin: 0 auto;
   justify-content: center;
-  margin-top: 53px;
+
 }
 .container--Title {
   color: black;
@@ -94,8 +94,10 @@
   margin: 0 auto;
   justify-content: center;
   margin-top: 0px;
+  max-width: 1260px;
+  margin: 0 auto;
 }
-.headingLevel2-2 {
+.heading-level-2 {
     color: #000000 ;
     font-size: 25px;
 
@@ -178,11 +180,19 @@
   justify-content: center;
   margin-top: 0px;
 }
+@media (max-width: 640px){
 .container--textfooter{
   justify-content: center;
   font: normal normal bold 10px/14px Nunito Sans;
   color: #847B91;
   background: #F6F5F8;
+  padding-top: 17px;
+}
+}
+.container--textfooter{
+  justify-content: center;
+  font: normal normal bold 10px/14px Nunito Sans;
+  color: #847B91;
   padding-top: 17px;
 }
 .container--textNotificationBar {
@@ -214,7 +224,6 @@
   color: #000000;
   font-size: 23px;
 }
-
 @media (max-width: 640px) 
 {
   .headingLevel2--Title {
@@ -222,4 +231,16 @@
     font-size: 23px;
     
   }
+}
+
+.paragraph--textfooter{
+ 
+text-align: center;
+font: normal normal bold 10px/14px Nunito Sans;
+letter-spacing: 0px;
+color: #847B91;
+}
+:global(.vtex-rich-text10-x-container){
+  font-family: normal normal bold 16px/55px Nunito Sans
+  
 }

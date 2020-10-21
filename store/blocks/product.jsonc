@@ -20,8 +20,7 @@
   "flex-layout.row#description": {
     "props": {
       "marginBottom": 7
-    },
-    "children": ["product-description"]
+    }
   },
   "flex-layout.row#product-main": {
     "props": {
@@ -86,17 +85,20 @@
       "flex-layout.row#selling-price",
       "product-installments",
       "product-separator",
-      "product-identifier.product",
-      "sku-selector",
+ 
       "product-quantity",
       "product-assembly-options",
       "product-gifts",
-      "availability-subscriber",
-      "shipping-simulator",
-      "share#default"
+    
+      "shipping-simulator"
     ]
   },
-
+  "shipping-simulator":{
+    "props":{
+      "submit": "Comprar",
+      "blockClass": "buttoncomprar"
+    }
+  },
   "flex-layout.row#product-name": {
     "props": {
       "marginBottom": 3

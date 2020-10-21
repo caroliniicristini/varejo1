@@ -10,11 +10,19 @@
   padding-top: 16px;
 }
 .socialNetworksContainer{
-  border-bottom: 1px solid #0E006026;
-  background: #F6F5F8;
+  
   height: 67px;
   align-items: center;
   justify-content: center;
+}
+@media (max-width: 640px){
+  .socialNetworksContainer{
+    background: #F6F5F8;
+    height: 67px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #ccc;
+  }
 }
 .flexRowContent--footer :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
   display: grid;

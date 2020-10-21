@@ -24,9 +24,10 @@
 }
 
 .brandName {
-  font-weight: 600;
+  font: normal normal normal 14px/55px Nunito Sans;
+    color: BLACK;
   font-size: 18px;
-  color: #2E2E2E;
+
 }
 
 .container {
@@ -39,8 +40,8 @@
 
 .image {
   border-radius: 0.25rem;
+
 }
 .element :global(.vtex-product-summary-1-x-productBrand){
   display: none;
 }
-

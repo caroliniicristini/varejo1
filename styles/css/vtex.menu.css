@@ -29,6 +29,14 @@
     font: normal normal normal 14px/50px Nunito Sans;
     color: #847B91;
 }
+@media (max-width: 640px){
+    .styledLinkContent--footer{
+    padding-left: 135px;
+    text-align: left;
+    font: normal normal normal 14px/50px Nunito Sans;
+    color: #847B91;
+}
+}
 .styledLinkContainer--footer{
     margin-left: 0px;
 }
@@ -51,8 +59,9 @@ letter-spacing: 0px;
 }
 .styledLinkContent--items2:hover{
     color: #4F32FE;
-    width: 250px;
-    height: 30px;
+    width: 130px;
+   
+    
 }
 
 .menuItem :global(.vtex-menu-2-x-styledLinkContainer--itemsmenu){
@@ -88,4 +97,14 @@ letter-spacing: 0px;
 :global(.vtex-flex-layout-0-x-flexRow--menu-row){
     max-width: 1260px;
     margin: 0 auto;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent){
+    padding-bottom: 0px;
+}
+.menuItem--items2{
+    text-align: left;
+    font: normal normal 600 15px/12px Nunito Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
 }

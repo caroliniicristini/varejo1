@@ -50,3 +50,12 @@
   margin-bottom: 0.25rem;
   font-size: .875rem;
 }
+.sellingPrince--summary .installments--summary{
+
+font: normal normal 900 13px/55px Nunito Sans;
+
+}
+.sellingPrice .installments{
+  font: normal normal 900 13px/55px Nunito Sans;
+  color:#000;
+}

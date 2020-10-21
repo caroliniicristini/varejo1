@@ -498,9 +498,7 @@
   },
   "flex-layout.row#desk2": {
     "children": [
-      "flex-layout.col#desk4",
-      "flex-layout.col#desk5",
-      "flex-layout.col#desk6"
+      "flex-layout.col#desk4"
     ],
     "props": {
       "blockClass": "cols1"
@@ -508,7 +506,7 @@
   },
   "flex-layout.col#desk4": {
     "children": [
-      "menu-item#category-eletroecasa",
+      "menu-item#eletroecasa",
       "menu-item#category-games",
       "menu-item#category-cel",
       "menu-item#category-tA",
@@ -522,20 +520,59 @@
       "blockClass": "items1"
     }
   },
-  "menu-item#category-eletroecasa": {
+
+
+
+
+
+
+  "menu-item#eletroecasa": {
     "props": {
-      "blockClass": "items2",
+      "blockClass":"eletrodsk",
+      "id": "eletroecasa",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
-        "noFollow": true,
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Eletrodomésticos e Casa",
         "text": "Eletrodomésticos e Casa"
       }
-    }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#eletroecasa"]
   },
+  "vtex.menu@2.x:submenu#eletroecasa":{
+    "props": {
+      "blockClass":"submenueletro",
+      "width": "auto"
+    },
+    "children": ["vtex.menu@2.x:menu#eletroecasa"]
+  },
+  "vtex.menu@2.x:menu#eletroecasa":{
+    "children":[
+      "flex-layout.col#desk5",
+      "flex-layout.col#desk6"
+    ]
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   "menu-item#category-games": {
     "props": {
       "blockClass": "items2",
