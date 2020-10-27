@@ -1,0 +1,17 @@
+@media (max-width:640px){
+.vtex-login-2-x-container{
+    display: none;
+}
+}
+
+profileIcon--profile{
+    height: 21px;
+    width: 19px;
+}
+
+
+:global(.vtex-minicart-2-x-openIconContainer){
+    padding: 0px;
+  }
+
+  

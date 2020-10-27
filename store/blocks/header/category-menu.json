@@ -463,8 +463,10 @@
       }
     }
   },
-  "menu-item#category-todos": {
+  "menu-item#category-todos":{
+    
     "props": {
+      "id": "assets/iconedrawer.svg",
       "blockClass": "itemsmenu1",
       "type": "custom",
       "iconId": null,
@@ -702,7 +704,7 @@
   },
   "menu-item#category-adega": {
     "props": {
-      "blockClass": "items2",
+      "blockClass": "items3",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -716,7 +718,7 @@
   },
   "menu-item#category-cerveja": {
     "props": {
-      "blockClass": "items2",
+      "blockClass": "items3",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -730,7 +732,7 @@
   },
   "menu-item#category-cooktop": {
     "props": {
-      "blockClass": "items2",
+      "blockClass": "items3",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -744,7 +746,7 @@
   },
   "menu-item#category-fogao": {
     "props": {
-      "blockClass": "items2",
+      "blockClass": "items3",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -758,7 +760,7 @@
   },
   "menu-item#category-geladeira": {
     "props": {
-      "blockClass": "items2",
+      "blockClass": "items3",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -772,7 +774,7 @@
   },
   "menu-item#category-lavaeseca": {
     "props": {
-      "blockClass": "items2",
+      "blockClass": "items3",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -786,7 +788,7 @@
   },
   "menu-item#category-maquina": {
     "props": {
-      "blockClass": "items2",
+      "blockClass": "items3",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -800,7 +802,7 @@
   },
   "menu-item#category-micro": {
     "props": {
-      "blockClass": "items2",
+      "blockClass": "items3",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -830,7 +832,7 @@
   },
   "menu-item#category-aspirador": {
     "props": {
-      "blockClass": "items2",
+      "blockClass": "items3",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -844,7 +846,7 @@
   },
   "menu-item#category-batedeira": {
     "props": {
-      "blockClass": "items2",
+      "blockClass": "items3",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -858,7 +860,7 @@
   },
   "menu-item#category-cafeteira": {
     "props": {
-      "blockClass": "items2",
+      "blockClass": "items3",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -872,7 +874,7 @@
   },
   "menu-item#category-fritadeira": {
     "props": {
-      "blockClass": "items2",
+      "blockClass": "items3",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -886,7 +888,7 @@
   },
   "menu-item#category-liquidificador": {
     "props": {
-      "blockClass": "items2",
+      "blockClass": "items3",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -900,7 +902,7 @@
   },
   "menu-item#category-mixer": {
     "props": {
-      "blockClass": "items2",
+      "blockClass": "items3",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -914,7 +916,7 @@
   },
   "menu-item#category-puri": {
     "props": {
-      "blockClass": "items2",
+      "blockClass": "items3",
       "type": "custom",
       "iconId": null,
       "highlight": false,

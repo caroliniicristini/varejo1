@@ -16,6 +16,11 @@
     margin:0 auto;
     
 }
+[data-vtex-block-id="menu-item#sobre-mobile"]{
+
+        padding-top: 10px;
+    
+}
 
 .styledLinkContainer--footer1 {
     margin:0;
@@ -24,14 +29,14 @@
    
 }
 .styledLinkContent--footer{
-
+    height: 33px;
     text-align: left;
-    font: normal normal normal 14px/50px Nunito Sans;
+    font: normal normal normal 14px/25px Nunito Sans;
     color: #847B91;
 }
 @media (max-width: 640px){
     .styledLinkContent--footer{
-    padding-left: 135px;
+    padding-left: 83px;
     text-align: left;
     font: normal normal normal 14px/50px Nunito Sans;
     color: #847B91;
@@ -59,19 +64,32 @@ letter-spacing: 0px;
 }
 .styledLinkContent--items2:hover{
     color: #4F32FE;
-    width: 130px;
    
-    
+    width: 200px;
+
+}
+.styledLinkContent--items3:hover{
+    color: #4F32FE;
+ 
+    width: 200px;
+
+}
+
+.styledLinkContent--eletrodsk:hover{
+    color: #4F32FE;
 }
 
 .menuItem :global(.vtex-menu-2-x-styledLinkContainer--itemsmenu){
     padding:0px;
 }
 
-.styledLinkContent--itemsmenu1{
+.styledLinkContent--itemsmenu1:hover{
+    border-bottom: 3px solid #4F32FE;
     font-weight: bold;
-    color: black;
+
     height: 29px;
+    height: 38px;
+    font: normal normal normal 16px/50px Nunito Sans;
 }
 .styledLinkContent--saldao{
    
@@ -98,13 +116,24 @@ letter-spacing: 0px;
     max-width: 1260px;
     margin: 0 auto;
 }
-:global(.vtex-flex-layout-0-x-flexRowContent){
-    padding-bottom: 0px;
+
+.menuItem--items2:hover{
+    background: #F6F5F8;
+ width: 250px;
+ height: 40px;
+ font: normal normal normal 14px/35px Nunito Sans;
+
 }
-.menuItem--items2{
-    text-align: left;
-    font: normal normal 600 15px/12px Nunito Sans;
-    letter-spacing: 0px;
-    color: #000000;
-    opacity: 1;
+.menuItem--items3:hover{
+    width: 250px;
+    height: 40px;
+    background: #F6F5F8;
+    font: normal normal normal 14px/35px Nunito Sans;
+   
+}
+:global(.vtex-flex-layout-0-x-flexRowContent){
+    padding: 0px;
+}
+.accordionIcon{
+    display: none;
 }

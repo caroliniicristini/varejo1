@@ -33,3 +33,16 @@
 .flexRowContainer :global(.vtex-flex-layout-0-x-flexRowContent){
   padding-bottom: 0px;
 }
+:global(.vtex-flex-layout-0-x-flexRow--alltitles){
+  border-bottom: 1px solid #ccc;
+}   
+@media (min-width:641px){
+:global(.vtex-flex-layout-0-x-flexRow--imgsfooter1){
+  padding-top:30px;
+}
+}
+@media(max-width:640px){
+  :global(.vtex-flex-layout-0-x-flexRow--imgsfooter){
+    background: #F6F5F8;
+  }
+}

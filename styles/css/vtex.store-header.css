@@ -22,6 +22,7 @@
   max-width: 100% ;
   background: white;
   height: 55px;
+  padding-left: 49px;
 }
 
 /* add a box-shadow to desktop/mobile header when stuck */

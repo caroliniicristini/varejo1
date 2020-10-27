@@ -2,6 +2,7 @@
   "store.product": {
     "children": [
       "flex-layout.row#product-main",
+      
       "flex-layout.row#description",
       "rich-text#titleproducts",
       "flex-layout.row#shelf",
@@ -11,6 +12,7 @@
       "blockClass": "products"
     }
 },
+
 "rich-text#titleproducts": {
   "props": {
     "text": "## Quem viu, viu também",
@@ -19,9 +21,12 @@
   },
   "flex-layout.row#description": {
     "props": {
-      "marginBottom": 7
-    }
+      "marginBottom": 7,
+      "blockClass": "productDescription"
+    },
+    "children": ["product-description"]
   },
+ 
   "flex-layout.row#product-main": {
     "props": {
       "colGap": 7,
@@ -87,10 +92,8 @@
       "product-separator",
  
       "product-quantity",
-      "product-assembly-options",
-      "product-gifts",
-    
-      "shipping-simulator"
+  
+      "product-assembly-options"
     ]
   },
   "shipping-simulator":{

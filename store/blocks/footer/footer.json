@@ -8,11 +8,9 @@
   "footer-layout.desktop": {
     "children": [
       "flex-layout.row#footer-2-desktop",
-      
       "flex-layout.row#4-footer-mobile",
       "rich-text#textfooter",
-      "flex-layout.row#5-footer-mobile"
-      
+      "flex-layout.row#5-footer-desk"
     ]
   },
   "flex-layout.row#footer-1-desktop": {
@@ -32,7 +30,6 @@
   },
   "social-networks": {
     "props": {
-     
       "socialNetworks": [
         {
           "name": "Facebook",
@@ -49,7 +46,6 @@
       ]
     }
   },
- 
   "footer-layout.mobile": {
     "children": [
       "flex-layout.row#1-footer-mobile",
@@ -60,7 +56,6 @@
       "flex-layout.row#5-footer-mobile"
     ]
   },
-
   "flex-layout.row#2-footer-mobile": {
     "children": [
       "flex-layout.col#footer-1-mobile"
@@ -102,7 +97,7 @@
       "image#footer6"
     ],
     "props": {
-      "width" : "50%",
+      "width": "50%",
       "blockClass": "imgsfooter",
       "preserveLayoutOnMobile": true
     }
@@ -114,14 +109,14 @@
       "image#footer9"
     ],
     "props": {
-      "width" : "50%",
+      "width": "50%",
       "blockClass": "imgsfooter1",
       "preserveLayoutOnMobile": true
     }
   },
   "image#footer1": {
     "props": {
-      "src":  "assets/visa.png",
+      "src": "assets/visa.png",
       "blockClass": "footer"
     }
   },
@@ -175,13 +170,24 @@
   },
   "flex-layout.row#5-footer-mobile": {
     "children": [
+      "image#footer12",
+      "image#footer11"
+    ],
+    "props": {
+      "width": "50%",
+      "blockClass": "imgsfooter",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.row#5-footer-desk": {
+    "children": [
       "image#footer10",
       "image#footer11"
     ],
-    "props":{
-      "width" : "50%",
-    "blockClass": "imgsfooter",
-    "preserveLayoutOnMobile": true
+    "props": {
+      "width": "50%",
+      "blockClass": "imgsfooter",
+      "preserveLayoutOnMobile": true
     }
   },
   "image#footer10": {
@@ -190,14 +196,20 @@
       "blockClass": "avanti"
     }
   },
+  "image#footer12": {
+    "props": {
+      "src": "assets/avanti2.png",
+      "blockClass": "avanti2"
+    }
+  },
   "image#footer11": {
     "props": {
       "src": "assets/vtex.png",
       "blockClass": "vtex"
     }
   },
-  "rich-text#textfooter":{
-    "props":{
+  "rich-text#textfooter": {
+    "props": {
       "blockClass": "textfooter",
       "text": "AVANTI S.A © 2020. TODOS OS DIREITOS RESERVADOS. "
     }
@@ -222,67 +234,64 @@
   "flex-layout.col#sobre2": {
     "children": [
       "rich-text#sobre",
-      "vtex.menu@2.x:menu#footer-ajuda-mobile"
+      "vtex.menu@2.x:menu#footer-sobre"
     ],
-    "props":{
+    "props": {
       "blockClass": "colSobre",
       "width": "auto",
       "horizontalAlign": "left",
       "verticalAlign": "top"
     }
   },
-  "rich-text#sobre":{
-    "props":{
+  "rich-text#sobre": {
+    "props": {
       "text": "Sobre",
       "blockClass": "titlesfooter"
     }
   },
-  "rich-text#vazio":{
-    "props":{
+  "rich-text#vazio": {
+    "props": {
       "text": ""
     }
   },
-
   "flex-layout.col#atendimento2": {
     "children": [
       "rich-text#atendimento",
       "vtex.menu@2.x:menu#footer-atendimento-mobile"
     ],
-    "props":{
+    "props": {
       "blockClass": "colSobre",
       "width": "auto",
       "horizontalAlign": "left",
       "verticalAlign": "top"
     }
   },
-  "rich-text#atendimento":{
-      "props":{
-        "text": "Atendimento",
-        "blockClass": "titlesfooter"
-      }
-    },
-  
+  "rich-text#atendimento": {
+    "props": {
+      "text": "Atendimento",
+      "blockClass": "titlesfooter"
+    }
+  },
   "flex-layout.col#ajuda": {
     "children": [
       "rich-text#ajuda",
       "vtex.menu@2.x:menu#footer-ajuda-mobile"
     ],
-    "props":{
+    "props": {
       "blockClass": "colSobre",
       "width": "auto",
       "horizontalAlign": "left",
       "verticalAlign": "top"
     }
   },
-  "rich-text#ajuda":{
-    "props":{
+  "rich-text#ajuda": {
+    "props": {
       "text": "Ajuda",
       "blockClass": "titlesfooter"
     }
   },
   "flex-layout.col#pagamento": {
     "children": [
-      
       "rich-text#pagamento-title",
       "rich-text#vazio",
       "rich-text#vazio",
@@ -293,24 +302,22 @@
       "image#elo",
       "image#boleto"
     ],
-    "props":{
+    "props": {
       "blockClass": "colPagamento",
       "width": "auto",
       "horizontalAlign": "left",
       "verticalAlign": "top"
     }
   },
-  "rich-text#pagamento-title":{
+  "rich-text#pagamento-title": {
     "props": {
       "text": "Pagamentos",
       "blockClass": "titlesfooter"
     }
   },
-
-
   "image#visa": {
     "props": {
-      "src":  "assets/visa.png",
+      "src": "assets/visa.png",
       "blockClass": "footer1"
     }
   },
@@ -349,12 +356,11 @@
       "rich-text#redes",
       "social-networks"
     ],
-    "props":{
+    "props": {
       "blockClass": "colSobre",
       "width": "auto",
       "horizontalAlign": "left",
       "verticalAlign": "top"
     }
   }
-
 }

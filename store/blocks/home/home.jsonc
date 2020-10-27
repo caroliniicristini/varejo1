@@ -44,12 +44,23 @@
       "__fold__.experimentalLazyAssets"
     ]
   },
+
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "hideUnavailableItems": true,
+      "category": "19"
+    }
+  },
   "newsletter": {
     "props": {
-      "confirmationTitle": "Obrigado!",
-      "confirmationText": "Seu email foi registrado com sucesso.",
+      "error": "Por favor, insira um email válido.",
+      "confirmationTitle": "E-mail cadastrado com sucesso.",
+      "confirmationText": "Agora você irá receber nossas novidades e promoções!",
       "blockClass": "newsletter",
-      "label": "Acompanhe nossas novidades.\n Cadastre-se em nossas newsletter.",
+      "label": "Acompanhe nossas novidades.\n Cadastre-se em nossa newsletter.",
       "submit": "Cadastrar",
       "placeholder": "Digite seu e-mail"
     }
@@ -178,17 +189,7 @@
       "list-context.product-list#demo1"
     ]
   },
-  "list-context.product-list#demo1": {
-    "blocks": [
-      "product-summary.shelf"
-    ],
-    "children": [
-      "slider-layout#demo-products"
-    ],
-    "props": {
-      "orderBy": "OrderByTopSaleDESC"
-    }
-  },
+ 
   "slider-layout#demo-products": {
     "props": {
       "itemsPerPage": {

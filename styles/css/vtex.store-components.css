@@ -17,9 +17,16 @@
   font-size: 15px;
   font-weight: normal;
 }
+@media (max-width: 640px){
 .inputGroup {
   padding-bottom: 4px;
   display: block;
+  color: #fff;
+}
+}
+.inputGroup {
+  padding-bottom: 4px;
+
   color: #fff;
 }
 
@@ -30,28 +37,33 @@
   }
 }
 
-
-
-
-
-.inputGroup :global(.vtex-styleguide-9-x-hideDecorators),
-.autoCompleteOuterContainer :global(.vtex-input__suffix) {
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators){
   background-color: transparent;
   color: #fff;
   border: none;
 }
-
+.autoCompleteOuterContainer :global(.vtex-input__suffix){
+  background-color: transparent;
+  color: #fff;
+  border: none;
+}
 .inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
   
   font-size: 16px;
 }
-
+@media (max-width:640px){
 .inputGroup :global(.vtex-button) {
   background-color: transparent;
   border: none;
-  margin-right: -24px;
+  width: 311px;
+  
 }
+}
+.inputGroup :global(.vtex-button) {
+  background-color: transparent;
+  border: none;
 
+}
 .buttonContainer {
   padding-top: 0px;
   margin-top:10px;
@@ -142,6 +154,8 @@
 .container{
   padding: 0px;
   border:0px;
+
+  
 }
 .imageElement--sep1{
   padding: 10px;
@@ -168,7 +182,7 @@
 .label--newsletter::before{
   content: "Quer ficar por dentro de tudo?\A\A";
   font-size: 13px;
-  font: normal normal bold 24px/12px Nunito Sans;
+  font: normal normal bold 20px/12px Nunito Sans;
   font-weight: 700;
   white-space: pre-wrap;
 }
@@ -177,7 +191,7 @@
    
     content: "Quer ficar por dentro de tudo?\A\A";
   font-size: 20px;
-  font: normal normal bold 24px/12px Nunito Sans;
+  font: normal normal bold 20px/12px Nunito Sans;
   font-weight: 700;
   }
   }
@@ -206,6 +220,7 @@
   font-weight: bold;
   font: normal normal 900 14px/30px Nunito Sans;
   font-size: 14px; 
+  display: contents;
 }
 
 .imageElement--footer {
@@ -232,13 +247,23 @@
   height: 50px;
 }
 .imageElement--avanti{
-  width: 97px;
-  height: 37px;
+  width: 155px;
+  height: 55px;
+  padding-left: 67px;
+}
+.imageElement--avanti2{
+  width: 155px;
+  height: 55px;
+  padding-left: 103px
 }
 .imageElement--vtex{
-  width: 83px;
-    height: 32px;
+  width: 109px;
+  height: 55px;
+  padding-right: 67px
 }
+
+
+
 .imageElement--drones{
   
   width: 619px;
@@ -259,8 +284,19 @@
   border-radius: 29px;
   opacity: 0.15;
   height: 57px;
+  width: 417px;
 }
+@media (max-width: 640px){
 
+  .inputGroup :global(.vtex-input-prefix__group){
+    background: #000000 0% 0% no-repeat padding-box;
+    border-radius: 29px;
+    opacity: 0.15;
+    height: 57px;
+    width: 317px;
+   
+  }
+}
 @media (min-width: 640px){
   .searchBarContainer :global(.vtex-input-prefix__group) {
     border: 0;
@@ -272,7 +308,6 @@
   text-align: center;
   font: normal normal bold 24px/35px Nunito Sans;
   font-size: 21px;
-
   color: black
 }
 .content{
@@ -313,8 +348,9 @@
 
   .autoCompleteOuterContainer--search-desktop{
   width: 899px;
-  
+
   padding-top: 21px;
+
 }
 }
 [data-vtex-input-prefix-id="__group"]{
@@ -332,3 +368,38 @@
   color: #ffffff;
   font-size: 18px;
 }
+@media (max-width: 640px){
+.searchIcon-desktop{
+  color: white
+}
+}
+:global(.vtex-flex-layout-0-x-flexRow--drondes){
+  padding-top: 45px;
+}
+
+:global(.vtex-store-components-3-x-logoLink){
+  margin-top: 10px;
+}
+.logoLink--logo{
+  margin-top: 10px;
+}
+.logoImage{
+  margin-top:10px;
+}
+@media (max-width: 641px){
+.searchBarIcon :global(.vtex-store-components-3-x-searchIcon--search-desktop){
+  fill: currentColor;
+  color: white;
+}
+}
+.searchBarIcon{
+  fill: currentColor;
+  color: #4F32FE;
+}
+@media (max-width: 641px){
+:global(.vtex-login-2-x-profileIcon--profile){
+  display: none;
+}
+}
+
+   

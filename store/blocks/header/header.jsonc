@@ -42,6 +42,7 @@
       "logo#desktop",
      
       "search-bar",
+      "flex-layout.col#spacer",
       "login",
       "minicart.v2"
     ],
@@ -88,6 +89,13 @@
       "maxWidht": "100%"
     }
   },
+  "search-bar#mob" : {
+    "props": {
+      "blockClass": "search-desktop",
+      "placeholder": "O que você precisa hojekadksld? :)",
+      "maxWidht": "100%"
+    }
+  },
   "flex-layout.col#category-menu": {
     "props": {
       "verticalAlign": "middle"
@@ -122,7 +130,7 @@
     },
     "children": [
       "flex-layout.col#spacer",
-      "drawer",
+     
       "flex-layout.col#category-menu",
       "flex-layout.col#spacer"
     ]
@@ -152,6 +160,11 @@
       "preserveLayoutOnMobile": true,
       "fullWidth": true
     }
+  },
+  "drawer": {
+    "children": [
+      "menu#drawer"
+    ]
   },
   "login":{
     "props":{

@@ -275,33 +275,36 @@
       "rich-text#pagamento",
       "rich-text#redes"
       
-    ],
-    "props":{
-      "blockClass": "titlesfooter"
-    }
+    ]
+  
   },
   "rich-text#sobre2":{
     "props":{
+      "blocks": "titlesfooter",
       "text": "Sobre"
     }
   },
   "rich-text#atendimento":{
     "props":{
+      "blocks": "titlesfooter",
       "text": "Atendimento"
     }
   },
   "rich-text#ajuda":{
     "props":{
+      "blocks": "titlesfooter",
       "text": "Ajuda"
     }
   },
   "rich-text#pagamento":{
     "props":{
+      "blocks": "titlesfooter",
       "text": "Pagamentos"
     }
   },
   "rich-text#redes":{
   "props":{
+    "blocks": "titlesfooter",
     "text": "Nossas redes"
   }
 }

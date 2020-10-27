@@ -21,3 +21,9 @@
       display: none;
   }
 }
+:global(.vtex-minicart-2-x-minicartCheckoutButton .vtex-button){
+    background: #4f32fe;
+    border-radius: 27px;
+    min-height: 3.3rem;
+    min-width: 17rem;
+}
