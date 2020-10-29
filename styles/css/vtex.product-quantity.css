@@ -1,7 +1,57 @@
-.quantitySelectorStepper{
-    background-color: #f6f5f8;
+
+.quantitySelectorTitle{
+    font: normal normal normal 14px/55px Nunito Sans;
+    color: black;
+    font-size: 16px;
+    width: 76px;
+    padding-top: 30px;
+    margin-left: 5px;
+}
+.productNameContainer--quickview :global(.vtex-flex-layout-0-x-flexCol) {
+    align-items: center;
+}
+.quantitySelectorStepper :global(.vtex-numeric-stepper__input) {
+    font: normal normal normal 14px 'Nunito Sans';
+    background-color: #F6F5F8;
     border: none;
+    padding: 0px;
+    max-width: 56px;
+    height: 39px;
+}
+.quantitySelectorStepper :global(.vtex-numeric-stepper__plus-button) {
+    border-top-left-radius: 20px;
+    height: 39px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-    height: 2.5rem;
+    width: 3em;
+    height: 40px;
+    border-color: #F6F5F8;
+    background: #F6F5F8;
+    transition: opacity 150ms ease 0s;
+}
+.flexRowContent--buyButton :global(.vtex-flex-layout-0-x-flexRow--buyButton){
+    padding-top: 102px;
+}
+
+.quantitySelectorStepper :global(.vtex-numeric-stepper__minus-button){
+    transition: opacity 150ms ease 0s;
+    border-top-right-radius: 0;
+    width: 3em;
+    border-bottom-left-radius: 20px;
+    height: 39px;
+    border-top-left-radius: 20px;
+}
+.shippingContainer :global(.vtex-input__label)::before {
+    content: "Calcule a entrega:";
+  white-space: pre-wrap;
+  text-align: center;
+  font: normal normal bold 14px/43px Nunito Sans;
+  color: #000000;
+}
+.shippingContainer :global(.vtex-input)::after {
+content: "Ok";
+  display: flex;
+  justify-content: center;
+  font: normal normal bold 12px/5px Nunito Sans;
+  color: #000000;
 }

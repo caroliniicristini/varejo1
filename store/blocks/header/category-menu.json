@@ -34,6 +34,7 @@
   },
   "vtex.menu@2.x:menu#category-eletronicos": {
     "props": {
+      "blockClass": "teste",
       "orientation": "vertical"
     },
     "children": [
@@ -42,6 +43,7 @@
   },
   "vtex.menu@2.x:submenu#category-eletronicos": {
     "props": {
+      "blockClass": "testedoteste",
       "width": "auto"
     },
     "children": [
@@ -66,10 +68,7 @@
       "menu-item#category-deskGamer",
       "menu-item#category-allinOne",
       "menu-item#category-apple"
-    ],
-    "props": {
-      "blockClass": "items"
-    }
+    ]
   },
   "flex-layout.col#desk2": {
     "children": [
@@ -80,10 +79,7 @@
       "menu-item#category-acessorios",
       "menu-item#category-impressoras",
       "menu-item#category-comp"
-    ],
-    "props": {
-      "blockClass": "items"
-    }
+    ]
   },
   "flex-layout.col#desk3": {
     "children": [
@@ -94,10 +90,7 @@
       "menu-item#category-teclado",
       "menu-item#category-mouse",
       "menu-item#category-aceinfo"
-    ],
-    "props": {
-      "blockClass": "items"
-    }
+    ]
   },
   "menu-item#category-notebooks": {
     "props": {

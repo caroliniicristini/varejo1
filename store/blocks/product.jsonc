@@ -2,7 +2,7 @@
   "store.product": {
     "children": [
       "flex-layout.row#product-main",
-      
+  
       "flex-layout.row#description",
       "rich-text#titleproducts",
       "flex-layout.row#shelf",
@@ -13,6 +13,7 @@
     }
 },
 
+
 "rich-text#titleproducts": {
   "props": {
     "text": "## Quem viu, viu também",
@@ -21,6 +22,7 @@
   },
   "flex-layout.row#description": {
     "props": {
+      "collapseContent": false,
       "marginBottom": 7,
       "blockClass": "productDescription"
     },
@@ -80,20 +82,35 @@
   },
   "flex-layout.col#right-col": {
     "props": {
+      "blockClass": "colrigthdesk",
       "preventVerticalStretch": true,
       "rowGap": 0
     },
     "children": [
       "flex-layout.row#product-name",
       "product-rating-summary",
-      "flex-layout.row#list-price-savings",
       "flex-layout.row#selling-price",
+      "flex-layout.row#list-price-savings",
+      
       "product-installments",
+  
       "product-separator",
  
       "product-quantity",
-  
-      "product-assembly-options"
+      "product-assembly-options",
+      "flex-layout.row#buy-button",
+      "shipping-simulator"
+    ]
+  },
+  "flex-layout.row#buy-button":{
+    "props":{
+      "blockClass": "buyButton",
+      "showInstallments": 4,
+      "marginBottom": 7
+
+    },
+    "children":[
+   "add-to-cart-button"
     ]
   },
   "shipping-simulator":{
@@ -104,6 +121,7 @@
   },
   "flex-layout.row#product-name": {
     "props": {
+      "blockClass": "productName",
       "marginBottom": 3
     },
     "children": [
@@ -113,6 +131,7 @@
 
   "sku-selector": {
     "props": {
+      "blockClass": "productDesk",
       "variationsSpacing": 3,
       "showValueNameForImageVariation": true
     }

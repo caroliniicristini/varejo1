@@ -63,15 +63,13 @@ letter-spacing: 0px;
 
 }
 .styledLinkContent--items2:hover{
+    width: 300px;
+    height: 100px;
     color: #4F32FE;
-   
-    width: 200px;
 
 }
 .styledLinkContent--items3:hover{
     color: #4F32FE;
- 
-    width: 200px;
 
 }
 
@@ -83,14 +81,24 @@ letter-spacing: 0px;
     padding:0px;
 }
 
-.styledLinkContent--itemsmenu1:hover{
-    border-bottom: 3px solid #4F32FE;
+.styledLinkContent--itemsmenu1{
+  
     font-weight: bold;
-
     height: 29px;
     height: 38px;
     font: normal normal normal 16px/50px Nunito Sans;
 }
+.styledLinkContent--itemsmenu2{
+  
+    top: 147px;
+    left: 579px;
+    width: 350px;
+    height: 200px;
+    background: var(--unnamed-color-f6f5f8) 0% 0% no-repeat padding-box;
+    background: #F6F5F8 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
 .styledLinkContent--saldao{
    
     width: 48px;
@@ -118,10 +126,10 @@ letter-spacing: 0px;
 }
 
 .menuItem--items2:hover{
+    
     background: #F6F5F8;
- width: 250px;
- height: 40px;
- font: normal normal normal 14px/35px Nunito Sans;
+    height: 40px;
+    font: normal normal normal 14px/35px Nunito Sans;
 
 }
 .menuItem--items3:hover{

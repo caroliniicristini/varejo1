@@ -215,15 +215,14 @@
   margin: 0 auto;
 }
 .flexCol :global(.vtex-product-quantity-1-x-quantitySelectorContainer){
-
-width: 76px;
-height: 19px;
-color: var(--unnamed-color-000000);
-text-align: center;
-font: normal normal normal 14px/55px Nunito Sans;
-letter-spacing: 0px;
-color: #000000;
-opacity: 1;
+  width: 76px;
+  height: 19px;
+  text-align: center;
+  font: normal normal normal 14px/55px Nunito Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-left: -8px;
 }
 .flexRowContent--logodesk{
   max-width: 1260px;
@@ -265,4 +264,32 @@ opacity: 1;
 [data-vtex-block-id="flex-layout.row#4-footer-mobile"]{
   border-top: 1px solid #ccc;
 }
+}
+:global(.vtex-dropdown__container){
+  width: 87px;
+  height: 40px;
+  border: 1px solid #E4DDEE;
+  border-radius: 20px;
+}
+.flexRow--buyButton :global(.vtex-button){
+  width: 461px;
+  height: 53px;
+  margin-top: 107px;;
+  background: #4F32FE 0% 0% no-repeat padding-box;
+  border-radius: 27px;
+  opacity: 1;
+  margin-left: -62px;
+  margin-top: 133px;
+  height: 60px;
+
+}
+:global(.vtex-input-prefix__group){
+  border: transparent;
+    border-bottom: 1px solid #ccc;
+}
+.flexColChild--colrigthdesk{
+  border: transparent;
+}
+.stackItem--product--first{
+  margin-top: 15px;
 }

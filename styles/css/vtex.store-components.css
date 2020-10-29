@@ -310,6 +310,16 @@
   font-size: 21px;
   color: black
 }
+@media (max-width: 640px){
+
+.productDescriptionTitle{
+  text-align: center;
+  font: normal normal bold 24px/35px Nunito Sans;
+  font-size: 21px;
+  color: black;
+  padding-top: 61px;
+}
+}
 .content{
     width: 979px;
     text-align: center;
@@ -317,6 +327,17 @@
     color: #000000;
     margin: 0 auto;
 }
+@media (max-width: 640px){
+  .content{
+    width: 100%;
+    max-width: 362px;
+    text-align: center;
+    font: normal normal normal 14px/30px Nunito Sans;  
+    color: #000000;
+    margin: 0 auto;
+}
+}
+
 .productBrand--quickview{
   width: 76px;
   height: 19px;
@@ -401,5 +422,4 @@
   display: none;
 }
 }
-
    
