@@ -4,6 +4,7 @@
 
 
 .newsletter {
+
   max-width: 100%;
   background: #4F32FE;
   margin: 0 auto;
@@ -164,8 +165,11 @@
   height: 41px;
 }
 .newsletter--newsletter{
+
+  margin-bottom: 33px;
   background: #4F32FE;
   height: 309px;
+  margin-top: 20px;
   
 }
 @media (max-width: 640px) 
@@ -301,6 +305,7 @@
     border: 0;
     border-bottom: 1px solid #ccc;
     border-radius: 0;
+    margin-left: 27px;
   }
 }
 .productDescriptionTitle{
@@ -341,7 +346,7 @@
   width: 76px;
   height: 19px;
   text-align: center;
-  font: normal normal normal 14px/55px Nunito Sans;
+  font:  17px Nunito Sans;
   color: #000000;
   font-size: 23px;
 
@@ -367,8 +372,7 @@
 @media (min-width: 640px) {
 
   .autoCompleteOuterContainer--search-desktop{
-  width: 899px;
-
+    width:  933px;
   padding-top: 21px;
 
 }
@@ -404,7 +408,8 @@
   margin-top: 10px;
 }
 .logoImage{
-  margin-top:10px;
+  padding-top: 17px;
+  margin-right: -88px;
 }
 @media (max-width: 641px){
 .searchBarIcon :global(.vtex-store-components-3-x-searchIcon--search-desktop){
@@ -417,8 +422,21 @@
   color: #4F32FE;
 }
 @media (max-width: 641px){
-:global(.vtex-login-2-x-profileIcon--profile){
-  display: none;
+  :global(.vtex-login-2-x-profileIcon--profile){
+    display: none;
+  }
 }
+:global(.vtex-search-result-3-x-searchResultContainer){
+  max-width: 1260px;
+  margin: 0 auto;
 }
-   
+:global(.vtex-search-result-3-x-galleryTitle--layout){
+  margin-top: 100px;
+  font-size: 24px;
+}
+
+:global(.vtex-search-result7-x-filterMessage){
+  font: normal normal bold 16px/31px Nunito Sans;
+    letter-spacing: 0px;
+    color: #000000;
+}

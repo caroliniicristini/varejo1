@@ -1,17 +1,18 @@
 
 .quantitySelectorTitle{
+    text-align: left;
     font: normal normal normal 14px/55px Nunito Sans;
-    color: black;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin: 1rem 0;
     font-size: 16px;
-    width: 76px;
-    padding-top: 30px;
-    margin-left: 5px;
 }
 .productNameContainer--quickview :global(.vtex-flex-layout-0-x-flexCol) {
     align-items: center;
 }
 .quantitySelectorStepper :global(.vtex-numeric-stepper__input) {
-    font: normal normal normal 14px 'Nunito Sans';
+    font: normal normal normal 14px Nunito Sans;
     background-color: #F6F5F8;
     border: none;
     padding: 0px;
@@ -41,6 +42,9 @@
     height: 39px;
     border-top-left-radius: 20px;
 }
+.shippingContainer{
+    margin-top: 15px;
+}
 .shippingContainer :global(.vtex-input__label)::before {
     content: "Calcule a entrega:";
   white-space: pre-wrap;
@@ -48,10 +52,12 @@
   font: normal normal bold 14px/43px Nunito Sans;
   color: #000000;
 }
-.shippingContainer :global(.vtex-input)::after {
-content: "Ok";
-  display: flex;
-  justify-content: center;
-  font: normal normal bold 12px/5px Nunito Sans;
-  color: #000000;
+.vtex-store-components-3-x-shippingContainer .vtex-button::after {
+    content: "OK";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: normal normal bold 12px/5px 'Nunito Sans';
+    color: #000000;
+    opacity: 1;
 }

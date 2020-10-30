@@ -5,13 +5,13 @@
 }
 
 .sellingPrice {
-  color: #3f3f40;
-  font-size: 1.25rem;
-  font: normal normal 900 20px/55px Nunito Sans;
+
+  font-size: 17px;
+  font-weight: 900;
   letter-spacing: 0px;
   color: #000000;
   opacity: 1;
-  font-size: 30px;
+  text-align: center;
 }
 
 .sellingPriceValue {
@@ -63,4 +63,12 @@ font: normal normal 900 13px/55px Nunito Sans;
 .sellingPrice .installments{
   font: normal normal 900 13px/55px Nunito Sans;
   color:#000;
+}
+
+.installmentValue--summary{
+  color: black;
+}
+.installmentsNumber--summary{
+  font-size: 13px;
+  font-weight: 700;
 }

@@ -38,21 +38,19 @@
   },
   "flex-layout.row#1-desktop": {
     "children": [
-      
       "logo#desktop",
-     
       "search-bar",
       "flex-layout.col#spacer",
+
       "login",
       "minicart.v2"
     ],
     "props": {
       "fullWidth": true,
       "blockClass": "logodesk",
-      "colSizing" : "auto"
+      "colSizing": "auto"
     }
-  },
-
+},
   "flex-layout.row#3-desktop": {
     "props": {
       "blockClass": "menu-link",
@@ -82,17 +80,10 @@
       "width": "180"
     }
   },
-  "search-bar" : {
+  "search-bar": {
     "props": {
       "blockClass": "search-desktop",
       "placeholder": "O que você precisa hoje? :)",
-      "maxWidht": "100%"
-    }
-  },
-  "search-bar#mob" : {
-    "props": {
-      "blockClass": "search-desktop",
-      "placeholder": "O que você precisa hojekadksld? :)",
       "maxWidht": "100%"
     }
   },
@@ -102,10 +93,8 @@
     },
     "children": [
       "vtex.menu@2.x:menu#category-menu"
-      
     ]
   },
-  
   "flex-layout.col#spacer": {
     "props": {
       "width": "grow"
@@ -130,12 +119,10 @@
     },
     "children": [
       "flex-layout.col#spacer",
-     
       "flex-layout.col#category-menu",
       "flex-layout.col#spacer"
     ]
   },
- 
   "header-layout.mobile": {
     "children": [
       "sticky-layout#1-mobile"
@@ -166,9 +153,9 @@
       "menu#drawer"
     ]
   },
-  "login":{
-    "props":{
-      "hideIconLabel" : true,
+  "login": {
+    "props": {
+      "hideIconLabel": true,
       "showIconProfile": true,
       "blockClass": "profile"
     }
@@ -193,7 +180,6 @@
       "maxWidht": "100%"
     }
   },
-
   "menu#drawer": {
     "children": [
       "menu-item#category-eletronicos",
@@ -205,7 +191,6 @@
       "menu-item#category-todos"
     ],
     "props": {
-      
       "orientation": "vertical"
     }
   },

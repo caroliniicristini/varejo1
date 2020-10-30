@@ -46,9 +46,9 @@
     margin-left: 129px;
 
   }
-  .paginationDot--shelf{
+  .paginationDot--shelf--isActive{
     background: #4F32FE;
   }
-.paginationDot--carousel{
+.paginationDot--carousel--isActive{
   background: #2CFFF5;
 }

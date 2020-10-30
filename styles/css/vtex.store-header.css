@@ -18,11 +18,12 @@
 
 /* main header desktop has a bigger padding when not stuck */
 :global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
-  padding-top: 0.5rem;
-  max-width: 100% ;
+  padding-top: 1.5rem;
+  max-width: 100%;
   background: white;
-  height: 55px;
-  padding-left: 49px;
+  height: 40px;
+  padding-left: 0px;
+  margin-left: -25px;
 }
 
 /* add a box-shadow to desktop/mobile header when stuck */
