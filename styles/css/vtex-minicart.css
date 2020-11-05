@@ -27,3 +27,18 @@
     min-height: 3.3rem;
     min-width: 17rem;
 }
+.minicartContainer :global(.vtex-button):focus {
+    background-color: #ffffff;
+    outline: #ffffff;
+  }
+  
+  .minicartContainer :global(.vtex-button):hover {
+    background-color: #ffffff;
+  } 
+  .container :global(.relative):focus {
+    outline: #ffffff;
+  } 
+  .container :global(.vtex-button):focus {
+    border-color: #ffffff;
+    background-color: #ffffff;  
+  }

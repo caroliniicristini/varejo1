@@ -29,9 +29,9 @@
    
 }
 .styledLinkContent--footer{
-    height: 33px;
+    height: 24px;
     text-align: left;
-    font: normal normal normal 19px/23px Nunito Sans;
+    font: normal normal normal 14px Nunito Sans;
     color: #847B91;
 }
 @media (max-width: 640px){
@@ -86,7 +86,7 @@ letter-spacing: 0px;
     font-weight: bold;
     height: 29px;
     height: 38px;
-    font: normal normal 600 16px/17px Nunito Sans;
+    font: normal normal 16px/17px Nunito Sans;
 }
 .styledLinkContent--itemsmenu2{
   
@@ -94,8 +94,7 @@ letter-spacing: 0px;
     left: 579px;
     width: 350px;
     height: 200px;
-    background: var(--unnamed-color-f6f5f8) 0% 0% no-repeat padding-box;
-    background: #F6F5F8 0% 0% no-repeat padding-box;
+    background: #F6F5F8;
     opacity: 1;
 }
 
@@ -103,7 +102,6 @@ letter-spacing: 0px;
    
     width: 48px;
     height: 20px;
-    color: var(--unnamed-color-4f32fe);
     text-align: left;
     font: normal normal 800 15px/12px Nunito Sans;
     color: #4F32FE;  

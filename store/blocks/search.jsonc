@@ -56,11 +56,18 @@
     "children": ["search-title.v2"]
   },
   "flex-layout.row#result": {
-    "children": ["flex-layout.col#filter", "flex-layout.col#content"],
+    "children": ["breadcrumb", "flex-layout.col#filter", "flex-layout.col#content"],
     "props": {
       "preventHorizontalStretch": true,
       "fullWidth": true
     }
+  },
+  "breadcrumb": {
+    "props": {
+      "categories": ["eletronics", "eletronics-computers"],
+      "showOnMobile": true
+    }
+    
   },
   "flex-layout.col#filter": {
     "children": ["filter-navigator.v3"],
@@ -188,11 +195,7 @@
     }
   },
 
-  "breadcrumb": {
-    "props": {
-      "showOnMobile": true
-    }
-  },
+
 
   "gallery": {
     "blocks": ["product-summary.shelf"]

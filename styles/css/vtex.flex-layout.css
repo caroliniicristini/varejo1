@@ -285,11 +285,9 @@
 }
 :global(.vtex-input-prefix__group){
   border: transparent;
-    border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
 }
-.flexColChild--colrigthdesk{
-  border: transparent;
-}
+
 .stackItem--product--first{
   margin-top: 15px;
 }
@@ -315,6 +313,8 @@
     color: black;
     width: 79px;
     height: 19px;
+    
+    margin-right: 50px;
     font: normal normal normal 14px/31px Nunito Sans;
 }
 :global(.vtex-search-result-3-x-totalProducts--layout){
@@ -343,3 +343,21 @@
   font: normal normal bold 16px/31px Nunito Sans;
 }
 
+:global(.vtex-login-2-x-profileIcon--profile){
+  height: 24px;
+}
+.flexRow--logodesk{
+  margin-left: 35px;
+}
+:global(.vtex-flex-layout-0-x-flexRow--productMain){
+  margin-top: 30px;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--colrigthdesk){
+  margin-bottom: -8px;
+ 
+
+}
+
+:global(.vtex-search-result-3-x-filterPopupTitle){
+  margin-right:47px;
+}

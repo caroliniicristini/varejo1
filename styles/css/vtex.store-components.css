@@ -103,16 +103,11 @@
   display: none;
 }
 
-.productImagesContainer--quickview .carouselGaleryCursor {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-
 .productNameContainer {
   color: #3f3f40;
   font-weight: bold;
   font-size: 30px;
+
 }
 
 .imageElement--paper-plane{
@@ -185,7 +180,7 @@
 .label--newsletter::before{
   content: "Quer ficar por dentro de tudo?\A\A";
   font-size: 13px;
-  font: normal normal bold 20px/12px Nunito Sans;
+  font: normal normal bold 20px/12px 'Nunito Sans';
   font-weight: 700;
   white-space: pre-wrap;
 }
@@ -194,7 +189,7 @@
    
     content: "Quer ficar por dentro de tudo?\A\A";
   font-size: 20px;
-  font: normal normal bold 20px/12px Nunito Sans;
+  font: normal normal bold 20px/12px 'Nunito Sans';
   font-weight: 700;
   }
   }
@@ -221,7 +216,7 @@
 
 .newsletter :global(.vtex-button__label){
   font-weight: bold;
-  font: normal normal 900 14px/30px Nunito Sans;
+  font: normal normal 900 14px/30px 'Nunito Sans';
   font-size: 14px; 
   display: contents;
 }
@@ -310,7 +305,7 @@
 }
 .productDescriptionTitle{
   text-align: center;
-  font: normal normal bold 24px/35px Nunito Sans;
+  font: normal normal bold 24px/35px 'Nunito Sans';
   font-size: 21px;
   color: black
 }
@@ -318,7 +313,7 @@
 
 .productDescriptionTitle{
   text-align: center;
-  font: normal normal bold 24px/35px Nunito Sans;
+  font: normal normal bold 24px/35px 'Nunito Sans';
   font-size: 21px;
   color: black;
   padding-top: 61px;
@@ -327,7 +322,7 @@
 .content{
     width: 979px;
     text-align: center;
-    font: normal normal normal 14px/30px Nunito Sans;  
+    font: normal normal normal 14px/30px 'Nunito Sans';  
     color: #000000;
     margin: 0 auto;
 }
@@ -336,7 +331,7 @@
     width: 100%;
     max-width: 362px;
     text-align: center;
-    font: normal normal normal 14px/30px Nunito Sans;  
+    font: normal normal normal 14px/30px 'Nunito Sans';  
     color: #000000;
     margin: 0 auto;
 }
@@ -347,24 +342,15 @@
   height: 19px;
   text-align: center;
   font:  17px Nunito Sans;
-  color: #000000;
-  font-size: 23px;
+  
+  font-size: 22px;
 
 }
 .flexRowContent{
       height: 41px;
-      font: normal normal 900 20px/55px Nunito Sans;
+      font: normal normal 900 20px/55px 'Nunito Sans';
 }
 
-.productImageTag--main{
-   width: 100%;
-    height: 100%;
-    max-height: 600px;
-    object-fit: contain;
-    background: #F6F5F8;
-    padding: 20px;
-    box-sizing: border-box;
-}
 [data-vtex-block-id="flex-layout.row#product-main"]{
   max-width: 1260px;
   margin: 0 auto;
@@ -436,7 +422,85 @@
 }
 
 :global(.vtex-search-result7-x-filterMessage){
-  font: normal normal bold 16px/31px Nunito Sans;
+  font: normal normal bold 16px/31px 'Nunito Sans';
     letter-spacing: 0px;
     color: #000000;
+}
+:global(.vtex-store-components-3-x-figure){
+  margin-top:30px;
+}
+.caretIcon{
+  color: transparent;
+}
+.swiperPaginationClickable{
+  display: none;
+}
+:global(.vtex-product-identifier-0-x-product-identifier ){
+  font: normal normal 600 12px 'Nunito Sans';
+  color: #847B91;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  justify-content: flex-start;
+
+}
+:global(.vtex-store-components-3-x-productImage){
+  margin-top: 50px;
+}
+:global(.vtex-store-components-3-x-thumbImg) {
+  max-width: 86.4px !important;
+  background:#F6F5F8;
+}
+.carouselGaleryThumbs {
+  margin-top:20px;
+}
+:global(.vtex-store-components-3-x-productImageTag--main) {
+  max-height: 32.1rem!important;
+  max-width: 32.1rem;
+  background: #F6F5F8;
+
+}
+
+.shippingContainer :global(.vtex-input)::before {
+  content: "Calcule a entrega:";
+  white-space: pre-wrap;
+  text-align: center;
+  font: normal normal bold 14px 'Nunito Sans';
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  position: relative;
+  top: 10px;
+}
+.shippingContainer :global(.vtex-input){
+  display: flex;
+}
+
+.shippingContainer :global(.vtex-button__label) {
+  display: none;
+}
+
+.shippingContainer :global(.vtex-button)::after{
+  content:"OK";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: normal normal bold 12px/5px 'Nunito Sans';
+  color: #000000;
+  opacity: 1;
+}
+.shippingContainer :global(.vtex-button){
+height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: #ffffff;
+    border-bottom: 1px solid #E4DDEE;
+    border-radius: 0px;
+}
+:global(.vtex-store-components-3-x-shippingContainer){
+  display: flex;
+  align-items: flex-start;
 }

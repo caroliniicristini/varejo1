@@ -1,50 +1,109 @@
 {
   "store.custom#about-us": {
     "blocks": [
+      "flex-layout.row#imagem",
       "flex-layout.row#about-us"
+      
     ]
   },
-
+  "flex-layout.row#imagem": {
+    "children":[
+    "image#mobile-phone"
+    ]
+  },
   "flex-layout.row#about-us": {
     "children": [
-      
-      "image#mobile-phone",
+     
+      "flex-layout.col#acordion-about-us",
       "flex-layout.col#text-about-us"
     ]
   },
-
+  "flex-layout.col#acordion-about-us": {
+    "children": [
+      "flex-layout.col#sobre2",
+      "flex-layout.col#atendimento2",
+      "flex-layout.col#ajuda"
+    ]
+  },
   "flex-layout.col#text-about-us": {
     "children": [
       "rich-text#title-about-us",
-      "rich-text#about-us"
+      "rich-text#text1",
+      "rich-text#text11",
+      "rich-text#text2",
+      "rich-text#text22",
+      "rich-text#text3",
+      "rich-text#text33",
+      "rich-text#text4",
+      "rich-text#text44"
+
     ],
     "props": {
       "blockclass": "textColumn",
       "preventVerticalStretch": true
     }
   },
-
   "rich-text#title-about-us": {
     "props": {
-      "text":
-      "# Create meaningful and relevant experiences.",
+      "text": "# A Marca",
       "blockClass": "title"
     }
   },
-
   "image#mobile-phone": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",
+      "src": "assets/institucional.png",
       "maxHeight": "",
       "maxWidth": "",
       "blockClass": "storePrint"
     }
   },
-
-  "rich-text#about-us": {
+  "rich-text#text1": {
     "props": {
-      "text": "**Optimized store framework** \n Free your front-end with our React + Node store framework. Improve usability and SEO, while driving more conversion with modular components, single page applications, and a ready-for-PWA structure. \n **Multi-currency and language** \n Go international with multiple storefronts to support different languages and easily manage local currencies and payment conditions. \n **Serverless development platform** \n Reduce loading time, improve usability, and make the best out of SEO. Developing scalable components with a comprehensive, easy-to-use toolset, you can build stores faster than ever.",
+      "text": "What is Lorem Ipsum?",
+      "blockClass": "about1"
+    }
+  },
+  "rich-text#text11": {
+    "props": {
+      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
       "blockClass": "about"
     }
-  }
-}
+  },
+  "rich-text#text2": {
+    "props": {
+      "text": "Where does it come from?",
+      "blockClass": "about"
+    }
+  },
+  "rich-text#text22": {
+    "props": {
+      "text": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of “de Finibus Bonorum et Malorum” (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, “Lorem ipsum dolor sit amet..”, comes from a line in section 1.10.32. The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from “de Finibus Bonorum et Malorum” by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+      "blockClass": "about1"
+    }
+  },
+    "rich-text#text3": {
+      "props": {
+        "text": "Where can I get some?",
+        "blockClass": "about"
+      } 
+    },
+    "rich-text#text33": {
+      "props": {
+        "text": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+        "blockClass": "about1"
+      } 
+    },
+      "rich-text#text4": {
+        "props": {
+          "text": "Why do we use it? ",
+          "blockClass": "about"
+        }
+      },
+      "rich-text#text44": {
+        "props": {
+          "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+          "blockClass": "about"
+        }
+      }
+    }
+  

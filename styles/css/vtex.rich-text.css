@@ -93,7 +93,7 @@
   font-size: 40px;
   margin: 0 auto;
   justify-content: center;
-  margin-top: 0px;
+  padding-top: 50px;
   max-width: 1260px;
   margin: 0 auto;
 }
@@ -249,4 +249,15 @@ color: #847B91;
 
 .paragraph--shelfTitle2{
   padding-top: 48px;
+}
+.paragraph--about{
+  width: 1100px;
+  font: normal normal normal 14px/30px Nunito Sans;
+}
+.paragraph--about1{
+  font: normal normal normal 14px/30px Nunito Sans;
+  width: 1100px;
+}
+.headingLevel1--title{
+  font-size:20px;
 }

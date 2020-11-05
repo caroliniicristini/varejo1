@@ -2,22 +2,19 @@
   "store.product": {
     "children": [
       "flex-layout.row#product-main",
-  
       "flex-layout.row#description",
       "rich-text#titleproducts",
       "flex-layout.row#shelf"
     ],
-    "props":{
+    "props": {
       "blockClass": "products"
     }
-},
-
-
-"rich-text#titleproducts": {
-  "props": {
-    "text": "## Quem viu, viu também",
-    "blockClass": "title"
-  }
+  },
+  "rich-text#titleproducts": {
+    "props": {
+      "text": "## Quem viu, viu também",
+      "blockClass": "title"
+    }
   },
   "flex-layout.row#description": {
     "props": {
@@ -25,9 +22,10 @@
       "marginBottom": 7,
       "blockClass": "productDescription"
     },
-    "children": ["product-description"]
+    "children": [
+      "product-description"
+    ]
   },
- 
   "flex-layout.row#product-main": {
     "props": {
       "colGap": 7,
@@ -37,9 +35,11 @@
       "paddingTop": 7,
       "paddingBottom": 7
     },
-    "children": ["flex-layout.col#stack", "flex-layout.col#right-col"]
+    "children": [
+      "flex-layout.col#stack",
+      "flex-layout.col#right-col"
+    ]
   },
-
   "stack-layout": {
     "props": {
       "blockClass": "product"
@@ -50,7 +50,6 @@
       "product-specification-badges"
     ]
   },
-
   "product-specification-badges": {
     "props": {
       "specificationGroupName": "Group",
@@ -59,16 +58,19 @@
       "displayValue": "SPECIFICATION_NAME"
     }
   },
-
   "flex-layout.col#stack": {
-    "children": ["stack-layout"],
+    "children": [
+      "stack-layout"
+    ],
     "props": {
       "width": "60%",
       "rowGap": 0
     }
   },
   "flex-layout.row#product-image": {
-    "children": ["product-images"]
+    "children": [
+      "product-images"
+    ]
   },
   "product-images": {
     "props": {
@@ -86,34 +88,38 @@
       "rowGap": 0
     },
     "children": [
+  
       "flex-layout.row#product-name",
-      "product-rating-summary",
+      "product-identifier.product",
       "flex-layout.row#selling-price",
       "flex-layout.row#list-price-savings",
-      
       "product-installments",
-  
-      "product-separator",
- 
       "product-quantity",
       "product-assembly-options",
       "flex-layout.row#buy-button",
+
       "shipping-simulator"
     ]
   },
-  "flex-layout.row#buy-button":{
-    "props":{
+  "breadcrumb": {
+    "props": {
+      
+      "showOnMobile": true
+    },
+    "categories": ["eletronics", "eletronics-computers"]
+  },
+  "flex-layout.row#buy-button": {
+    "props": {
       "blockClass": "buyButton",
       "showInstallments": 4,
       "marginBottom": 7
-
     },
-    "children":[
-   "add-to-cart-button"
+    "children": [
+      "add-to-cart-button"
     ]
   },
-  "shipping-simulator":{
-    "props":{
+  "shipping-simulator": {
+    "props": {
       "submit": "Comprar",
       "blockClass": "buttoncomprar"
     }
@@ -127,7 +133,6 @@
       "vtex.store-components:product-name"
     ]
   },
-
   "sku-selector": {
     "props": {
       "blockClass": "productDesk",
@@ -135,15 +140,12 @@
       "showValueNameForImageVariation": true
     }
   },
-
   "product-price#product-details": {
     "props": {
       "showInstallments": true,
       "showSavings": true
     }
   },
-
-
   "share#default": {
     "props": {
       "social": {

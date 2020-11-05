@@ -1,18 +1,21 @@
 
 .quantitySelectorTitle{
     text-align: left;
-    font: normal normal normal 14px/55px Nunito Sans;
+    font: normal normal normal 14px/55px 'Nunito Sans';
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
     margin: 1rem 0;
     font-size: 16px;
 }
+:global(.vtex-store-components-3-x-productNameContainer--quickview){
+    margin-top: 50px;
+}
 .productNameContainer--quickview :global(.vtex-flex-layout-0-x-flexCol) {
     align-items: center;
 }
 .quantitySelectorStepper :global(.vtex-numeric-stepper__input) {
-    font: normal normal normal 14px Nunito Sans;
+    font: normal normal normal 14px 'Nunito Sans';
     background-color: #F6F5F8;
     border: none;
     padding: 0px;
@@ -32,6 +35,7 @@
 }
 .flexRowContent--buyButton :global(.vtex-flex-layout-0-x-flexRow--buyButton){
     padding-top: 102px;
+   
 }
 
 .quantitySelectorStepper :global(.vtex-numeric-stepper__minus-button){
@@ -41,23 +45,4 @@
     border-bottom-left-radius: 20px;
     height: 39px;
     border-top-left-radius: 20px;
-}
-.shippingContainer{
-    margin-top: 15px;
-}
-.shippingContainer :global(.vtex-input__label)::before {
-    content: "Calcule a entrega:";
-  white-space: pre-wrap;
-  text-align: center;
-  font: normal normal bold 14px/43px Nunito Sans;
-  color: #000000;
-}
-.vtex-store-components-3-x-shippingContainer .vtex-button::after {
-    content: "OK";
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font: normal normal bold 12px/5px 'Nunito Sans';
-    color: #000000;
-    opacity: 1;
 }
