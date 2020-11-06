@@ -199,12 +199,6 @@
 }
 } 
 
-
-.flexRow :global(.vtex-store-components-3-x-container){
-  max-width: 1260px;
-  margin: 0 auto;
-
-}
 .flexRow--imgs{
   max-width: 1260px;
   margin: 0 auto;
@@ -352,5 +346,9 @@
 }
 :global(.vtex-flex-layout-0-x-flexColChild--colrigthdesk){
   margin-bottom: -8px;
+
+}
+:global(.vtex-flex-layout-0-x-flexColChild--menuAbout){
+  height: initial!important;
 
 }
