@@ -197,19 +197,22 @@
   "image#footer10": {
     "props": {
       "src": "assets/avanti1.png",
-      "blockClass": "avanti"
+      "blockClass": "avanti",
+      "href":"https://penseavanti.com.br/"
     }
   },
   "image#footer12": {
     "props": {
       "src": "assets/avanti2.png",
-      "blockClass": "avanti2"
+      "blockClass": "avanti2",
+      "href":"https://penseavanti.com.br/"
     }
   },
   "image#footer11": {
     "props": {
       "src": "assets/vtex.png",
-      "blockClass": "vtex"
+      "blockClass": "vtex",
+      "href": "https://vtex.com/br-pt/"
     }
   },
   "rich-text#textfooter": {
@@ -275,8 +278,10 @@
       "flex-layout.col#sobre2",
       "flex-layout.col#atendimento2",
       "flex-layout.col#ajuda"
-    ]
-  },
+    ],
+  "props":{
+    "blockClass": "testeaboutsus"
+    }},
   "rich-text#atendimento": {
     "props": {
       "text": "Atendimento",

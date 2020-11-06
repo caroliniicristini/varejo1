@@ -143,3 +143,11 @@ letter-spacing: 0px;
 .accordionIcon{
     display: none;
 }
+[data-vtex-block-id="menu-item#lojaf"]{
+    border-bottom: 1px solid #ccc;
+    width: 250px;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--testeaboutsus){
+    border-bottom: 1px solid #ccc;
+    width: 250px;
+}

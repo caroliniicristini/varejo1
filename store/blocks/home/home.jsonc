@@ -56,7 +56,7 @@
   },
   "newsletter": {
     "props": {
-      "error": "Por favor, insira um email válido.",
+      "errorMessage": "Por favor, insira um email válido.",
       "confirmationTitle": "E-mail cadastrado com sucesso.",
       "confirmationText": "Agora você irá receber nossas novidades e promoções!",
       "blockClass": "newsletter",

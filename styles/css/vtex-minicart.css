@@ -42,3 +42,8 @@
     border-color: #ffffff;
     background-color: #ffffff;  
   }
+  :global(.vtex-minicart-2-x-minicartQuantityBadgeDefault ){
+    background: #2CFFF5;
+    color: #000000;
+}
+  

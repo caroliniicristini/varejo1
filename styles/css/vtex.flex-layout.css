@@ -267,19 +267,19 @@
   border-radius: 20px;
 }
 .flexRow--buyButton :global(.vtex-button){
+    width: 100%;
+    height: 54px;
+    background: #4F32FE 0% 0% no-repeat padding-box;
+    border-radius: 27px;
+    opacity: 1;
+    margin-top: 173px;
  
-  margin-top: 107px;;
-  background: #4F32FE 0% 0% no-repeat padding-box;
-  border-radius: 27px;
-  opacity: 1;
-  margin-left: -20px;
-  margin-top: 173px;
-  height: 60px;
 
 }
 :global(.vtex-input-prefix__group){
   border: transparent;
   border-bottom: 1px solid #ccc;
+  width: 330px;
 }
 
 .stackItem--product--first{
@@ -351,4 +351,7 @@
 :global(.vtex-flex-layout-0-x-flexColChild--menuAbout){
   height: initial!important;
 
+}
+[data-vtex-block-class="menuAbout"]{
+  padding-top: 23px;
 }

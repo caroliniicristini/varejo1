@@ -14,16 +14,21 @@
   "flex-layout.row#about-us": {
     "children": [
      
-      "flex-layout.col#acordion-about-us",
+      "flex-layout.col#menu-about-us",
       "flex-layout.col#text-about-us"
-    ]
+    ],
+      "props":{
+      "colSizing": "auto",
+        "blockClass": "about"
+      }
   },
-  "flex-layout.col#acordion-about-us": {
+  "flex-layout.col#menu-about-us": {
     "children": [
       "flex-layout.col#menuAbout"
     ],
     "props":{
       "blockClass": "menuAbout"
+    
     }
     },
   "flex-layout.col#text-about-us": {
@@ -47,7 +52,7 @@
   "rich-text#title-about-us": {
     "props": {
       "text": "# A Marca",
-      "blockClass": "title"
+      "blockClass": "titless"
     }
   },
   "image#mobile-phone": {

@@ -48,7 +48,7 @@
   border: none;
 }
 .inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
-  
+  color: white;
   font-size: 16px;
 }
 @media (max-width:640px){
@@ -245,7 +245,7 @@
   height: 50px;
 }
 .imageElement--avanti{
-  width: 155px;
+  width: 118px;;
   height: 55px;
   padding-left: 67px;
 }
@@ -277,8 +277,9 @@
 }
 }
 
-.inputGroup :global(.vtex-input-prefix__group){
-  background: #000000 0% 0% no-repeat padding-box;
+.inputGroup :global(.vtex-input-prefix__group):hover{
+  color: white;
+  background: #000000;
   border-radius: 29px;
   opacity: 0.15;
   height: 57px;
@@ -341,7 +342,7 @@
   width: 76px;
   height: 19px;
   text-align: center;
-  font:  17px Nunito Sans;
+  font:  17px 'Nunito Sans';
   
   font-size: 22px;
 
@@ -459,6 +460,7 @@
   max-width: 32.1rem;
   background: #F6F5F8;
 
+
 }
 
 .shippingContainer :global(.vtex-input)::before {
@@ -479,7 +481,7 @@
   display: none;
 }
 
-.shippingContainer :global(.vtex-button__label) {
+.shippingContainer :global(.vtex-button__label){
   display: none;
 }
 
@@ -511,9 +513,22 @@ height: 40px;
   width: 1920px;
   margin: 0px;
 }
+
+:global(.vtex-flex-layout-0-x-flexRowContent--about) {
+  max-width: 1260px;
+  margin: 0 auto;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--alltitles){
+  max-width: 1260px;
+  margin: 0 auto;
+}
 :global(.vtex-store-components-3-x-container){
-  max-width: 1960px;
+  max-width: 1260px;
 }
-:global(.vtex-flex-layout-0-x-flexColChild--menuAbout){
-  padding-left: 283px;
+:global(.vtex-store-components-1-x-productImagesGallerySlide){
+  width: 100% !important;
 }
+ :global(.vtex-input__error){
+   color: white;
+ }

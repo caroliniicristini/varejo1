@@ -64,19 +64,12 @@
     line-height: 1.3em;
   }
 }
-.container--title {
+:global(.vtex-rich-text-0-x-container--title) {
   color: black;
   font-size: 40px;
   margin: 0 auto;
   justify-content: center;
-
-}
-.container--Title {
-  color: black;
-  font-size: 40px;
-  margin: 0 auto;
-  justify-content: center;
-  margin-top: 53px;
+  margin-top: 13px;
 }
 @media (max-width: 640px) 
 {
@@ -242,7 +235,7 @@ text-align: center;
 font: normal normal bold 10px/14px Nunito Sans;
 letter-spacing: 0px;
 font-size: 11px;
-width: 296px;
+width: 308px;
 height: 14px;
 color: #847B91;
 }
@@ -261,6 +254,8 @@ color: #847B91;
   font: normal normal normal 14px/30px Nunito Sans;
   width: 945px;
 }
-.headingLevel1--title{
-  font-size:20px;
+:global(.vtex-rich-text-0-x-wrapper--titless){
+  justify-content: left;
+  font-size: 32px;
+  padding-top: 10px;
 }
