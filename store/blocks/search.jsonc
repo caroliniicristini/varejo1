@@ -56,7 +56,7 @@
     "children": ["search-title.v2"]
   },
   "flex-layout.row#result": {
-    "children": ["breadcrumb", "flex-layout.col#filter", "flex-layout.col#content"],
+    "children": ["flex-layout.col#filter", "flex-layout.col#content"],
     "props": {
       "preventHorizontalStretch": true,
       "fullWidth": true

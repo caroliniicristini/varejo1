@@ -7,6 +7,7 @@
 
   "minicart.v2": {
     "props": {
+      "openOnHover": true,
       "customPixelEventName": "addToCart",
       "MinicartIcon": "icon-cart#minicart-icon"
     },
@@ -27,12 +28,13 @@
   "flex-layout.col#minicart-footer": {
     "children": ["minicart-summary", "minicart-checkout-button"]
   },
+ 
   "minicart-product-list": {
     "blocks": ["product-list#minicart"]
   },
   "product-list#minicart": {
     "blocks": ["product-list-content-mobile"]
-  },
+  }, 
   "minicart-summary": {
     "blocks": ["checkout-summary.compact#minicart"]
   },

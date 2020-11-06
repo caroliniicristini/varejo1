@@ -475,6 +475,9 @@
 .shippingContainer :global(.vtex-input){
   display: flex;
 }
+.shippingContainer :global(.vtex-button__label){
+  display: none;
+}
 
 .shippingContainer :global(.vtex-button__label) {
   display: none;
@@ -503,4 +506,8 @@ height: 40px;
 :global(.vtex-store-components-3-x-shippingContainer){
   display: flex;
   align-items: flex-start;
+}
+.imageElement--storePrint{
+  width: 1920px;
+  margin: 0px;
 }

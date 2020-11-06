@@ -309,12 +309,10 @@
 
   color: #4F32FE;
 }
-.filterPopupTitle {
+:global(.vtex-search-result-3-x-filterPopupTitle){
     color: black;
-    width: 79px;
-    height: 19px;
-    
-    margin-right: 50px;
+ 
+    margin-right: 80px;
     font: normal normal normal 14px/31px Nunito Sans;
 }
 :global(.vtex-search-result-3-x-totalProducts--layout){
@@ -354,10 +352,5 @@
 }
 :global(.vtex-flex-layout-0-x-flexColChild--colrigthdesk){
   margin-bottom: -8px;
- 
 
-}
-
-:global(.vtex-search-result-3-x-filterPopupTitle){
-  margin-right:47px;
 }

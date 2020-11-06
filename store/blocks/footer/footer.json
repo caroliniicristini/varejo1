@@ -101,7 +101,7 @@
       "image#footer6"
     ],
     "props": {
-      "width": "50%",
+    
       "blockClass": "imgsfooter",
       "preserveLayoutOnMobile": true
     }
@@ -113,7 +113,7 @@
       "image#footer9"
     ],
     "props": {
-      "width": "50%",
+ 
       "blockClass": "imgsfooter1",
       "preserveLayoutOnMobile": true
     }
@@ -178,7 +178,7 @@
       "image#footer11"
     ],
     "props": {
-      "width": "50%",
+     
       "blockClass": "imgsfooter",
       "preserveLayoutOnMobile": true
     }
@@ -189,7 +189,7 @@
       "image#footer11"
     ],
     "props": {
-      "width": "50%",
+      
       "blockClass": "imgsfooter",
       "preserveLayoutOnMobile": true
     }
@@ -250,7 +250,7 @@
   "rich-text#sobre": {
     "props": {
       "text": "Sobre",
-      "blockClass": "titlesfooter"
+      "blockClass": "titulo"
     }
   },
   "rich-text#vazio": {
@@ -270,10 +270,17 @@
       "verticalAlign": "top"
     }
   },
+  "flex-layout.col#menuAbout":{
+    "children":[
+      "flex-layout.col#sobre2",
+      "flex-layout.col#atendimento2",
+      "flex-layout.col#ajuda"
+    ]
+  },
   "rich-text#atendimento": {
     "props": {
       "text": "Atendimento",
-      "blockClass": "titlesfooter"
+      "blockClass": "titulo"
     }
   },
   "flex-layout.col#ajuda": {
@@ -291,7 +298,7 @@
   "rich-text#ajuda": {
     "props": {
       "text": "Ajuda",
-      "blockClass": "titlesfooter"
+      "blockClass": "titulo"
     }
   },
   "flex-layout.col#pagamento": {
@@ -316,7 +323,7 @@
   "rich-text#pagamento-title": {
     "props": {
       "text": "Pagamentos",
-      "blockClass": "titlesfooter"
+      "blockClass": "titulo"
     }
   },
   "image#visa": {

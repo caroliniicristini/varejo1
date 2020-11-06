@@ -20,11 +20,12 @@
   },
   "flex-layout.col#acordion-about-us": {
     "children": [
-      "flex-layout.col#sobre2",
-      "flex-layout.col#atendimento2",
-      "flex-layout.col#ajuda"
-    ]
-  },
+      "flex-layout.col#menuAbout"
+    ],
+    "props":{
+      "blockClass": "menuAbout"
+    }
+    },
   "flex-layout.col#text-about-us": {
     "children": [
       "rich-text#title-about-us",

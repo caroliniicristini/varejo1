@@ -249,14 +249,17 @@ color: #847B91;
 
 .paragraph--shelfTitle2{
   padding-top: 48px;
+  width: 945px;
 }
 .paragraph--about{
-  width: 1100px;
+  width: 945px;
+  color:black;
   font: normal normal normal 14px/30px Nunito Sans;
 }
 .paragraph--about1{
+  color: black;
   font: normal normal normal 14px/30px Nunito Sans;
-  width: 1100px;
+  width: 945px;
 }
 .headingLevel1--title{
   font-size:20px;
