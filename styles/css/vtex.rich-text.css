@@ -81,6 +81,14 @@
     margin-top: 53px;
 }
 }
+
+.container--Title {
+  color: black;
+  font-size: 40px;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 53px;
+}
 .container--shelfTitle{
   color: black;
   font-size: 40px;
@@ -242,7 +250,7 @@ color: #847B91;
 
 .paragraph--shelfTitle2{
   padding-top: 48px;
-  width: 945px;
+
 }
 .paragraph--about{
   width: 945px;

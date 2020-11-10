@@ -296,6 +296,8 @@
     border: 0;
     border-radius: 0;
     margin-left: 27px;
+    border-bottom: 1px solid #ccc;
+    width: 917px;
   }
 }
 .productDescriptionTitle{

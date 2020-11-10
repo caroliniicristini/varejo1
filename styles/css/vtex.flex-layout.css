@@ -278,7 +278,6 @@
 }
 :global(.vtex-input-prefix__group){
   border: transparent;
-  border-bottom: 1px solid #ccc;
   width: 330px;
 }
 
