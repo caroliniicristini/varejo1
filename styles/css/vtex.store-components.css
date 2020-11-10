@@ -47,10 +47,7 @@
   color: #fff;
   border: none;
 }
-.inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
-  color: white;
-  font-size: 16px;
-}
+
 @media (max-width:640px){
 .inputGroup :global(.vtex-button) {
   background-color: transparent;
@@ -277,20 +274,18 @@
 }
 }
 
-.inputGroup :global(.vtex-input-prefix__group):hover{
+.inputGroup :global(.vtex-input-prefix__group){
   color: white;
-  background: #000000;
+  background-color:rgba(0,0,0,0.15);
   border-radius: 29px;
-  opacity: 0.15;
   height: 57px;
   width: 417px;
 }
 @media (max-width: 640px){
 
   .inputGroup :global(.vtex-input-prefix__group){
-    background: #000000 0% 0% no-repeat padding-box;
+    background-color:rgba(0,0,0,0.15);
     border-radius: 29px;
-    opacity: 0.15;
     height: 57px;
     width: 317px;
    
@@ -299,7 +294,6 @@
 @media (min-width: 640px){
   .searchBarContainer :global(.vtex-input-prefix__group) {
     border: 0;
-    border-bottom: 1px solid #ccc;
     border-radius: 0;
     margin-left: 27px;
   }

@@ -101,13 +101,7 @@
       "shipping-simulator"
     ]
   },
-  "breadcrumb": {
-    "props": {
-      
-      "showOnMobile": true
-    },
-    "categories": ["eletronics", "eletronics-computers"]
-  },
+
   "flex-layout.row#buy-button": {
     "props": {
       "blockClass": "buyButton",

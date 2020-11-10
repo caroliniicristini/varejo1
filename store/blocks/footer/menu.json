@@ -130,11 +130,6 @@
       }
     }
   },
-  "rich-text#sobre": {
-    "props": {
-      "text": "Sobre"
-    }
-  },
   "menu-item#marca": {
     "props": {
       "id": "menu-item-shorts",
@@ -269,7 +264,7 @@
 
   "flex-layout.row#titles":{
     "children":[
-      "rich-text#sobre2",
+      "rich-text#sobre",
       "rich-text#atendimento",
       "rich-text#ajuda",
       "rich-text#pagamento",
@@ -277,24 +272,6 @@
       
     ]
   
-  },
-  "rich-text#sobre2":{
-    "props":{
-      "blocks": "titlesfooter",
-      "text": "Sobre"
-    }
-  },
-  "rich-text#atendimento":{
-    "props":{
-      "blocks": "titlesfooter",
-      "text": "Atendimento"
-    }
-  },
-  "rich-text#ajuda":{
-    "props":{
-      "blocks": "titlesfooter",
-      "text": "Ajuda"
-    }
   },
   "rich-text#pagamento":{
     "props":{
