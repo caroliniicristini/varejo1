@@ -292,7 +292,7 @@
   opacity: 1;
   width: 317px;
   height: 43px;
-  margin-top: -40px;
+  margin-top: -8px;
 }
 :global(.vtex-search-result-3-x-caretIcon){
   top: 290px;
@@ -335,7 +335,8 @@
 }
 
 :global(.vtex-login-2-x-profileIcon--profile){
-  height: 24px;
+  width: 20px;
+  height: 20px;
 }
 .flexRow--logodesk{
   margin-left: 35px;
@@ -353,4 +354,18 @@
 }
 [data-vtex-block-class="menuAbout"]{
   padding-top: 23px;
+}
+.flexColChild--filterCol{
+  margin-top: -2px;
+}
+:global(.vtex-checkout-summary-0-x-summaryItemLabel){
+  font-weight: bold;
+}
+:global(.vtex-checkout-summary-0-x-price){
+  font-weight: bold;
+  font: normal normal 800 14px/20px 'Nunito Sans';
+  letter-spacing: 0px;
+  color: #000000;
+  font-size: 19px;
+  background: #F6F5F8;
 }

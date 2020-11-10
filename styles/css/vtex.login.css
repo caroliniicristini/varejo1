@@ -4,14 +4,10 @@
 }
 }
 
-profileIcon--profile{
-    height: 21px;
-    width: 19px;
-}
-
 
 :global(.vtex-minicart-2-x-openIconContainer){
-    padding: 0px;
+    width: 34px;
   }
-
-  
+:global(.vtex-login-2-x-container ){
+    width: 47ypx;
+}

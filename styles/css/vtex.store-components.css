@@ -242,7 +242,7 @@
   height: 50px;
 }
 .imageElement--avanti{
-  width: 118px;;
+  width: 148px;;
   height: 55px;
   padding-left: 67px;
 }
@@ -414,7 +414,7 @@
   margin: 0 auto;
 }
 :global(.vtex-search-result-3-x-galleryTitle--layout){
-  margin-top: 100px;
+  margin-top:60px;
   font-size: 24px;
 }
 
@@ -504,6 +504,7 @@ height: 40px;
 :global(.vtex-store-components-3-x-shippingContainer){
   display: flex;
   align-items: flex-start;
+ 
 }
 .imageElement--storePrint{
   width: 1920px;
@@ -528,3 +529,10 @@ height: 40px;
  :global(.vtex-input__error){
    color: white;
  }
+ :global(.vtex-address-form-4-x-input){
+   border-bottom: 1px solid #ccc;
+ }
+  :global(.vtex-minicart-2-x-minicartQuantityBadgeDefault){
+  background: #2CFFF5;
+  color: #000000;
+}

@@ -5,7 +5,7 @@
     width: 0px;
 }
 .minicartCheckoutButton :global(.vtex-button) {
-    background: #4F32FE 0% 0% no-repeat padding-box;
+    background: #4F32FE;
     border-radius: 27px;
     width: 100%;
     border: none;
@@ -42,8 +42,6 @@
     border-color: #ffffff;
     background-color: #ffffff;  
   }
-  :global(.vtex-minicart-2-x-minicartQuantityBadgeDefault ){
-    background: #2CFFF5;
-    color: #000000;
-}
-  
+  :global(.vtex-minicart-2-x-openIconContainer){
+    padding:0px;
+  }
