@@ -282,6 +282,7 @@
 
   .inputGroup :global(.vtex-input-prefix__group){
     background-color:rgba(0,0,0,0.15);
+    border-color: transparent;
     border-radius: 29px;
     height: 57px;
     width: 317px;
@@ -391,6 +392,7 @@
   padding-top: 17px;
   margin-right: -88px;
 }
+
 @media (max-width: 641px){
 .searchBarIcon :global(.vtex-store-components-3-x-searchIcon--search-desktop){
   fill: currentColor;
@@ -539,4 +541,8 @@ height: 40px;
 }
 :global(.vtex-minicart-2-x-popupChildrenContainer){
   padding: 0px;
+}
+.vtex-minicart-2-x-minicartContainer .vtex-button:hover{
+  background-color: #ffffff;
+  outline: #ffffff;
 }

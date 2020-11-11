@@ -66,12 +66,12 @@
 .minicartProductListContainer{
   margin-top: 17px;
 }
-.minicartContainer{
+.vtex-minicart-2-x-minicartContainer .vtex-button:hover{
   background-color: #ffffff;
   outline: #ffffff;
 }
 
-.minicartContainer :global(.vtex-button):hover {
+.minicartContainer--minicart :global(.vtex-button):hover {
   background-color: #ffffff;
 } 
 .container :global(.relative):focus {
@@ -80,4 +80,8 @@
 .container :global(.vtex-button):focus {
   border-color: #ffffff;
   background-color: #ffffff;  
+}
+.minicartCheckoutButton{
+  border-radius: 27px;
+  background: #4F32FE;
 }

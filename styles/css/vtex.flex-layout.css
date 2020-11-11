@@ -274,9 +274,11 @@
  
 
 }
+@media(min-width:641px){
 :global(.vtex-input-prefix__group){
   border: transparent;
   width: 330px;
+}
 }
 
 .stackItem--product--first{
@@ -315,6 +317,11 @@
 }
 .styledLinkIcon--itemsmenu1{
   width: 40px;
+}
+@media(max-width:640px){
+  .styledLinkIcon--itemsmenu1::before{
+    content: none
+  }
 }
  :global(.vtex__icon-check){
   background: #4F32FE;
@@ -388,9 +395,10 @@ margin-top: -14px;
 .summarySmallDisclaimer{
   font: normal normal normal 13px/20px 'Nunito Sans';
 }
-
+@media(min-width:641px){
 :global(.vtex-minicart-2-x-minicartIconContainer){
   margin-right: -22px;
+}
 }
 :global(.vtex-product-list-0-x-productName){
   font-size: 14px;
@@ -412,4 +420,7 @@ margin-top: -14px;
   max-width: 1260px;
   padding: 0px;
   margin: 0px auto;
+}
+.flexRow :global(.vtex-flex-layout-0-x-flexRowContent){
+  padding-bottom: 0px;
 }

@@ -6,6 +6,7 @@
   },
   "minicart.v2": {
     "props": {
+      "blockClass": "minicart",
       "variation": "popup",
       "customPixelEventName": "addToCart",
       "MinicartIcon": "icon-cart#minicart-icon"
