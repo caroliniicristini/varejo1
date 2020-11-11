@@ -281,7 +281,7 @@
   },
   "rich-text#redes":{
   "props":{
-    "blocks": "titlesfooter",
+    "blocks": "titulo",
     "text": "Nossas redes"
   }
 }

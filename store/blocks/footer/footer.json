@@ -378,5 +378,11 @@
       "horizontalAlign": "left",
       "verticalAlign": "top"
     }
+  },
+  "rich-text#redes":{
+    "props":{
+      "blocks": "titulo",
+      "text": "Nossas redes"
+    }
   }
 }

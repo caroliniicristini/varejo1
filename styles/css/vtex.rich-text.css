@@ -87,7 +87,7 @@
   font-size: 40px;
   margin: 0 auto;
   justify-content: center;
-  margin-top: 53px;
+  padding-top: 18px;
 }
 .container--shelfTitle{
   color: black;
@@ -265,5 +265,11 @@ color: #847B91;
 :global(.vtex-rich-text-0-x-wrapper--titless){
   justify-content: left;
   font-size: 32px;
-  padding-top: 10px;
+  padding-top: 35px;
 }
+.container--titulo{
+  font: normal normal bold 16px/55px Nunito Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  }
+  

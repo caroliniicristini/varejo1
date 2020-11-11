@@ -28,6 +28,7 @@
   },
   "flex-layout.row#product-main": {
     "props": {
+      "blockClass" : "productMain",
       "colGap": 7,
       "rowGap": 7,
       "marginTop": 4,

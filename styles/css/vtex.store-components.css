@@ -66,10 +66,7 @@
   margin-top:10px;
 }
 
-.imageElement--storePrint {
-  max-height: 300px;
-  margin-bottom: 20px;
-}
+
 
 .skuSelectorContainer {
   margin: 1rem 0;
@@ -535,4 +532,11 @@ height: 40px;
   :global(.vtex-minicart-2-x-minicartQuantityBadgeDefault){
   background: #2CFFF5;
   color: #000000;
+}
+/* botei eles aqui */
+.vtex-minicart-2-x-popupChildrenContainer{
+  padding: 0px;
+}
+:global(.vtex-minicart-2-x-popupChildrenContainer){
+  padding: 0px;
 }

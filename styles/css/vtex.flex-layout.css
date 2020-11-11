@@ -152,8 +152,6 @@
   background: #F6F5F8;
   justify-content: center;
   height: 100px;
-
-  padding-left: 18px;
   padding-left: 18px;
   max-width: 415px;
   margin: 0 auto;
@@ -366,6 +364,52 @@
   font: normal normal 800 14px/20px 'Nunito Sans';
   letter-spacing: 0px;
   color: #000000;
-  font-size: 19px;
+  font-size: 14px;
   background: #F6F5F8;
+}
+.flexRowContent--minicart-footer{
+  background: #F6F5F8;
+}
+:global(.vtex-product-list-0-x-price){
+  font: normal normal 800 14px/55px 'Nunito Sans';
+letter-spacing: 0.7px;
+color: #000000;
+font-size: 14px;
+margin-top: -14px;
+}
+:global(.vtex-product-list-0-x-productImage){
+  width: 66px;
+  
+}
+:global(.vtex-product-list-0-x-productImageContainer ){
+  background: #F6F5F8;
+}
+
+.summarySmallDisclaimer{
+  font: normal normal normal 13px/20px 'Nunito Sans';
+}
+
+:global(.vtex-minicart-2-x-minicartIconContainer){
+  margin-right: -22px;
+}
+:global(.vtex-product-list-0-x-productName){
+  font-size: 14px;
+}
+:global(.vtex-product-list-0-x-productImageAnchor){
+  margin-left: 15px;
+}
+.flexRow :global(.vtex-store-components-3-x-container){
+  max-width:1960px;
+}
+/* 
+ * vtex-flex-layout-0-x-flexRow--productMain
+ * vtex-{componente}-{versao}-{nome do coiso}
+ * mesmo que o blockClass seja só productMain, pra chamar no css precisa pegar o flexRow também
+ * por que até o {0-x} é a versão, depois disso é o "blockClass" que o css considera
+ */
+ 
+.flexRow--productMain :global(.vtex-store-components-3-x-container){
+  max-width: 1260px;
+  padding: 0px;
+  margin: 0px auto;
 }

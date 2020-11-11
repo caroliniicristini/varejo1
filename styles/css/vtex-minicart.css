@@ -45,3 +45,39 @@
   :global(.vtex-minicart-2-x-openIconContainer){
     padding:0px;
   }
+  .minicartTitle::before{
+      
+    content: "Meu carrinho";
+    font: normal normal bold 16px/30px  'Nunito Sans';
+    color: #17100D;
+    font-size: 18px;
+  }
+
+:global(.vtex-minicart-2-x-popupBoxPosition){
+  right: -46px;
+  width: 399px;
+  top: 100%;
+}
+
+.minicartTitle {
+  font-size: 21px;
+}
+
+.minicartProductListContainer{
+  margin-top: 17px;
+}
+.minicartContainer{
+  background-color: #ffffff;
+  outline: #ffffff;
+}
+
+.minicartContainer :global(.vtex-button):hover {
+  background-color: #ffffff;
+} 
+.container :global(.relative):focus {
+  outline: #ffffff;
+} 
+.container :global(.vtex-button):focus {
+  border-color: #ffffff;
+  background-color: #ffffff;  
+}

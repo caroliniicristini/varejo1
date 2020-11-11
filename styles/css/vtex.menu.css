@@ -137,9 +137,7 @@ letter-spacing: 0px;
     font: normal normal normal 14px/35px Nunito Sans;
    
 }
-:global(.vtex-flex-layout-0-x-flexRowContent){
-    padding: 0px;
-}
+
 .accordionIcon{
     display: none;
 }

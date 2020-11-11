@@ -4,17 +4,9 @@
       "addToCartFeedback": "customEvent"
     }
   },
-  "flex-layout.row#product": {
-  "props": {
-    "submit": "Meu Carrinho",
-    "blockClass": "titleCarrinho"
-  }
-},
-
-
   "minicart.v2": {
     "props": {
-      "openOnHover": true,
+      "variation": "popup",
       "customPixelEventName": "addToCart",
       "MinicartIcon": "icon-cart#minicart-icon"
     },
