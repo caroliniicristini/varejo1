@@ -383,16 +383,37 @@
 }
 
 :global(.vtex-store-components-3-x-logoLink){
-  margin-top: 10px;
+
+  max-height: 49px;
+  position: relative;
+  min-width: 72px;
+  top: -10px;
+  padding: 0px;
+  display: inline-block;
+}
+@media(max-width:640px){
+  :global(.vtex-store-components-3-x-sizeMobile) {
+    padding: 0px !important;
+  }
+}
+:global(.vtex-store-components-3-x-sizeMobile) {
+  padding-left: 0px !important;
 }
 .logoLink--logo{
   margin-top: 10px;
 }
+@media(min-width:640px){
 .logoImage{
   padding-top: 17px;
   margin-right: -88px;
 }
-
+}
+@media(max-width:640px){
+  .logoImage{
+    padding-top: 17px;
+   
+  }
+}
 @media (max-width: 641px){
 .searchBarIcon :global(.vtex-store-components-3-x-searchIcon--search-desktop){
   fill: currentColor;

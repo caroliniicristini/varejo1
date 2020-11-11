@@ -62,31 +62,51 @@ font: normal normal bold 16px/50px Nunito Sans;
 letter-spacing: 0px;
 
 }
-.styledLinkContent--items2:hover{
-    width: 300px;
-    height: 100px;
-    color: #4F32FE;
+.styledLinkContent--items2 {
+    width: 210px;
+    height: 30px;
+    font-weight: bold;
+}
 
+.styledLinkContent--items2:hover{
+    height: 30px;
+    font-weight: bold;
+    color: #4F32FE;
 }
 .styledLinkContent--items3:hover{
     color: #4F32FE;
+    text-decoration: underline;
+}
+.menuItem--eletrodsk:hover{
+    background:#F6F5F8;
 
 }
-
 .styledLinkContent--eletrodsk:hover{
     color: #4F32FE;
+     
+}
+.styledLinkContent--eletrodsk{
+    font-weight: bold;
+}
+.menuItem--eletrodsk{
+  
+    height: 40px;
+    font-weight: bold;
 }
 
 .menuItem :global(.vtex-menu-2-x-styledLinkContainer--itemsmenu){
     padding:0px;
 }
-
+.styledLinkContainer--itemsmenu1,
+.styledLinkContainer--saldao
+{
+    padding: 0px !important;
+    margin-top: -15px;
+}
 .styledLinkContent--itemsmenu1{
-  
     font-weight: bold;
     height: 29px;
-    height: 38px;
-    font: normal normal 16px/17px Nunito Sans;
+    font: normal normal 16px/17px 'Nunito Sans';
 }
 @media(max-width:640px){
     .styledLinkIcon--itemsmenu1{
@@ -127,19 +147,26 @@ letter-spacing: 0px;
     max-width: 1260px;
     margin: 0 auto;
 }
-
+.menuItem--items2 {
+    font: normal normal normal 14px/35px 'Nunito Sans';
+}
 .menuItem--items2:hover{
-    
+   
     background: #F6F5F8;
-    height: 40px;
-    font: normal normal normal 14px/35px Nunito Sans;
+    /* height: 40px; */
+    font: normal normal normal 14px/35px 'Nunito Sans';
+
+}
+.menuItem--items3{
+    left: 200px;
+    width: 250px;
 
 }
 .menuItem--items3:hover{
-    width: 250px;
     height: 40px;
     background: #F6F5F8;
-    font: normal normal normal 14px/35px Nunito Sans;
+    font: normal normal normal 14px/35px 'Nunito Sans';
+  
    
 }
 
@@ -153,4 +180,25 @@ letter-spacing: 0px;
 :global(.vtex-flex-layout-0-x-flexColChild--testeaboutsus){
     border-bottom: 1px solid #ccc;
     width: 250px;
+}
+
+.submenuWrapper--submenueletro {
+    margin-top:10px;
+    left: 235px;
+    top: -35px;
+    height: 347px;
+    background: #F6F5F8;
+    font-weight: bold;
+}
+.styledLinkContent--items3{
+    
+    font-weight: bold;
+    height: 29px;
+    font: normal normal 16px/17px 'Nunito Sans';
+}
+.submenuWrapper--isOpen{
+    padding: 0px;
+}
+.menuItem--items3{
+    margin-top:10px
 }

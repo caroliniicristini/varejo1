@@ -44,10 +44,18 @@
   font-size: 14px;
 }
 
-.flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
+.menuItem--itemsmenu1 :global(.vtex-menu-2-x-styledLink) {
   color: black;
   font-size: 14px;
+  display: inline-block;
+  
 }
+
+.menuItem--itemsmenu1 :global(.vtex-menu-2-x-styledLink):hover {
+  /* border-bottom: 3px solid #4F32FE;  */
+  box-shadow: 0px 3px 0px 0px #4F32FE;
+}
+
 .flexRow--linhatoda {
   background-color:#4F32FE;
   padding: 14px 0px;
