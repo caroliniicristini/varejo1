@@ -38,6 +38,10 @@
   .container :global(.relative):focus {
     outline: #ffffff;
   } 
+  :global(.vtex-minicart-2-x-minicartContainer) :global(.vtex-button):focus{
+    border-color: #ffffff;
+    background-color: #ffffff;
+  }
   .container :global(.vtex-button):focus {
     border-color: #ffffff;
     background-color: #ffffff;  
@@ -65,23 +69,4 @@
 
 .minicartProductListContainer{
   margin-top: 17px;
-}
-.vtex-minicart-2-x-minicartContainer .vtex-button:hover{
-  background-color: #ffffff;
-  outline: #ffffff;
-}
-
-.minicartContainer--minicart :global(.vtex-button):hover {
-  background-color: #ffffff;
-} 
-.container :global(.relative):focus {
-  outline: #ffffff;
-} 
-.container :global(.vtex-button):focus {
-  border-color: #ffffff;
-  background-color: #ffffff;  
-}
-.minicartCheckoutButton{
-  border-radius: 27px;
-  background: #4F32FE;
 }

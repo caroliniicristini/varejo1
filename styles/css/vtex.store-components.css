@@ -563,7 +563,42 @@ height: 40px;
 :global(.vtex-minicart-2-x-popupChildrenContainer){
   padding: 0px;
 }
-.vtex-minicart-2-x-minicartContainer .vtex-button:hover{
-  background-color: #ffffff;
-  outline: #ffffff;
+:global(.vtex-minicart-2-x-minicartCheckoutButton) :global(.vtex-button) {
+  border-radius: 27px;
+  background: #4F32FE;
+  border: 0px;
+  height: 53px;
+  position: relative;
+  color: #4F32FE;
+  overflow: hidden;
 }
+:global(.vtex-minicart-2-x-minicartCheckoutButton) :global(.vtex-button__label)::after {
+  content: 'Finalizar Compras';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  line-height: 53px;
+  color: white;
+  z-index: 9;
+}
+
+
+:global(.vtex-minicart-2-x-minicartContainer) :global(.vtex-button):focus {
+  outline: none;
+  background: #fff;
+}
+:global(.vtex-minicart-2-x-minicartContainer) :global(.vtex-button):hover {
+ 
+  background: #fff;
+}
+:global(.vtex-login-2-x-container) :global(.vtex-button):focus {
+  outline: none;
+  background: #fff;
+}
+:global(.vtex-login-2-x-container) :global(.vtex-button):hover {
+  background: #fff;
+}
+
+

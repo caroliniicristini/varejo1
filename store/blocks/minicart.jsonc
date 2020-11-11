@@ -28,7 +28,12 @@
   "flex-layout.col#minicart-footer": {
     "children": ["minicart-summary", "minicart-checkout-button"]
   },
-
+  "minicart-checkout-button":{
+    "props":{
+      "blockClass": "miniiiii",
+      "text": "Carol gostosa"
+    }
+},
   "minicart-product-list": {
     "blocks": ["product-list#minicart"]
   },

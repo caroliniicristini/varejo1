@@ -432,3 +432,6 @@ margin-top: -14px;
 .flexRow :global(.vtex-flex-layout-0-x-flexRowContent){
   padding-bottom: 0px;
 }
+:global(.vtex-product-list-0-x-productBrandName){
+  display: none;
+}

@@ -202,3 +202,16 @@ letter-spacing: 0px;
 .menuItem--items3{
     margin-top:10px
 }
+.minicartContainer :global(.vtex-button):focus {
+    background-color: #ffffff;
+    outline: #ffffff;
+  }
+  
+  .minicartContainer :global(.vtex-button):hover {
+    background-color: #ffffff;
+  } 
+
+  .container :global(.vtex-button):focus {
+    border-color: #ffffff;
+    background-color: #ffffff;  
+  }
