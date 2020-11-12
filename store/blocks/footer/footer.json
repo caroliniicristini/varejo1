@@ -197,22 +197,23 @@
   "image#footer10": {
     "props": {
       "src": "assets/avanti1.png",
-      "blockClass": "avanti",
-      "link":"https://penseavanti.com.br/"
+      "blockClass": "avanti","href":"https://penseavanti.com.br/"
+      
     }
+    
   },
   "image#footer12": {
     "props": {
       "src": "assets/avanti2.png",
-      "blockClass": "avanti2",
-      "link":"https://penseavanti.com.br/"
+      "blockClass": "avanti2"
+      
     }
   },
   "image#footer11": {
     "props": {
       "src": "assets/vtex.png",
-      "blockClass": "vtex",
-      "link": "https://vtex.com/br-pt/"
+      "blockClass": "vtex"
+    
     }
   },
   "rich-text#textfooter": {

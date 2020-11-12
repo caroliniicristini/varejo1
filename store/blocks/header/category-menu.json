@@ -458,7 +458,7 @@
   },
   "menu-item#category-todos":{
     "props": {    
-      "blockClass": "itemsmenu1",
+      "blockClass": "todos",
       "type": "custom",
       "iconId": null,
       "highlight": false,

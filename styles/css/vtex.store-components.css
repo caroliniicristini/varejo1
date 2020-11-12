@@ -573,7 +573,7 @@ height: 40px;
   overflow: hidden;
 }
 :global(.vtex-minicart-2-x-minicartCheckoutButton) :global(.vtex-button__label)::after {
-  content: 'Finalizar compra';
+  content: "Finalizar compra";
   position: absolute;
   top: 0;
   left: 0;

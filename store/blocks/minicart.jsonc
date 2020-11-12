@@ -6,6 +6,7 @@
   },
   "minicart.v2": {
     "props": {
+      "maxDrawerWidth": 355,
       "blockClass": "minicart",
       "variation": "popup",
       "customPixelEventName": "addToCart",
@@ -27,12 +28,7 @@
   },
   "flex-layout.col#minicart-footer": {
     "children": ["minicart-summary", "minicart-checkout-button"]
-  },
-  "minicart-checkout-button":{
-    "props":{
-      "blockClass": "miniiiii",
-      "text": "Carol gostosa"
-    }
+  
 },
   "minicart-product-list": {
     "blocks": ["product-list#minicart"]

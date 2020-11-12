@@ -70,3 +70,11 @@
 .minicartProductListContainer{
   margin-top: 17px;
 }
+
+  :global(.vtex-minicart-2-x-opened--minicart){
+    width: 100%;
+    max-width: 355px !important;
+}
+:global(.vtex-minicart-2-x-minicartTitle)::before{
+  content: "teste"
+}

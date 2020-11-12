@@ -101,13 +101,34 @@ letter-spacing: 0px;
 .styledLinkContainer--saldao
 {
     padding: 0px !important;
-    margin-top: -15px;
+  
 }
 .styledLinkContent--itemsmenu1{
     font-weight: bold;
     height: 29px;
     font: normal normal 16px/17px 'Nunito Sans';
 }
+@media(max-width:640px){
+    .styledLinkContent--itemsmenu1 {
+        font-weight: bold;
+        margin-top: 14px;
+        height: 54px;
+        font-size: 16px;
+        padding-top: 21px;
+  
+}
+}
+@media(max-width:640px){
+    .styledLinkContent--todos{
+        color:#4F32FE;
+        font-weight: bold;
+        padding-top: 12px;
+    }
+    .styledLinkIcon--todos{
+        display: none;
+    }
+}
+
 @media(max-width:640px){
     .styledLinkIcon--itemsmenu1{
         display: none;
@@ -214,4 +235,16 @@ letter-spacing: 0px;
   .container :global(.vtex-button):focus {
     border-color: #ffffff;
     background-color: #ffffff;  
+  }
+  @media(max-width:640px){
+    :global(.vtex-store-drawer-0-x-closeIconButton){
+        color: #4F32FE;
+        
+    }
+    :global(.vtex-menu-2-x-menuContainerNav){
+        width: 100%;
+    }
+    .menuItem--itemsmenu1{
+        border-bottom: 1px solid #ccc;
+    }
   }
