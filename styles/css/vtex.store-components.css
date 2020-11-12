@@ -157,7 +157,7 @@
 
   margin-bottom: 33px;
   background: #4F32FE;
-  height: 309px;
+
   margin-top: 20px;
   
 }
@@ -573,7 +573,7 @@ height: 40px;
   overflow: hidden;
 }
 :global(.vtex-minicart-2-x-minicartCheckoutButton) :global(.vtex-button__label)::after {
-  content: 'Finalizar Compras';
+  content: 'Finalizar compra';
   position: absolute;
   top: 0;
   left: 0;

@@ -11,3 +11,51 @@
 :global(.vtex-login-2-x-container ){
     width: 47px;
 }
+
+:global(.vtex-login-2-x-button) :global(.vtex-button__label)
+{
+    height: 51px;
+    text-transform: none;
+    padding: 10px;
+    border-radius: 30px;
+    font-weight: bold;
+    color: black;
+    font-size: 14px;
+
+    
+}
+:global(.vtex-login-2-x-facebookOptionBtn):global(.vtex-button__label)
+{
+   font-size: 14px;
+    text-transform: none;
+    border-radius: 30px;
+    font-weight: bold;
+    color: black;  
+}
+:global(.vtex-login-2-x-oauthLabel)
+{
+   font-size: 14px;
+    text-transform: none;
+    border-radius: 30px;
+    font-weight: bold;
+    color: black;  
+}
+:global(.vtex-login-2-x-button) :global(.vtex-button){
+border: 1px solid #4F32FE;
+border-radius: 26px;
+background: white;
+
+}
+:global(.vtex-login-2-x-facebookOptionBtn) :global(.vtex-button), 
+:global(.vtex-login-2-x-googleOptionBtn) :global(.vtex-button)
+{
+    background: #F6F5F8;
+    border: 0px;
+    border-radius: 26px;
+}
+:global(.vtex-login-2-x-facebookOptionBtn) :global(.vtex-button__label),
+:global(.vtex-login-2-x-googleOptionBtn) :global(.vtex-button__label){
+    background: #F6F5F8;
+    text-transform: none;
+  
+}
