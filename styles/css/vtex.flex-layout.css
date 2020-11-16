@@ -98,7 +98,7 @@
 }
 @media(max-width:640px){
   .flexCol--filterMobileCol {
-    border: 1px solid #ccc;
+    border-left: 1px solid #ccc;
   }
 }
 .flexCol--switcherMobileCol {
@@ -340,7 +340,21 @@
 :global(.vtex-search-result-3-x-filterPopupTitle){
   color: black;
   margin-right: 52px;
-  font: normal normal normal 14px Nunito Sans;
+  font: normal normal normal 14px 'Nunito Sans';
+}
+@media(max-width:640px){
+  :global(.vtex-search-result-3-x-filterPopupTitle){
+    color: black;
+    margin-right: 52px;
+    font: normal normal normal 14px 'Nunito Sans';
+    text-transform: none;
+    width: 38px;
+    height: 19px;
+
+    font: normal normal bold 14px 'Nunito Sans';
+    color: #000000;
+  }
+
 }
 :global(.vtex-search-result-3-x-totalProducts--layout){
   color: #4F32FE;
@@ -452,6 +466,10 @@ margin-top: -14px;
 :global(.vtex-minicart-2-x-minicartIconContainer){
   margin-right: -22px;
 }
+
+}
+:global(.vtex-search-result-3-x-filterPopupArrowIcon){
+  display: none;
 }
 :global(.vtex-product-list-0-x-productName){
   font-size: 14px;
@@ -468,6 +486,7 @@ margin-top: -14px;
  * mesmo que o blockClass seja só productMain, pra chamar no css precisa pegar o flexRow também
  * por que até o {0-x} é a versão, depois disso é o "blockClass" que o css considera
  */
+
  
 .flexRow--productMain :global(.vtex-store-components-3-x-container){
   max-width: 1260px;
@@ -496,3 +515,22 @@ margin-top: -14px;
 :global(.vtex-minicart-2-x-minicartProductListContainer){
   border-bottom: 1px solid #ccc;
 }
+@media(max-width:640px){
+ :global(.vtex-search-result-3-x-orderByButton)::before{
+    content:"Ordernar";
+    text-transform: none;
+    width: 38px;
+    height: 19px;
+    font: normal normal bold 14px 'Nunito Sans';
+    color: #000000;
+  }
+  :global(.vtex-search-result-3-x-totalProductsMessage) {
+    color: black;
+    font-size: 11px;
+  }
+  .filterPopupButton{
+    width:200px;
+  }
+}
+ 
+ 

@@ -49,13 +49,7 @@
   :global(.vtex-minicart-2-x-openIconContainer){
     padding:0px;
   }
-  .minicartTitle::before{
-      
-    content: "Meu carrinho";
-    font: normal normal bold 16px/30px  'Nunito Sans';
-    color: #17100D;
-    font-size: 18px;
-  }
+ 
 
 :global(.vtex-minicart-2-x-popupBoxPosition){
   right: -46px;

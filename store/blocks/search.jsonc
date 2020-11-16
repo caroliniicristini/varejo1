@@ -134,7 +134,8 @@
       "flex-layout.row#fetchprevious",
       "flex-layout.row#contentmobile",
       "flex-layout.row#fetchmore",
-      "rich-text#text", "newsletter"
+      "rich-text#text",
+       "newsletter"
     ],
     "props": {
       "pagination": "show-more",
@@ -151,7 +152,7 @@
   },
   "rich-text#text": {
     "props": {
-      "blockClass": "conteudo",
+      "blockClass": "conteudomob",
       "text": "**Aqui você encontra o melhor de tudo.**\n Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five."
     }
   },
@@ -165,8 +166,7 @@
   "flex-layout.row#searchinfomobile": {
     "children": [
       "flex-layout.col#orderByMobile",
-      "flex-layout.col#filterMobile",
-      "flex-layout.col#switcherMobile"
+      "flex-layout.col#filterMobile"
     ],
     "props": {
       "preserveLayoutOnMobile": true,
@@ -195,12 +195,7 @@
       "blockClass": "filterMobileCol"
     }
   },
-  "flex-layout.col#switcherMobile": {
-    "children": ["search-layout-switcher"],
-    "props": {
-      "blockClass": "switcherMobileCol"
-    }
-  },
+
   "search-not-found-layout": {
     "children": ["flex-layout.row#searchbread", "flex-layout.row#notfound"]
   },
