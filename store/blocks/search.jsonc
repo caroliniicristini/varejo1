@@ -38,10 +38,14 @@
     ],
     "props": {
       "pagination": "show-more",
-      "preventRouteChange": false,
       "mobileLayout": {
         "mode1": "small",
         "mode2": "normal"
+      },
+      "hiddenFacets": {
+        "specificationFilters": {
+          "hiddenFilters": [{"name": "Categoria"},{"name": "Voltagem"},{"name": "Capacidade"}, {"name": "Subcategoria"}, {"name": "filtrado por:"}, {"name": "Marca"}]
+        }
       }
     }
   },
@@ -123,12 +127,14 @@
 
   "search-result-layout.mobile": {
     "children": [
+      "search-bar",
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#searchbread",
       "flex-layout.row#productCountMobile",
       "flex-layout.row#fetchprevious",
       "flex-layout.row#contentmobile",
-      "flex-layout.row#fetchmore"
+      "flex-layout.row#fetchmore",
+      "rich-text#text", "newsletter"
     ],
     "props": {
       "pagination": "show-more",
@@ -138,9 +144,15 @@
       },
       "hiddenFacets": {
         "specificationFilters": {
-          "hiddenFilters": [{"name": "Categoria"}, {"name": "Subcategoria"}, {"name": "Voltagem"}, {"name": "filtrado por:"}, {"name": "Marca"}]
+          "hiddenFilters": [{"name": "Categoria"},{"name": "Voltagem"},{"name": "Capacidade"}, {"name": "Subcategoria"}, {"name": "filtrado por:"}, {"name": "Marca"}]
         }
       }
+    }
+  },
+  "rich-text#text": {
+    "props": {
+      "blockClass": "conteudo",
+      "text": "**Aqui você encontra o melhor de tudo.**\n Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five."
     }
   },
   "flex-layout.row#contentmobile": {

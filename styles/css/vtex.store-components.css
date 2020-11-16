@@ -297,6 +297,7 @@
     margin-left: 27px;
     border-bottom: 1px solid #ccc;
     width: 917px;
+    height: 19px;
   }
 }
 .productDescriptionTitle{
@@ -360,12 +361,11 @@
   max-width: 1260px;
   margin: 0 auto;
 }
-@media (min-width: 640px) {
+@media(max-width: 640px) {
 
-  .autoCompleteOuterContainer--search-desktop{
-    width:  933px;
-  padding-top: 21px;
-
+ :global(.vtex-store-components-3-x-searchBarInnerContainer--search-desktop){
+ 
+    margin-top: -6px;
 }
 }
 [data-vtex-input-prefix-id="__group"]{
@@ -579,7 +579,7 @@
 @media(max-width:640px){
   :global(.vtex-input-prefix__group){
     border-color: transparent;
-    margin-top: 10px;
+
   }
 }
 .imageElement--storePrint{

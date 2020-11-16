@@ -140,17 +140,6 @@
     justify-content: center;
   }
 }
-.paragraph--conteudo{
-
-  color: #000000;
-  font: 14px/25px 'Nunito Sans';
-  margin: 0px -160px;
-  max-width: 740px;
-  text-align: center;
-  padding-top: 59px;
-  padding-bottom: 59px;
-
-}
 @media (max-width: 640px) 
 {
   .paragraph--conteudo{
@@ -159,6 +148,17 @@
     text-align: center;
     font:  'Nunito Sans';
     margin: 0px;
+}
+}
+@media(min-width:641px){
+.paragraph--conteudo{
+  color: #000000;
+  font: 14px/25px 'Nunito Sans';
+  margin: 0px -160px;
+  max-width: 740px;
+  text-align: center;
+   padding-top: 59px; 
+  padding-bottom: 59px;
 }
 }
 .wrapper--Title{
