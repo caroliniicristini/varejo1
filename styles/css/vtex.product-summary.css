@@ -33,12 +33,16 @@
 .container {
   text-align: start;
 }
-
+@media(min-width:641px){
 .imageContainer {
   text-align: center;
   height: 300px
 }
-
+}
+.imageContainer {
+  text-align: center;
+ 
+}
 .image {
   border-radius: 0.25rem;
 
@@ -53,15 +57,29 @@
 :global(.vtex-product-summary-2-x-imageContainer){
   text-align: center;
   background: #f6f5f8;
-
+  height: 300px;
 }
-
+@media(max-width:640px){
+:global(.vtex-product-summary-2-x-imageContainer){
+  text-align: center;
+  background: #f6f5f8;
+  height: 233px;
+}
+}
 :global(.vtex-product-summary-2-x-image){
   width: 100%;
+
   height: 200px;
   object-fit: contain;
   max-height: unset;
   max-width: 296px;
   mix-blend-mode: multiply;
 }
- 
+ @media(max-width:640px){
+  :global(.vtex-product-summary-2-x-image){
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    max-height: 300px;
+  }
+ }

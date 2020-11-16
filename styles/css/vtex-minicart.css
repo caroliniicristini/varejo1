@@ -78,3 +78,9 @@
 :global(.vtex-minicart-2-x-minicartTitle)::before{
   content: "teste"
 }
+@media(max-width:640px){
+  :global(.vtex-minicart-2-x-minicartProductListContainer),
+  :global(.vtex-flex-layout-0-x-flexRow){
+    border-bottom: 1px solid #ccc;
+  }
+}

@@ -36,9 +36,9 @@
 }
 @media (max-width: 640px){
     .styledLinkContent--footer{
-    padding-left: 83px;
+      
     text-align: left;
-
+    margin-left: 68px;
     color: #847B91;
 }
 }
@@ -54,14 +54,7 @@
 .styledLinkContainer :global(.vtex-store-components-3-x-container){
     padding: 0px;
 }
-.styledLinkContent--todosd{
 
-color: var(--unnamed-color-4f32fe);
-font-weight: bold;
-font: normal normal bold 16px/50px Nunito Sans;
-letter-spacing: 0px;
-
-}
 .styledLinkContent--items2 {
     width: 210px;
     height: 30px;
@@ -87,9 +80,10 @@ letter-spacing: 0px;
 }
 .styledLinkContent--eletrodsk{
     font-weight: bold;
+    padding-top: 10px;
 }
 .menuItem--eletrodsk{
-  
+    margin-top: 10px;
     height: 40px;
     font-weight: bold;
 }
@@ -98,10 +92,11 @@ letter-spacing: 0px;
     padding:0px;
 }
 .styledLinkContainer--itemsmenu1,
+.styledLinkContainer--todos,
 .styledLinkContainer--saldao
 {
     padding: 0px !important;
-  
+    margin-top: -15px;
 }
 .styledLinkContent--itemsmenu1{
     font-weight: bold;
@@ -122,7 +117,7 @@ letter-spacing: 0px;
     .styledLinkContent--todos{
         color:#4F32FE;
         font-weight: bold;
-        padding-top: 12px;
+        padding-top: 26px;
     }
     .styledLinkIcon--todos{
         display: none;
@@ -204,10 +199,10 @@ letter-spacing: 0px;
 }
 
 .submenuWrapper--submenueletro {
-    margin-top:10px;
-    left: 235px;
+   
+    left: 233px;
     top: -35px;
-    height: 347px;
+    height: 348px;
     background: #F6F5F8;
     font-weight: bold;
 }
@@ -223,6 +218,7 @@ letter-spacing: 0px;
 .menuItem--items3{
     margin-top:10px
 }
+
 .minicartContainer :global(.vtex-button):focus {
     background-color: #ffffff;
     outline: #ffffff;

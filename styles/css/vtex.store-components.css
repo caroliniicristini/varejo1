@@ -56,9 +56,10 @@
   
 }
 }
-.inputGroup :global(.vtex-button) {
+.inputGroup :global(.vtex-button){
   background-color: transparent;
   border: none;
+  outline: #4F32FE;
 
 }
 .buttonContainer {
@@ -331,12 +332,21 @@
     margin: 0 auto;
 }
 }
-
+@media(max-width:640px){
+  .productBrand--quickview{
+    width: 76px;
+    height: 19px;
+    text-align: center;
+    font:  'Nunito Sans';
+    font-size: 18px;
+  
+  }
+}
 .productBrand--quickview{
   width: 76px;
   height: 19px;
   text-align: center;
-  font:  17px 'Nunito Sans';
+  font:  'Nunito Sans';
   
   font-size: 22px;
 
@@ -461,6 +471,17 @@
   justify-content: flex-start;
 
 }
+@media(max-width:640px){
+  :global(.vtex-product-identifier-0-x-product-identifier ){
+    font: normal normal 600 12px 'Nunito Sans';
+    color: #847B91;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    justify-content: center;
+  
+  }
+}
 :global(.vtex-store-components-3-x-productImage){
   margin-top: 50px;
 }
@@ -490,6 +511,21 @@
   position: relative;
   top: 10px;
 }
+@media(max-width:640px){
+  
+.shippingContainer :global(.vtex-input)::before {
+  content: "Calcule a entrega:";
+  white-space: pre-wrap;
+  text-align: center;
+  font: normal normal bold 14px 'Nunito Sans';
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  position: relative;
+  top: 28px;
+ 
+}
+}
 .shippingContainer :global(.vtex-input){
   display: flex;
 }
@@ -511,7 +547,7 @@
   opacity: 1;
 }
 .shippingContainer :global(.vtex-button){
-height: 40px;
+    height: 40px;
     width: 40px;
     display: flex;
     align-items: center;
@@ -521,10 +557,30 @@ height: 40px;
     border-bottom: 1px solid #E4DDEE;
     border-radius: 0px;
 }
+@media(max-width:640px){
+  .shippingContainer :global(.vtex-button){
+    height: 40px;
+    height: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: #ffffff;
+    border-radius: 0px;
+    
+}
+}
 :global(.vtex-store-components-3-x-shippingContainer){
   display: flex;
   align-items: flex-start;
+  justify-content: center;
  
+}
+@media(max-width:640px){
+  :global(.vtex-input-prefix__group){
+    border-color: transparent;
+    margin-top: 10px;
+  }
 }
 .imageElement--storePrint{
   width: 1920px;
@@ -582,6 +638,7 @@ height: 40px;
   line-height: 53px;
   color: white;
   z-index: 9;
+  text-transform: none;
 }
 
 
@@ -600,5 +657,18 @@ height: 40px;
 :global(.vtex-login-2-x-container) :global(.vtex-button):hover {
   background: #fff;
 }
-
+@media(max-width:640px){
+  :global(.vtex-slider-layout-0-x-sliderLeftArrow--shelf),
+  :global(.vtex-slider-layout-0-x-sliderArrows--shelf){
+    display: none;
+  }
+ 
+  :global(.vtex-address-form-4-x-noAppearance){
+    border-bottom: 1px solid #ccc;
+  }
+  
+}
+:global(.vtex-slider-layout-0-x-sliderArrows--shelf){
+  margin-bottom: 164px;
+}
 

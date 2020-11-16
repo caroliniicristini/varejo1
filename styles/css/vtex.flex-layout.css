@@ -224,6 +224,15 @@
   opacity: 1;
   margin-left: -8px;
 }
+@media(max-width:640px){
+  .flexCol :global(.vtex-product-quantity-1-x-quantitySelectorContainer){
+    width: 100%;
+  
+  }
+  :global(.vtex-numeric-stepper-container){
+    justify-content: center;
+  }
+}
 .flexRowContent--logodesk{
   max-width: 1260px;
   margin: 0 auto;
@@ -311,10 +320,9 @@
   color: #4F32FE;
 }
 :global(.vtex-search-result-3-x-filterPopupTitle){
-    color: black;
- 
-    margin-right: 80px;
-    font: normal normal normal 14px/31px Nunito Sans;
+  color: black;
+  margin-right: 52px;
+  font: normal normal normal 14px Nunito Sans;
 }
 :global(.vtex-search-result-3-x-totalProducts--layout){
   color: #4F32FE;
@@ -357,9 +365,25 @@
 :global(.vtex-flex-layout-0-x-flexRow--productMain){
   margin-top: 30px;
 }
+@media(max-width:640px){
+  :global(.vtex-flex-layout-0-x-flexRow--productMain){
+    padding: 0 25px;
+  }
+  
+}
 :global(.vtex-flex-layout-0-x-flexColChild--colrigthdesk){
   margin-bottom: -8px;
 
+}
+@media(max-width:640px){
+  :global(.vtex-flex-layout-0-x-flexColChild--colrigthdesk){
+    text-align: center;
+    justify-content: center;
+  
+  }
+  :global(.vtex-flex-layout-0-x-flexColChild--colrigthdesk) :global(.vtex-flex-layout-0-x-flexRowContent) {
+    justify-content: center;
+  }
 }
 :global(.vtex-flex-layout-0-x-flexColChild--menuAbout){
   height: initial!important;
@@ -434,4 +458,17 @@ margin-top: -14px;
 }
 :global(.vtex-product-list-0-x-productBrandName){
   display: none;
+}
+@media(max-width:640px){
+  .productName{
+    font-size: 14px;
+    
+  }
+  :global(.vtex-product-list-0-x-unitPriceContainer),
+  :global(.vtex-product-list-0-x-productVariationsItem){
+    display: none;
+  }
+  :global(.vtex-checkout-summary-0-x-summaryItemLabel) {
+    font-size: 13px;
+  }
 }

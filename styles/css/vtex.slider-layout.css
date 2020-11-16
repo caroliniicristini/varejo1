@@ -22,18 +22,26 @@
   padding-left: .5rem;
   padding-right: .5rem;
 }
-.sliderLayoutContainer--shelf{
-  margin-bottom: 60px;
-}
+
 .sliderLayoutContainer {
   justify-content: center;
 }
 .sliderTrackContainer--carousel2{
   max-width: 1260px;
+  margin-bottom: 22px;
+}
+@media(max-width:640px){
+  :global(.vtex-slider-layout-0-x-sliderLayoutContainer--carousel2){
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 0 57px;
+  overflow: hidden;
+}
 }
 .sliderLayoutContainer--shelf{
   max-width: 1260px;
   margin: 0 auto;
+  margin-bottom: 60px;
 
 }
   .flexRowContent--imgs {

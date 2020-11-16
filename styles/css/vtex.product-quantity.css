@@ -8,8 +8,19 @@
     margin: 1rem 0;
     font-size: 16px;
 }
+
+@media(max-width:640px){
+    .quantitySelectorTitle{
+    text-align: center;
+    }
+}
 :global(.vtex-store-components-3-x-productNameContainer--quickview){
     margin-top: 50px;
+}
+@media(max-width:640px){
+    :global(.vtex-store-components-3-x-productNameContainer--quickview) {
+        text-align: center;
+    }
 }
 .productNameContainer--quickview :global(.vtex-flex-layout-0-x-flexCol) {
     align-items: center;
@@ -37,7 +48,18 @@
     padding-top: 102px;
    
 }
-
+@media(max-width:640px){
+    .quantitySelectorStepper :global(.vtex-numeric-stepper__minus-button){
+        transition: opacity 150ms ease 0s;
+        border-top-right-radius: 0;
+        width: 3em;
+        border-bottom-left-radius: 20px;
+        height: 39px;
+        border-top-left-radius: 20px;
+        border-color: #F6F5F8;
+        background: #F6F5F8;
+    }
+}
 .quantitySelectorStepper :global(.vtex-numeric-stepper__minus-button){
     transition: opacity 150ms ease 0s;
     border-top-right-radius: 0;

@@ -135,6 +135,11 @@
       "mobileLayout": {
         "mode1": "small",
         "mode2": "normal"
+      },
+      "hiddenFacets": {
+        "specificationFilters": {
+          "hiddenFilters": [{"name": "Categoria"}, {"name": "Subcategoria"}, {"name": "Voltagem"}, {"name": "filtrado por:"}, {"name": "Marca"}]
+        }
       }
     }
   },
