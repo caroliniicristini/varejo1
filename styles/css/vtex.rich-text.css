@@ -264,22 +264,18 @@ color: #847B91;
 
 }
 @media(max-width:640px){
-  .paragraph--about{
+  .paragraph--conteudo1{
     width:335px;
     text-align: center;
     color:black;
     font: normal normal normal 14px/30px Nunito Sans;
   }
-  .paragraph--about1{
-    color: black;
-  
-    font: normal normal normal 14px/30px Nunito Sans;
-   
-  }
- .container--about {
+
+ .container--conteudo1 {
    justify-content: center;
  }
 }
+
 .paragraph--about{
   width: 945px;
   color:black;
