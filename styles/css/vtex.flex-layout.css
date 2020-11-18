@@ -252,6 +252,7 @@
   background: transparent;
 }
 
+
 @media(max-width:640px){
   :global(.vtex-store-components-3-x-searchBarContainer) {
 
@@ -259,7 +260,7 @@
   background: #4F32FE;
   border: 0px;
   max-width: 100%;
-  height: 45px;
+  height: 41px;
 }
 }
 .flexRow--titlesfooter{
@@ -345,16 +346,10 @@
 @media(max-width:640px){
   :global(.vtex-search-result-3-x-filterPopupTitle){
     color: black;
-    margin-right: 52px;
     font: normal normal normal 14px 'Nunito Sans';
     text-transform: none;
-    width: 38px;
     height: 19px;
-
-    font: normal normal bold 14px 'Nunito Sans';
-    color: #000000;
   }
-
 }
 :global(.vtex-search-result-3-x-totalProducts--layout){
   color: #4F32FE;
@@ -531,6 +526,65 @@ margin-top: -14px;
   .filterPopupButton{
     width:200px;
   }
-}
+  :global(.vtex-search-result-3-x-orderByOptionsContainer){
+    margin-top: 56px;
+  }
+  :global(.vtex-search-result-3-x-orderByButton){
+    border-color: #ffffff;
+    background-color: #ffffff;
+  }
+  :global(.vtex-search-result-3-x-accordionFilter) {
+    background: #F6F5F8;
+  }
+  :global(.vtex-search-result-3-x-filterBreadcrumbsText){
+    font: normal normal bold 20px/30px Nunito Sans;
+  letter-spacing: 0px;
+  color: #17100D;
+  }
+  :global(.vtex-search-result-3-x-filterAccordionBreadcrumbs){
+    background: #F6F5F8;
+  }
+  :global(.vtex-search-result-3-x-accordionFilterItemTitle){
+    color: #000000;
+    font: normal normal normal 16px/2px 'Nunito Sans';
+    font-weight: 400;
+  }
+  :global(.vtex-search-result-3-x-accordionFilterItemTag){
+    display: none;
+  }
+  :global(.vtex-search-result-3-x-filterButtonsBox ){
+    background: #F6F5F8;
+  }
+  :global(.vtex-search-result-3-x-accordionFilterItemIcon){
+    display: none;
+  }
+  :global(.vtex-search-result-3-x-filterClearButtonWrapper) :global(.vtex-button){
+    color: black;
+    background:white;
+    font: normal normal bold 16px/41px 'Nunito Sans';
+    text-transform: none;
+    border-radius: 27px;
+  }
+  :global(.vtex-search-result-3-x-filterApplyButtonWrapper ) :global(.vtex-button){
+    color: white;
+    background: #4F32FE;
+    font: normal normal bold 16px/41px 'Nunito Sans';
+    text-transform: none;
+    border-radius: 27px;
+  }
  
+  :global(.vtex-search-result-3-x-filterAccordionBreadcrumbs ){
+    border:0px;
+  }
+
+  :global(.vtex-search-result-3-x-filterBreadcrumbsItem ){
+    padding-left: 10px;
+  }
+  :global(.vtex-search-result-3-x-filterBreadcrumbsItemName){
+    color: #4F32FE;
+    font-weight: bold;
+  }
+}
+
+
  

@@ -5,6 +5,7 @@
       "flex-layout.row#description",
       "rich-text#titleproducts",
       "flex-layout.row#shelf"
+      
     ],
     "props": {
       "blockClass": "products"
@@ -26,6 +27,7 @@
       "product-description"
     ]
   },
+
   "flex-layout.row#product-main": {
     "props": {
       "blockClass" : "productMain",
@@ -102,6 +104,7 @@
       "shipping-simulator"
     ]
   },
+
 
   "flex-layout.row#buy-button": {
     "props": {

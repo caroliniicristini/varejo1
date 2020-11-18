@@ -59,6 +59,7 @@
   }
   .container--about {
     max-width: 85%;
+  
   }
   .container--title .paragraph {
     line-height: 1.3em;
@@ -149,6 +150,16 @@
     font:  'Nunito Sans';
     margin: 0px;
 }
+}
+.paragraph--conteudo1{
+ 
+color: #000000;
+font: 14px/25px 'Nunito Sans';
+margin: -38px -165px;
+max-width: 740px;
+text-align: center;
+padding-top: 59px;
+padding-bottom: 59px;
 }
 @media(min-width:641px){
 .paragraph--conteudo{
@@ -251,6 +262,23 @@ color: #847B91;
 .paragraph--shelfTitle2{
   padding-top: 48px;
 
+}
+@media(max-width:640px){
+  .paragraph--about{
+    width:335px;
+    text-align: center;
+    color:black;
+    font: normal normal normal 14px/30px Nunito Sans;
+  }
+  .paragraph--about1{
+    color: black;
+  
+    font: normal normal normal 14px/30px Nunito Sans;
+   
+  }
+ .container--about {
+   justify-content: center;
+ }
 }
 .paragraph--about{
   width: 945px;

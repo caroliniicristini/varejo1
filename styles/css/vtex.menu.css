@@ -210,7 +210,7 @@
     
     font-weight: bold;
     height: 29px;
-    font: normal normal 16px/17px 'Nunito Sans';
+    font: normal normal 16px 'Nunito Sans';
 }
 .submenuWrapper--isOpen{
     padding: 0px;

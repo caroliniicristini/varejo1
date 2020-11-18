@@ -34,7 +34,9 @@
     "children": [
       
       "flex-layout.row#searchtitle",
-      "flex-layout.row#result"
+      "flex-layout.row#result",
+      "rich-text#text"
+      
     ],
     "props": {
       "pagination": "show-more",
@@ -47,6 +49,12 @@
           "hiddenFilters": [{"name": "Categoria"},{"name": "Voltagem"},{"name": "Capacidade"}, {"name": "Subcategoria"}, {"name": "filtrado por:"}, {"name": "Marca"}]
         }
       }
+    }
+  },
+  "rich-text#text": {
+    "props": {
+      "blockClass": "conteudo1",
+      "text": "**Aqui você encontra o melhor de tudo.**\n Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five."
     }
   },
   "flex-layout.row#searchbread": {
@@ -134,7 +142,8 @@
       "flex-layout.row#fetchprevious",
       "flex-layout.row#contentmobile",
       "flex-layout.row#fetchmore",
-      "rich-text#text",
+   
+      "rich-text#text11",
        "newsletter"
     ],
     "props": {
@@ -145,17 +154,12 @@
       },
       "hiddenFacets": {
         "specificationFilters": {
-          "hiddenFilters": [{"name": "Categoria"},{"name": "Voltagem"},{"name": "Capacidade"}, {"name": "Subcategoria"}, {"name": "filtrado por:"}, {"name": "Marca"}]
-        }
-      }
+          "hiddenFilters": [{"name": "Categoria"}, {"name": "Subcategoria"},  {"name": "filtrado por:"}]
     }
-  },
-  "rich-text#text": {
-    "props": {
-      "blockClass": "conteudomob",
-      "text": "**Aqui você encontra o melhor de tudo.**\n Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five."
-    }
-  },
+  }
+  }
+},
+
   "flex-layout.row#contentmobile": {
     "children": ["search-content"],
     "props": {

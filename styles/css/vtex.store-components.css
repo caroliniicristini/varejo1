@@ -300,6 +300,25 @@
     height: 19px;
   }
 }
+.searchBarContainer :global(.vtex-input-prefix__group) {
+  border: 0;
+  border-radius: 0;
+  margin-left: 27px;
+  border-bottom: 1px solid #ccc;
+  width: 917px;
+  height: 39px;
+}
+:global(.vtex-login-2-x-arrowUp){ 
+  top: 7px;
+  background-color: #4F32FE;
+  margin-right: 5px;
+  transform: none;
+}
+:global(.vtex-minicart-2-x-popupArrowUp){
+  right: 1px;
+  transform: none;
+  border-top: 2px solid #4F32FE;
+}
 .productDescriptionTitle{
   text-align: center;
   font: normal normal bold 24px/35px 'Nunito Sans';
@@ -668,7 +687,24 @@
   }
   
 }
-:global(.vtex-slider-layout-0-x-sliderArrows--shelf){
-  margin-bottom: 164px;
-}
 
+
+.sliderLeftArrow{
+  height: 53px;
+  border-radius: 29px;
+  width: 53px;
+  background: white !important;
+  top: 123px;
+  left: 19px;
+}
+.sliderRightArrow{
+  border-radius: 29px;
+  background: white !important;
+  height: 53px;
+  width: 53px;
+  right: 19px;
+  top: 123px;
+}
+:global(.vtex-slider-layout-0-x-caretIcon){
+  color: #4F32FE;
+}
