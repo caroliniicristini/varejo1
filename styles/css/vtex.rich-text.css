@@ -279,16 +279,18 @@ color: #847B91;
    justify-content: center;
  }
 }
-@media(max_width:640px){
+@media(max-width:640px){
   .paragraph--about{
-   
+    margin: 0 32px;
+    padding-bottom: 36px;
     color:black;
     font: normal normal normal 14px/30px Nunito Sans;
   }
   .paragraph--about1{
     color: black;
+    padding-bottom: 36px;
     font: normal normal normal 14px/30px Nunito Sans;
- 
+    margin: 0 32px;
   }
   .container--about1 {
     justify-content: center;
@@ -296,7 +298,29 @@ color: #847B91;
   .container-about{
     justify-content: center;
   }
+  .wrapper--about{
+    font: normal normal normal 14px/25px 'Nunito Sans';
+    letter-spacing: 0.7px;
+    color: #000000;
+    width: 100%;
+    text-align: center;
+
+  }
+  .wrapper--about1{
+    font: normal normal normal 14px/25px 'Nunito Sans';
+    letter-spacing: 0.7px;
+    color: #000000;
+    text-align: center;
+
+  }
+  .container--about {
+    justify-content: center;
+  }
+  .headingLevel1--titless{
+    font-size: 24px;
+  }
 }
+@media(min-width: 641px){
 .paragraph--about{
   width: 945px;
   color:black;
@@ -306,6 +330,7 @@ color: #847B91;
   color: black;
   font: normal normal normal 14px/30px Nunito Sans;
   width: 945px;
+}
 }
 :global(.vtex-rich-text-0-x-wrapper--titless){
   justify-content: left;
