@@ -290,23 +290,25 @@
    
   }
 }
-@media (min-width: 640px){
+@media (max-width: 640px){
   .searchBarContainer :global(.vtex-input-prefix__group) {
     border: 0;
     border-radius: 0;
     margin-left: 27px;
-  
     width: 917px;
-    height: 19px;
+    height: 27px;
   }
 }
+@media(min-width:641){
 .searchBarContainer :global(.vtex-input-prefix__group) {
   border: 0;
   border-radius: 0;
   margin-left: 27px;
-  border-bottom: 1px solid #ccc;
+ 
   width: 917px;
-  height: 39px;
+  height: 36px;
+  border-bottom: 1px solid #ccc;
+}
 }
 :global(.vtex-login-2-x-arrowUp){ 
   top: 7px;
@@ -345,11 +347,18 @@
 @media (max-width: 640px){
   .content{
     width: 100%;
-    max-width: 362px;
+    max-width: 463px;
     text-align: center;
-    font: normal normal normal 14px/30px 'Nunito Sans';  
+    font: normal normal normal 14px/30px 'Nunito Sans';
     color: #000000;
     margin: 0 auto;
+
+}
+:global(.vtex-store-components-3-x-showMoreButton){
+  display: none;
+}
+.productDescriptionText{
+  height: 400px;
 }
 }
 @media(max-width:640px){
@@ -385,6 +394,14 @@
  :global(.vtex-store-components-3-x-searchBarInnerContainer--search-desktop){
  
     margin-top: -6px;
+}
+}
+@media(min-width: 641px) {
+:global(.vtex-store-components-3-x-searchBarInnerContainer--search-desktop){
+ 
+  border-bottom: 1px solid #ccc;
+  width: 935px;
+  top: 9px;
 }
 }
 [data-vtex-input-prefix-id="__group"]{
@@ -599,6 +616,9 @@
   :global(.vtex-input-prefix__group){
     border-color: transparent;
 
+  }
+  .productDescriptionContainer{
+    margin: 0 26px;
   }
 }
 .imageElement--storePrint{

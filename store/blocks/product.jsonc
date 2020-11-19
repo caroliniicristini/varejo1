@@ -11,6 +11,7 @@
       "blockClass": "products"
     }
   },
+  
   "rich-text#titleproducts": {
     "props": {
       "text": "## Quem viu, viu também",

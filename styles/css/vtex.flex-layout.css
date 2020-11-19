@@ -310,7 +310,7 @@
 @media(min-width:641px){
 :global(.vtex-input-prefix__group){
   border: transparent;
-  width: 330px;
+ 
 }
 }
 
@@ -327,6 +327,7 @@
   width: 317px;
   height: 43px;
   margin-top: -8px;
+  justify-content: flex-start;
 }
 }
 
@@ -340,7 +341,7 @@
 }
 :global(.vtex-search-result-3-x-filterPopupTitle){
   color: black;
-  margin-right: 52px;
+ 
   font: normal normal normal 14px 'Nunito Sans';
 }
 @media(max-width:640px){

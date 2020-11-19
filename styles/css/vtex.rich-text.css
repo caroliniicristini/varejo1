@@ -149,6 +149,10 @@
     text-align: center;
     font:  'Nunito Sans';
     margin: 0px;
+    margin-bottom: 44px;
+}
+.container--titless{
+  justify-content: center;
 }
 }
 .paragraph--conteudo1{
@@ -275,7 +279,24 @@ color: #847B91;
    justify-content: center;
  }
 }
-
+@media(max_width:640px){
+  .paragraph--about{
+   
+    color:black;
+    font: normal normal normal 14px/30px Nunito Sans;
+  }
+  .paragraph--about1{
+    color: black;
+    font: normal normal normal 14px/30px Nunito Sans;
+ 
+  }
+  .container--about1 {
+    justify-content: center;
+  }
+  .container-about{
+    justify-content: center;
+  }
+}
 .paragraph--about{
   width: 945px;
   color:black;
