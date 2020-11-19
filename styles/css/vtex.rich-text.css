@@ -342,4 +342,25 @@ color: #847B91;
   letter-spacing: 0px;
   color: #000000;
   }
-  
+.paragraph--marcaabout{
+  font: normal normal bold 12px/21px Nunito Sans;
+  width: 72px;
+    color: #4F32FE;
+}
+.wrapper--homeabout{
+  text-align: left;
+    font: normal normal normal 12px/31px Nunito Sans;
+    color: #000000;
+    border-right: 1px solid #e4ddee;
+    padding-right: .75rem;
+}
+.flexRowContent--breadcrumbfalso :first-child{
+  align-items: center;
+}
+.link--homeabout{
+  color: #000000;
+}
+
+:global(.vtex-search-result-3-x-orderByText){
+  display:  none
+}

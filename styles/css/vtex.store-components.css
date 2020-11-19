@@ -294,8 +294,7 @@
   .searchBarContainer :global(.vtex-input-prefix__group) {
     border: 0;
     border-radius: 0;
-    margin-left: 27px;
-    width: 917px;
+   
     height: 27px;
   }
 }
@@ -641,9 +640,7 @@
 :global(.vtex-store-components-1-x-productImagesGallerySlide){
   width: 100% !important;
 }
- :global(.vtex-input__error){
-   color: white;
- }
+ 
  :global(.vtex-address-form-4-x-input){
    border-bottom: 1px solid #ccc;
  }
@@ -709,7 +706,7 @@
 }
 
 
-.sliderLeftArrow{
+:global(.vtex-slider-layout-0-x-sliderLeftArrow){
   height: 53px;
   border-radius: 29px;
   width: 53px;
@@ -717,7 +714,7 @@
   top: 123px;
   left: 19px;
 }
-.sliderRightArrow{
+:global(.vtex-slider-layout-0-x-sliderRightArrow){
   border-radius: 29px;
   background: white !important;
   height: 53px;
@@ -725,6 +722,4 @@
   right: 19px;
   top: 123px;
 }
-:global(.vtex-slider-layout-0-x-caretIcon){
-  color: #4F32FE;
-}
+

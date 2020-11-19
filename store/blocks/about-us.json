@@ -8,13 +8,15 @@
   "responsive-layout.desktop#aboutus": {
     "children": [
       "flex-layout.row#imagem",
+
       "flex-layout.row#about-us"
     ]
   },
   "responsive-layout.phone#aboutus": {
     "children": [
-     "search-bar",
-     "flex-layout.row#aboutusmob"
+      "search-bar",
+      "flex-layout.row#breadcrumbfalso",
+      "flex-layout.row#aboutusmob"
     ]
   },
   "flex-layout.row#imagem": {
@@ -24,7 +26,9 @@
   },
   "flex-layout.row#about-us": {
     "children": [
+    
       "flex-layout.col#menu-about-us",
+      "flex-layout.row#breadcrumbfalso",
       "flex-layout.col#text-about-us"
     ],
     "props": {
@@ -34,7 +38,6 @@
   },
   "flex-layout.row#aboutusmob": {
     "children": [
-      
       "flex-layout.col#text-about-us"
     ],
     "props": {
@@ -128,6 +131,38 @@
     "props": {
       "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
       "blockClass": "about"
+    }
+  },
+  "flex-layout.row#breadcrumbfalso": {
+    "children": [
+      "flex-layout.col#home",
+      "flex-layout.col#marca"
+    ],
+    "props":{
+      "blockClass": "breadcrumbfalso"
+    }
+  },
+  "flex-layout.col#home": {
+    "children": [
+      "rich-text#home"
+    ]
+  },
+  "flex-layout.col#marca": {
+    "children": [
+      "rich-text#marca"
+    ]
+  },
+  "rich-text#home": {
+    "props": {
+      "text":"[Home](https://loja--avantivtexio.myvtex.com/)",
+      "link": "/",
+      "blockClass": "homeabout"
+    }
+  },
+  "rich-text#marca": {
+    "props": {
+      "text": "A marca",
+      "blockClass": "marcaabout"
     }
   }
 }

@@ -197,7 +197,9 @@
   "image#footer10": {
     "props": {
       "src": "assets/avanti1.png",
-      "blockClass": "avanti","href":"https://penseavanti.com.br/"
+      "blockClass": "avanti",
+    
+      "link": "https://penseavanti.com.br/"
       
     }
     
@@ -205,8 +207,8 @@
   "image#footer12": {
     "props": {
       "src": "assets/avanti2.png",
-      "blockClass": "avanti2"
-      
+      "blockClass": "avanti2",
+      "link": "https://penseavanti.com.br/"
     }
   },
   "image#footer11": {

@@ -340,8 +340,8 @@
   color: #4F32FE;
 }
 :global(.vtex-search-result-3-x-filterPopupTitle){
-  color: black;
  
+  text-transform: none;
   font: normal normal normal 14px 'Nunito Sans';
 }
 @media(max-width:640px){
@@ -586,6 +586,10 @@ margin-top: -14px;
     font-weight: bold;
   }
 }
-
+@media(min-width: 641px){
+:global(.vtex-search-result-3-x-orderByOptionsContainer){
+  top:37px;
+}
+}
 
  
