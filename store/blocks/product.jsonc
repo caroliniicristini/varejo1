@@ -1,17 +1,32 @@
 {
   "store.product": {
+    "blocks": [
+      "responsive-layout.desktop#product",
+      "responsive-layout.phone#product"
+    ]
+  },
+  "responsive-layout.desktop#product": {
     "children": [
       "flex-layout.row#product-main",
       "flex-layout.row#description",
       "rich-text#titleproducts",
       "flex-layout.row#shelf"
-      
+    ]
+  },
+  "responsive-layout.phone#product": {
+    "children": [
+      "search-bar",
+      "breadcrumb",
+      "flex-layout.row#product-main",
+      "flex-layout.row#description",
+      "rich-text#titleproducts",
+      "flex-layout.row#shelf"
     ],
     "props": {
       "blockClass": "products"
     }
   },
-  
+
   "rich-text#titleproducts": {
     "props": {
       "text": "## Quem viu, viu também",
@@ -28,10 +43,15 @@
       "product-description"
     ]
   },
-
+  "product-description": {
+    "props": {
+      "blockClass": "productDescription",
+      "collapseContent": false
+    }
+  },
   "flex-layout.row#product-main": {
     "props": {
-      "blockClass" : "productMain",
+      "blockClass": "productMain",
       "colGap": 7,
       "rowGap": 7,
       "marginTop": 4,
@@ -92,7 +112,6 @@
       "rowGap": 0
     },
     "children": [
-  
       "flex-layout.row#product-name",
       "product-identifier.product",
       "flex-layout.row#selling-price",
@@ -101,12 +120,9 @@
       "product-quantity",
       "product-assembly-options",
       "flex-layout.row#buy-button",
-
       "shipping-simulator"
     ]
   },
-
-
   "flex-layout.row#buy-button": {
     "props": {
       "blockClass": "buyButton",

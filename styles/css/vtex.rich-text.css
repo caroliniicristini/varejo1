@@ -279,13 +279,50 @@ color: #847B91;
    justify-content: center;
  }
 }
-@media(max-width:640px){
-  .paragraph--about{
+@media(max-width: 640px){
+
+  :global(.vtex-rich-text-0-x-wrapper--tituloAbout){
+    margin-left: 20px
+  }
+  :global(.vtex-rich-text-0-x-heading--tituloAbout ){
+    font-size: 21px;
+    margin-top: -4px;
+  }
+  :global(.vtex-store-drawer-0-x-openIconContainer--drawerAbout)::before{
+    content: "Selecione o menu";
+    color: black;
+    font-weight: bold;
+   
+    font-size: 14px;
+    
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--drawerAbout){
+    text-align: center;
+    margin-bottom: 12px;
+   
+  }
+  :global(.vtex-store-drawer-0-x-menuIcon--drawerAbout){
+    display: none;
+  }    .paragraph--about{
     margin: 0 32px;
     padding-bottom: 36px;
     color:black;
     font: normal normal normal 14px/30px Nunito Sans;
   }
+  :global(.vtex-rich-text-0-x-strong--home){
+  color: #4F32FE;
+  margin-left: 18px;
+ }
+:global(.vtex-rich-text-0-x-paragraph--home){
+   color:black;
+ }
+ :global(.vtex-rich-text-0-x-italic--home){
+   font-style: normal;
+ }
+ :global(.vtex-rich-text-0-x-container--home){
+  justify-content: center;
+  font-size: 12px;
+ }
   .paragraph--about1{
     color: black;
     padding-bottom: 36px;
@@ -295,6 +332,7 @@ color: #847B91;
   .container--about1 {
     justify-content: center;
   }
+
   .container-about{
     justify-content: center;
   }
@@ -319,23 +357,46 @@ color: #847B91;
   .headingLevel1--titless{
     font-size: 24px;
   }
+  :global(.vtex-rich-text-0-x-container--homeabout){
+    width: auto;
+    justify-content: flex-end;
+  }
+  .container--selecione {
+    color: black;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    justify-content: center;
+    font-size: 14px;
+  }
 }
+:global(.vtex-rich-text-0-x-strong--home){
+  color: #4F32FE;
+
+ }
+:global(.vtex-rich-text-0-x-paragraph--home){
+   color:black;
+ }
+ :global(.vtex-rich-text-0-x-italic--home){
+   font-style: normal;
+ }
 @media(min-width: 641px){
 .paragraph--about{
-  width: 945px;
+  width: 100%;
+  max-width: 945px;
   color:black;
   font: normal normal normal 14px/30px Nunito Sans;
 }
 .paragraph--about1{
   color: black;
   font: normal normal normal 14px/30px Nunito Sans;
-  width: 945px;
+  width: 100%;
+  max-width: 945px;
 }
 }
 :global(.vtex-rich-text-0-x-wrapper--titless){
   justify-content: left;
   font-size: 32px;
-  padding-top: 35px;
+  padding-top: 0;
 }
 .container--titulo{
   font: normal normal bold 16px/55px Nunito Sans;
@@ -345,22 +406,47 @@ color: #847B91;
 .paragraph--marcaabout{
   font: normal normal bold 12px/21px Nunito Sans;
   width: 72px;
-    color: #4F32FE;
+  color: #4F32FE;
+  padding: 0 10px;
 }
 .wrapper--homeabout{
   text-align: left;
-    font: normal normal normal 12px/31px Nunito Sans;
-    color: #000000;
-    border-right: 1px solid #e4ddee;
-    padding-right: .75rem;
+  font: normal normal normal 12px/31px Nunito Sans;
+  color: #000000;
+  border-right: 1px solid #e4ddee;
+  padding-right: .75rem;
 }
 .flexRowContent--breadcrumbfalso :first-child{
   align-items: center;
 }
+
 .link--homeabout{
   color: #000000;
+  text-decoration: none;
+  font-weight: 600;
 }
-
-:global(.vtex-search-result-3-x-orderByText){
-  display:  none
+@media(max-width:640px){
+  :global(.vtex-search-result-3-x-orderByText){
+    display:  none
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--breadcrumbfalso){
+    padding-top: 10px;
+  }
+}
+:global(.vtex-search-result-3-x-searchNotFoundWhatToDoDots){
+  color:black;
+}
+:global(.vtex-search-result-3-x-searchNotFoundWhatDoIDo){
+  color:black;
+}
+:global(.vtex-search-result-3-x-searchNotFoundOops){
+  margin-bottom: 113px;
+  color: black;
+  font-weight: bold;
+}
+:global(.vtex-breadcrumb-1-x-homeLink) {
+  display: none;
+}
+:global(.vtex-breadcrumb-1-x-arrow--1){
+  display: none;
 }

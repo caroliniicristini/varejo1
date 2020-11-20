@@ -79,7 +79,7 @@
       "categories": ["eletronics", "eletronics-computers"],
       "showOnMobile": true
     }
-    
+
   },
   "flex-layout.col#filter": {
     "children": ["filter-navigator.v3"],
@@ -176,7 +176,18 @@
     "props": {
       "preserveLayoutOnMobile": true,
       "colSizing": "auto",
-      "colJustify": "around"
+      "colJustify": "center",
+      "blockClass": "searchInfoMobile",
+      "pagination": "show-more",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      },
+      "hiddenFacets": {
+        "specificationFilters": {
+          "hiddenFilters": [{"name": "Mais recente"},{"name": "Descontos"},{"name": "De A a Z"}, {"name": "De Z a A"}]
+        }
+      }
     }
   },
 

@@ -294,16 +294,14 @@
   .searchBarContainer :global(.vtex-input-prefix__group) {
     border: 0;
     border-radius: 0;
-   
-    height: 27px;
+    height: 14px;
   }
 }
-@media(min-width:641){
+@media(min-width:641px){
 .searchBarContainer :global(.vtex-input-prefix__group) {
   border: 0;
   border-radius: 0;
   margin-left: 27px;
- 
   width: 917px;
   height: 36px;
   border-bottom: 1px solid #ccc;
@@ -327,13 +325,50 @@
   color: black
 }
 @media (max-width: 640px){
+  :global(.vtex-breadcrumb-1-x-container){
+    padding: 0 33px;
+    margin-top: 16px;
+  }
+  :global(.vtex-breadcrumb-1-x-link){
+    font: normal normal normal 12px/31px Nunito Sans;
+  
+    color: #000000;
+  }
+  :global(.vtex-breadcrumb-1-x-term){
+    font: normal normal bold 12px/31px Nunito Sans;
+ 
+    color: #4F32FE;
+  }
+  :global(.vtex-store-drawer-0-x-drawer--drawerAbout){
+    background: #F6F5F8;
+  }
+  :global(.vtex-menu-2-x-submenuAccordion ){
+    background: white;
+  }
+  :global(.vtex-breadcrumb-1-x-link)::after{
+    content: '|';
+    color: #e6f1e6;
+    padding-left: 10px;
+  }
+  :global(.vtex-breadcrumb-1-x-homeLink)::before{
+    content: "Home";
 
+  }
 .productDescriptionTitle{
   text-align: center;
   font: normal normal bold 24px/35px 'Nunito Sans';
   font-size: 21px;
   color: black;
-  padding-top: 61px;
+
+}
+:global(.vtex-breadcrumb-1-x-caretIcon){
+  display: none;
+}
+:global(.vtex-store-components-3-x-productDescriptionText--productDescription){
+  color: #000;
+  line-height: 30px;
+  font: normal normal normal 13px/30px Nunito Sans;
+  text-align: center;
 }
 }
 .content{
@@ -353,9 +388,7 @@
     margin: 0 auto;
 
 }
-:global(.vtex-store-components-3-x-showMoreButton){
-  display: none;
-}
+
 .productDescriptionText{
   height: 400px;
 }
@@ -395,14 +428,7 @@
     margin-top: -6px;
 }
 }
-@media(min-width: 641px) {
-:global(.vtex-store-components-3-x-searchBarInnerContainer--search-desktop){
- 
-  border-bottom: 1px solid #ccc;
-  width: 935px;
-  top: 9px;
-}
-}
+
 [data-vtex-input-prefix-id="__group"]{
   max-width: 1260px;
   margin: 0 auto;
@@ -519,6 +545,7 @@
 }
 :global(.vtex-store-components-3-x-productImage){
   margin-top: 50px;
+  mix-blend-mode: multiply;
 }
 :global(.vtex-store-components-3-x-thumbImg) {
   max-width: 86.4px !important;
@@ -531,10 +558,14 @@
   max-height: 32.1rem!important;
   max-width: 32.1rem;
   background: #F6F5F8;
-
-
 }
 
+@media(max-width:640px){
+
+:global(.vtex-store-components-3-x-productImagesGallerySlide){
+  background: #F6F5F8;
+}
+}
 .shippingContainer :global(.vtex-input)::before {
   content: "Calcule a entrega:";
   white-space: pre-wrap;
@@ -614,7 +645,7 @@
 @media(max-width:640px){
   :global(.vtex-input-prefix__group){
     border-color: transparent;
-
+    margin-top: 10px;
   }
   .productDescriptionContainer{
     margin: 0 26px;
@@ -702,7 +733,9 @@
   :global(.vtex-address-form-4-x-noAppearance){
     border-bottom: 1px solid #ccc;
   }
-  
+  :global(.vtex-store-drawer-0-x-openIconContainer--drawerAbout){
+    border-bottom: 1px solid #ccc;
+  }
 }
 
 
@@ -722,4 +755,20 @@
   right: 19px;
   top: 123px;
 }
+:global(.vtex-flex-layout-0-x-flexRowContent--breadcrumbfalso) {
+  display:flex;
+  margin: 0 auto;
+}
 
+:global(.vtex-flex-layout-0-x-flexRowContent--breadcrumbfalso) :global(.vtex-flex-layout10-x-stretchChildrenWidth) {
+  width: auto !important;
+}
+:global(.vtex-store-components-3-x-productDescriptionText ){
+  color: #000000;
+  font: 14px/27px 'Nunito Sans';
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 59px;
+  text-align: center;
+}

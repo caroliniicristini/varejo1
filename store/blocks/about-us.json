@@ -8,17 +8,17 @@
   "responsive-layout.desktop#aboutus": {
     "children": [
       "flex-layout.row#imagem",
-
       "flex-layout.row#about-us"
     ]
   },
   "responsive-layout.phone#aboutus": {
     "children": [
       "search-bar",
-      "flex-layout.row#breadcrumbfalso",
+     
       "flex-layout.row#aboutusmob"
     ]
   },
+
   "flex-layout.row#imagem": {
     "children": [
       "image#mobile-phone"
@@ -26,9 +26,7 @@
   },
   "flex-layout.row#about-us": {
     "children": [
-    
       "flex-layout.col#menu-about-us",
-      "flex-layout.row#breadcrumbfalso",
       "flex-layout.col#text-about-us"
     ],
     "props": {
@@ -38,6 +36,8 @@
   },
   "flex-layout.row#aboutusmob": {
     "children": [
+      "flex-layout.row#drawerAbout",
+    
       "flex-layout.col#text-about-us"
     ],
     "props": {
@@ -55,6 +55,7 @@
   },
   "flex-layout.col#text-about-us": {
     "children": [
+      "rich-text#home",
       "rich-text#title-about-us",
       "rich-text#text13",
       "rich-text#text11",
@@ -133,36 +134,98 @@
       "blockClass": "about"
     }
   },
-  "flex-layout.row#breadcrumbfalso": {
-    "children": [
-      "flex-layout.col#home",
-      "flex-layout.col#marca"
-    ],
+
+  "rich-text#home":{
     "props":{
-      "blockClass": "breadcrumbfalso"
-    }
-  },
-  "flex-layout.col#home": {
-    "children": [
-      "rich-text#home"
-    ]
-  },
-  "flex-layout.col#marca": {
-    "children": [
-      "rich-text#marca"
-    ]
-  },
-  "rich-text#home": {
-    "props": {
-      "text":"[Home](https://loja--avantivtexio.myvtex.com/)",
-      "link": "/",
-      "blockClass": "homeabout"
+      "text": "Home *|* **A marca**",
+      "blockClass": "home"
     }
   },
   "rich-text#marca": {
     "props": {
       "text": "A marca",
       "blockClass": "marcaabout"
+    }
+  },
+
+
+  "rich-text#sobre": {
+    "props": {
+      "text": "Sobre",
+      "blockClass": "titulo"
+    }
+  },
+  "rich-text#ajuda": {
+    "props": {
+      "text": "Ajuda",
+      "blockClass": "titulo"
+    }
+  },
+  "rich-text#atendimento": {
+    "props": {
+      "text": "Atendimento",
+      "blockClass": "titulo"
+    }
+  },
+  "flex-layout.col#sobre":{
+    "children":[
+      "rich-text#sobre",
+      "menu-item#marca",
+      "menu-item#faleConosco",
+      "menu-item#lojaf",
+      "rich-text#atendimento",
+      "menu-item#minhaConta",
+      "menu-item#meusPedidos",
+      "rich-text#ajuda",
+      "menu-item#pagamentos",
+      "menu-item#polpri",
+      "menu-item#poltrocas"
+    ],
+    "props": {
+      "blockClass": "colSobre",
+      "width":"20%",
+      "rowGap": "1",
+      "verticalAlign": "top"
+    }
+  },
+
+  "rich-text#menu":{
+    "props":{
+      "text": "### Menu",
+      "blockClass": "tituloAbout"
+    }
+  }, "rich-text#selecione":{
+    "props":{
+      "text": "Selecione o menu",
+      "blockClass": "selecione"
+    }
+
+  },
+  "flex-layout.row#drawerAbout":{
+    "children":[
+      "drawer#about"
+    ],
+    "props":{
+      "blockClass": "drawerAbout"
+    }
+  },
+  "drawer#about": {
+    "children": ["menu#about"],
+    "props":{
+      "slideDirection": "rightToLeft",
+      "blockClass": "drawerAbout"
+    }
+  },
+
+  "menu#about": {
+    "children": [
+      "rich-text#menu",
+      "menu-item#sobre-mobile",
+      "menu-item#atendimento-mobile",
+      "menu-item#ajuda-mobile"
+    ],
+    "props": {
+      "orientation": "vertical"
     }
   }
 }
